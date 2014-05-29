@@ -1,7 +1,15 @@
 /****************************************
 
-CSS Mint v1.0
-Author: Arun Michael D'souza (amdsouza92@gmail.com)
+* CSS Mint
+
+* Version 0.2
+* Author: Arun Michael D'souza (amdsouza92@gmail.com)
+* Github: https://www.github.com/arunmichaeldsouza/css-mint
+
+* Released under the MIT Open Source License 
+* http://opensource.org/licenses/MIT
+
+* CSS Mint Copyright Arun Michael D'souza 2014
 
 *****************************************/
 
@@ -9,7 +17,7 @@ Author: Arun Michael D'souza (amdsouza92@gmail.com)
 
 /****************************************/
 /****************************************/
-/* Global Styles */
+/* Global Normalization Styles */
 html {
   font-family: sans-serif; 
   -ms-text-size-adjust: 100%; 
