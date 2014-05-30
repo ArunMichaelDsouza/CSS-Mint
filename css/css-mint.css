@@ -254,6 +254,7 @@ th {
   height: auto;
   margin: 10px auto;
   padding: 10px;
+  border: 1px solid red;
 }
 /****************************************/
 /****************************************/
@@ -268,11 +269,97 @@ th {
   height: auto;
   margin: 5px auto;
   padding: 10px;
+  border: 1px solid green;
 }
 /****************************************/
 /****************************************/
 
 
+
+/****************************************/
+/****************************************/
+/* Header Styles */
+.header {
+  margin: 10px auto;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  position: relative;
+  background-color: #ccc;
+}
+
+.default {
+  background-color: #D9DFD4;
+}
+
+/* Header Image-Link Styles */
+.header-img {
+  max-width: 90px;
+  height: auto;
+  position: absolute;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+img[class~="left"] {
+  top: 16px;
+  left: 20px;
+}
+
+img[class~="right"] {
+  top: 16px;
+  right: 20px;
+}
+
+img[class~="center"] {
+  top: 16px;
+  left: 47%;
+}
+
+a img[class~="header-img"]:hover {
+  opacity: .7;
+}
+
+/* Header Brand Name (H1 Link) Styles */
+.brand-name a {
+  font-size: 1.5em;
+  font-family: 'Myriad Pro', Helvetica, Arial;
+  font-weight: bold;
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.header h1 {
+  padding-top: 10px;
+}
+
+h1[class~="center"] {
+  text-align: center;
+}
+
+h1[class~="left"] {
+  margin-left: 20px;
+  text-align: left;
+}
+
+h1[class~="right"] {
+  margin-right: 20px;
+  text-align: right;
+}
+
+h1[class~="brand-name"] a:hover {
+  opacity: .5;
+}
+/****************************************/
+/****************************************/
 
 
 
