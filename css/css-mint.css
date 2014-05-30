@@ -62,6 +62,10 @@ template {
   display: none;
 }
 
+p {
+  font-size: 0.9em;
+}
+
 a {
   background: transparent;
 }
