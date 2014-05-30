@@ -248,8 +248,8 @@ th {
 .main-wrapper {
   width: 1100px;
   height: auto;
-  margin: 0 auto;
-  padding: 5px;
+  margin: 10px auto;
+  padding: 10px;
 }
 /****************************************/
 /****************************************/
@@ -260,9 +260,10 @@ th {
 /****************************************/
 /* Container Styles */
 .container {
-  width: 97.5%;
-  margin: 0 auto;
-  padding: 5px;
+  width: auto;
+  height: auto;
+  margin: 5px auto;
+  padding: 10px;
 }
 /****************************************/
 /****************************************/
