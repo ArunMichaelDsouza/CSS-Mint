@@ -62,10 +62,6 @@ template {
   display: none;
 }
 
-p {
-  font-size: 0.9em;
-}
-
 a {
   background: transparent;
 }
@@ -248,7 +244,7 @@ th {
 
 /****************************************/
 /****************************************/
-/* Main Wrapper Styles */
+/* Main Wrapper */
 .main-wrapper {
   width: 1100px;
   height: auto;
@@ -263,7 +259,7 @@ th {
 
 /****************************************/
 /****************************************/
-/* Container Styles */
+/* Container */
 .container {
   width: auto;
   height: auto;
@@ -278,7 +274,7 @@ th {
 
 /****************************************/
 /****************************************/
-/* Header Styles */
+/* Header */
 .header {
   margin: 0 auto 10px;
   padding: 10px;
@@ -288,7 +284,7 @@ th {
   background-color: #ccc;
 }
 
-.default {
+.header.default {
   background-color: #D9DFD4;
 }
 
@@ -341,21 +337,15 @@ th {
   padding-top: 10px;
 }
 
-.header h1.center {
-  text-align: center;
-}
-
 .header h1.left {
   margin-left: 20px;
-  text-align: left;
 }
 
 .header h1.right {
   margin-right: 20px;
-  text-align: right;
 }
 
-.header h1.brand-name a:hover {
+.brand-name a:hover {
   opacity: .5;
 }
 /****************************************/
@@ -363,6 +353,31 @@ th {
 
 
 
+/****************************************/
+/****************************************/
+/* Typography */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 0.9em;
+}
+/****************************************/
+/****************************************/
 
 
 
