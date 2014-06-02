@@ -418,8 +418,120 @@ p {
 
 
 
+/****************************************/
+/****************************************/
+/* Footer */
+.footer {
+  margin: 0 auto 0;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  position: relative;
+  background-color: #ccc;
+}
+
+.footer.default {
+  background-color: #D9DFD4;
+}
+
+/* Footer Image-Link Styles */
+.footer .footer-img {
+  max-width: 90px;
+  height: auto;
+  position: absolute;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.footer img.left {
+  top: 16px;
+  left: 20px;
+}
+
+.footer img.right {
+  top: 16px;
+  right: 20px;
+}
+
+.footer img.center {
+  top: 16px;
+  left: 47%;
+}
+
+.footer .footer-img:hover {
+  opacity: .7;
+}
+
+/* Footer Brand Name (H1 Link) Styles */
+.footer .brand-name a {
+  font-size: 1.5em;
+  font-family: 'Myriad Pro', Helvetica, Arial, serif;
+  font-weight: bold;
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.footer h1 {
+  padding-top: 10px;
+}
+
+.footer h1.left {
+  margin-left: 20px;
+}
+
+.footer h1.right {
+  margin-right: 20px;
+}
+
+.footer a:hover {
+  opacity: .5;
+}
+/****************************************/
+/****************************************/
 
 
+
+/****************************************/
+/****************************************/
+/* Navbar */
+.navbar {
+  padding: 5px;
+  background-color: #777;
+  height: auto;
+}
+
+.navbar li.active {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 10px;
+  padding: 21px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #555;
+}
+/****************************************/
+/****************************************/
 
 
 
