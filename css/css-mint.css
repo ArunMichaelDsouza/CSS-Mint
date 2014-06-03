@@ -593,13 +593,13 @@ p {
 }
 
 .btn.warning {
-  background-color: #eeea3d;
+  background-color: #f4e10e;
   border: 1px solid #eeea27;
-  color: #777;
+  color: #fff;
 }
 
 .btn.warning:hover {
-  background-color: #f4e10e;
+  background-color: #eeea3d;
 }
 
 .btn.error {
