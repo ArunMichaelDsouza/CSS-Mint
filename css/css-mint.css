@@ -591,6 +591,16 @@ p {
   background-color: #24ee45;
 }
 
+.btn.warning {
+  background-color: #eeea3d;
+  border: 1px solid #eeea27;
+  color: #777;
+}
+
+.btn.warning:hover {
+  background-color: #f4e10e;
+}
+
 
 /****************************************/
 /****************************************/
