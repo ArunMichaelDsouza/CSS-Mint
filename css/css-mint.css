@@ -601,7 +601,14 @@ p {
   background-color: #f4e10e;
 }
 
+.btn.error {
+  background-color: #e21803;
+  border: 1px solid #e63e34;
+}
 
+.btn.error:hover {
+  background-color: #fb1100;
+}
 /****************************************/
 /****************************************/
 
