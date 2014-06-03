@@ -582,6 +582,15 @@ p {
   background-color: #12aaff;
 }
 
+.btn.success {
+  background-color: #5cdd42;
+  border: 1px solid #2edd55;
+}
+
+.btn.success:hover {
+  background-color: #24ee45;
+}
+
 
 /****************************************/
 /****************************************/
