@@ -573,6 +573,15 @@ p {
   background-color: #bbb;
 }
 
+.btn.primary {
+  background-color: #1879ff;
+  border: 1px solid #1b94ff;
+}
+
+.btn.primary:hover {
+  background-color: #12aaff;
+}
+
 
 /****************************************/
 /****************************************/
