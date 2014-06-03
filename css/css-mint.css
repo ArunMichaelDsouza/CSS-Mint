@@ -540,17 +540,40 @@ p {
 /* Buttons */
 .btn {
   width: auto;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: #222;
   color: #fff;
   border-radius: 5px;
-  margin: 10px auto;
+  margin: 10px 5px;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .btn:hover {
   background-color: #444;
 }
+
+.btn.big {
+  padding: 15px 30px;
+  font-size: 1.5em;
+}
+
+.btn.small {
+  padding: 5px 20px;
+  font-size: 1em;
+}
+
+.btn.default {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  color: #555;
+}
+
+.btn.default:hover {
+  background-color: #bbb;
+}
+
+
 /****************************************/
 /****************************************/
 
