@@ -548,6 +548,7 @@ p {
   text-align: center;
   font-weight: bold;
   font-size: 1.2em;
+  border: none;
 }
 
 .btn:hover {
