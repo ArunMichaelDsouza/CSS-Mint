@@ -1,22 +1,9 @@
-/****************************************
+/*
+    CSS Mint v0.0.2
+    Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
+    Licence: MIT
+*/
 
-* CSS Mint
-
-* Version 0.2
-* Author: Arun Michael D'souza (amdsouza92@gmail.com)
-* Github: https://www.github.com/arunmichaeldsouza/css-mint
-
-* Released under the MIT Open Source License 
-* http://opensource.org/licenses/MIT
-
-* CSS Mint Copyright Arun Michael D'souza 2014
-
-*****************************************/
-
-
-
-/****************************************/
-/****************************************/
 /* Global Normalization Styles */
 html {
   font-family: sans-serif; 
