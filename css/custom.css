@@ -1,0 +1,8 @@
+.logo h1, nav.navbar > ul > li > a:hover {
+	padding-bottom: 8px;
+	border-bottom: 2px solid #E74B3C;
+}
+
+nav.navbar > ul > li {
+	padding: 10px 20px;
+}
