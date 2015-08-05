@@ -1,0 +1,36 @@
+/****************************************/
+/****************************************/
+/* Panel Classes for CSS Mint */
+
+/* Panel */
+.panel {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #dadada;
+}
+
+.panel.jumbo {
+  padding: 30px;
+}
+
+.panel .panel-header {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px 4px 0px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.panel .panel-body {
+  background-color: #eee;
+  padding: 10px;
+  height: auto;
+}
+
+.panel .panel-footer {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  padding: 10px;
+  border-top: 1px solid #aaa;
+}

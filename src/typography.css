@@ -1,0 +1,25 @@
+/****************************************/
+/****************************************/
+/* Typography Classes for CSS Mint */
+
+/* Typography */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 0.9em;
+}
