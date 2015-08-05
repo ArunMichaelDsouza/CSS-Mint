@@ -1,5 +1,5 @@
 /*
-    CSS Mint v0.0.2
+    CSS Mint v0.1.2
     Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
     Licence: MIT
 */
@@ -249,10 +249,10 @@ th {
 /****************************************/
 /* Container */
 .container {
-  width: auto;
+  width: 1100px;
   height: auto;
-  margin: 5px auto;
   padding: 10px;
+  margin: 0 auto;
 }
 /****************************************/
 /****************************************/
@@ -384,6 +384,68 @@ nav.navbar > ul > li > a {
 
 
 
+/****************************************/
+/****************************************/
+/* Panel */
+.panel {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #dadada;
+}
+
+.panel.jumbo {
+  padding: 30px;
+}
+
+.panel .panel-header {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px 4px 0px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.panel .panel-body {
+  background-color: #eee;
+  padding: 10px;
+  height: auto;
+}
+
+.panel .panel-footer {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  padding: 10px;
+  border-top: 1px solid #aaa;
+}
+/****************************************/
+/****************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /****************************************/
 /****************************************/
@@ -413,40 +475,7 @@ p {
 
 
 
-/****************************************/
-/****************************************/
-/* Panel */
-.panel {
-  width: 40%;
-  height: auto;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  margin: 10px;
-}
 
-.panel .panel-header {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 4px 4px 0px 0px;
-  padding: 10px;
-  border-bottom: 1px solid #aaa;
-}
-
-.panel .panel-body {
-  background-color: #eee;
-  padding: 10px;
-  height: auto;
-}
-
-.panel .panel-footer {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 0px 0px 4px 4px;
-  padding: 10px;
-  border-top: 1px solid #aaa;
-}
-/****************************************/
-/****************************************/
 
 
 

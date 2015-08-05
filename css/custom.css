@@ -3,6 +3,10 @@
 	border-bottom: 2px solid #E74B3C;
 }
 
+.logo h1 {
+	margin-left: -5px;
+}
+
 nav.navbar > ul > li {
 	padding: 10px 20px;
 }
