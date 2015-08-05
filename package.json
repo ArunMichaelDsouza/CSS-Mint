@@ -1,0 +1,33 @@
+{
+  "name": "css-mint",
+  "version": "0.1.0",
+  "description": "Simple to use UI Kit",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArunMichaelDsouza/CSS-Mint.git"
+  },
+  "keywords": [
+    "UI",
+    "kit",
+    "css"
+  ],
+  "author": "Arun Michael Dsouza <amdsouza92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArunMichaelDsouza/CSS-Mint/issues"
+  },
+  "homepage": "https://github.com/ArunMichaelDsouza/CSS-Mint#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.13.0"
+  }
+}
