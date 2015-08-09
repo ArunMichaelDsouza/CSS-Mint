@@ -1,12 +1,60 @@
-.logo h1, nav.navbar > ul > li > a:hover {
-	padding-bottom: 8px;
-	border-bottom: 2px solid #E74B3C;
+.logo h1,
+nav.navbar > ul > li > a:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0F73B4;
+}
+
+nav.navbar > ul > li > a {
+    font-weight: 300;
 }
 
 .logo h1 {
-	margin-left: -5px;
+    margin-left: -5px;
 }
 
 nav.navbar > ul > li {
-	padding: 10px 20px;
+    padding: 10px 20px;
+}
+
+.panel {
+    background-color: #101010;
+}
+
+.panel > .container {
+    padding: 0;
+}
+
+.panel .gr-row .col-span-5:last-child {
+    padding: 180px 0;
+    background-image: url('http://designbump.com/wp-content/uploads/2012/04/avengers-digital-artwork-illustrations-024.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 100% 50%;
+}
+
+.panel h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 1.7em;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    border: 1px solid #0F73B4;
+    background-color: #0F73B4;
+    color: #fff;
+    padding: 18px;
+    margin: 15px;
+    font-weight: 300;
+    width: 250px;
+    font-size: 1.05em;
+    border-radius: 2px;
 }

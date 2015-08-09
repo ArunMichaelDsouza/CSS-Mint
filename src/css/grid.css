@@ -1,0 +1,61 @@
+/****************************************/
+/****************************************/
+/* Grid Component for CSS Mint */
+
+* {
+    overflow: auto;
+}
+
+.gr-row {
+	width: 100%;
+	float: left;
+}
+
+*[class*='col-span'] {
+	float: left;
+}
+
+.col-span-1 {
+	width: 10%;
+}
+
+.col-span-2 {
+	width: 20%;
+}
+
+.col-span-3 {
+	width: 30%;
+}
+
+.col-span-4 {
+    width: 40%;
+}
+
+.col-span-5 {
+    width: 50%;
+}
+
+.col-span-6 {
+    width: 60%;
+}
+
+.col-span-7 {
+    width: 70%;
+}
+
+.col-span-8 {
+    width: 80%;
+}
+
+.col-span-9 {
+    width: 90%;
+}
+
+.col-span-10 {
+    width: 100%;
+}
+
+
+
+
+
