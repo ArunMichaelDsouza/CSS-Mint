@@ -3,6 +3,10 @@
 /* Typography Classes for CSS Mint */
 
 /* Typography */
+html, body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .center {
   text-align: center;
 }
