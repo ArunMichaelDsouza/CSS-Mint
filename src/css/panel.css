@@ -4,33 +4,38 @@
 
 /* Panel */
 .panel {
-  padding: 10px;
   background-color: #f0f0f0;
   border-bottom: 1px solid #dadada;
 }
 
-.panel.jumbo {
-  padding: 30px;
+.panel .panel-header, .panel .panel-footer {
+  padding: 0 30px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.panel.jumbo .panel-header, .panel.jumbo .panel-footer {
+  padding: 10px 30px;
+  font-size: 1.4em;
 }
 
 .panel .panel-header {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 4px 4px 0px 0px;
-  padding: 10px;
   border-bottom: 1px solid #aaa;
 }
 
-.panel .panel-body {
-  background-color: #eee;
-  padding: 10px;
-  height: auto;
+.panel .panel-content {
+  padding: 0 30px;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.panel.jumbo .panel-content {
+  padding: 10px 30px;
+  font-size: 1.4em;
+  line-height: 34px;
 }
 
 .panel .panel-footer {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 0px 0px 4px 4px;
-  padding: 10px;
   border-top: 1px solid #aaa;
 }
