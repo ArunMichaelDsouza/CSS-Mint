@@ -1,11 +1,7 @@
 .logo h1,
-nav.navbar > ul > li > a:hover {
+nav.navbar > ul > li > a.active {
     padding-bottom: 8px;
     border-bottom: 2px solid #0F73B4;
-}
-
-nav.navbar > ul > li > a {
-    font-weight: 300;
 }
 
 .logo h1 {
@@ -24,15 +20,16 @@ nav.navbar > ul > li {
     padding: 0;
 }
 
-.panel .gr-row .col-span-5:last-child {
+.panel .gr-row .col-span-3:last-child {
     padding: 180px 0;
-    background-image: url('http://designbump.com/wp-content/uploads/2012/04/avengers-digital-artwork-illustrations-024.jpg');
+    background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: 100% 50%;
 }
 
-.panel h1 {
+main h1,
+main h2 {
     margin: 0;
     color: #fff;
     font-weight: 300;
@@ -40,6 +37,11 @@ nav.navbar > ul > li {
     margin-top: 50px;
     line-height: 40px;
     font-size: 1.7em;
+}
+
+main h2 {
+    color: #202020;
+    margin: 20px 0;
 }
 
 form {
@@ -57,4 +59,64 @@ button {
     width: 250px;
     font-size: 1.05em;
     border-radius: 2px;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    border-color: #002F7D;
+    background-color: #002F7D;
+}
+
+.card-wrapper {
+    padding: 0 20px 30px;
+}
+
+.card-wrapper > .card {
+    text-align: center;
+    background-color: #fff;
+}
+
+.card > img {
+    width: 70%;
+}
+
+.label {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    margin: 0 -10px;
+    padding: 10px 0;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.card-content {
+    text-align: left;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 0.9em;
+    margin: -11px -10px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+.card-content::first-letter {
+    color: #333;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #0F73B4;
+    font-weight: 400;
+}
+
+a:hover,
+a:focus {
+    color: #002F7D;
 }

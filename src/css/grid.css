@@ -16,44 +16,29 @@
 }
 
 .col-span-1 {
-	width: 10%;
+	width: 16.66%;
 }
 
 .col-span-2 {
-	width: 20%;
+	width: 33.33%;
 }
 
 .col-span-3 {
-	width: 30%;
+	width: 50%;
 }
 
 .col-span-4 {
-    width: 40%;
+    width: 66.664%;
 }
 
 .col-span-5 {
-    width: 50%;
+    width: 83.33%;
 }
 
 .col-span-6 {
-    width: 60%;
-}
-
-.col-span-7 {
-    width: 70%;
-}
-
-.col-span-8 {
-    width: 80%;
-}
-
-.col-span-9 {
-    width: 90%;
-}
-
-.col-span-10 {
     width: 100%;
 }
+
 
 
 
