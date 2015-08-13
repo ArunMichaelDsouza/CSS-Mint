@@ -2,10 +2,6 @@
 /****************************************/
 /* Grid Component for CSS Mint */
 
-* {
-    overflow: auto;
-}
-
 .gr-row {
 	width: 100%;
 	float: left;

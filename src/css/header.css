@@ -4,10 +4,8 @@
 
 /* Header */
 header.header {
-  width: auto;
   margin: 0 auto;
   padding: 10px;
-  height: auto;
   position: relative;
   background-color: #f0f0f0;
   border-bottom: 1px solid #dadada;

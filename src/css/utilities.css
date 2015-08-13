@@ -17,4 +17,22 @@
   -o-transition: all 0.20s ease-in-out;
   -ms-transition: all 0.20s ease-in-out;
   transition: all 0.20s ease-in-out;
+}.center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-justify {
+  text-align: justify;
 }
