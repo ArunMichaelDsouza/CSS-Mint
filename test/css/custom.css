@@ -20,12 +20,16 @@ nav.navbar > ul > li {
     padding: 0;
 }
 
+.row-hr {
+    width: 1100px;
+}
+
 .panel .gr-row .col-span-3:last-child {
     padding: 180px 0;
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position: 100% 50%;
+    background-position: 30% 50%;
 }
 
 main h1,
@@ -119,4 +123,8 @@ a {
 a:hover,
 a:focus {
     color: #002F7D;
+}
+
+footer > .gr-row {
+    padding: 15px 0;
 }

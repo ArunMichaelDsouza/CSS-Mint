@@ -2,7 +2,6 @@
 /****************************************/
 /* Header Classes for CSS Mint */
 
-/* Header */
 header.header {
   margin: 0 auto;
   padding: 10px;
@@ -11,9 +10,8 @@ header.header {
   border-bottom: 1px solid #dadada;
 }
 
-/* Header Nav */
 header.header > .nav {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -32,7 +30,6 @@ header.header.dark {
   border-bottom: 1px solid #000;
 }
 
-/* Logo */
 .logo {
   text-decoration: none;
 }
