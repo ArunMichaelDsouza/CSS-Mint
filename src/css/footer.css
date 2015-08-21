@@ -27,4 +27,13 @@ footer.footer.dark {
   	color: #fff;
 }
 
+.footer-list {
+  list-style: none;
+}
+
+.footer-list > li > a, .footer-list > li > a:hover {
+  text-decoration: none;
+}
+
+
 
