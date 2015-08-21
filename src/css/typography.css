@@ -19,3 +19,14 @@ html, body {
 	font-weight: 700;
 }
 
+.text-small {
+	font-size: 0.85em;
+}
+
+.text-normal {
+	font-size: 1em;
+}
+
+.text-big {
+	font-size: 2em;
+}
