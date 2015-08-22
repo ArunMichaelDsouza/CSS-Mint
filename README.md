@@ -110,7 +110,27 @@ Example -
 <br/>
 #### Typography
 
-CSS Mint has built in 
+CSS Mint has built in classes to customise text.
+
+Example - 
+
+```html
+	<!-- For lighter text -->
+	<p class="font-light"></p> 
+	<!-- For normal text -->
+	<p class="font-normal"></p>
+	<!-- For bolder text -->
+	<p class="font-bold"></p> 
+
+	<!-- Align text to left -->
+	<p class="align-left"></p>
+	<!-- Align text to right -->
+	<p class="align-right"></p>
+	<!-- Align text to center -->
+	<p class="align-center"></p>
+	<!-- Justify text -->
+	<p class="align-justify"></p>
+```
 
 
 
