@@ -130,6 +130,13 @@ Example -
 	<p class="align-center"></p>
 	<!-- Justify text -->
 	<p class="align-justify"></p>
+
+	<!-- For smaller text size -->
+	<p class="text-small"></p> 
+	<!-- For normal text size -->
+	<p class="text-normal"></p> 
+	<!-- For bigger text size -->
+	<p class="text-big"></p> 
 ```
 
 
