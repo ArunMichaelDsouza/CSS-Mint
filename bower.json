@@ -1,0 +1,21 @@
+{
+  "name": "CSS-Mint",
+  "version": "0.1.8",
+  "homepage": "https://github.com/ArunMichaelDsouza/CSS-Mint",
+  "authors": [
+    "Arun Michael Dsouza <amdsouza92@gmail.com>"
+  ],
+  "description": "Simple to use UI Kit",
+  "keywords": [
+    "CSS",
+    "UI"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
