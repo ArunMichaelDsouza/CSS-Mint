@@ -161,19 +161,170 @@ Example -
 	<button class="btn error"></button>
 ```
 
-![CSS Mint buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons.png)
+![CSS Mint Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons.png)
 
 Make simple line buttons by adding a class ``line`` to the button element along with the ``btn`` class
 
-![CSS Mint line buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-line.png)
+![CSS Mint Line Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-line.png)
 
 Make buttons rounded by adding a class ``rounded`` to the button element along with the ``btn`` class
 
-![CSS Mint rounded buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-rounded.png)
+![CSS Mint Rounded Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-rounded.png)
 
 You can also make small or large sized buttons by adding a class ``small`` or ``large`` to the button element along with the ``btn`` class
 
-![CSS Mint size buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-size.png)
+![CSS Mint Size Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-size.png)
+
+<br/>
+#### Card
+
+Create a floating card with some information to be put in.
+
+Example - 
+
+```html
+	<div class="card-wrapper">
+		<div class="card">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore.
+		</div>
+	</div>
+```
+
+![CSS Mint Card](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/card/card.png)
+
+<br/>
+#### Footer
+
+Create a footer element by adding a ``footer`` class to a footer tag.
+
+Example - 
+
+```html
+	<footer class="footer">
+	</footer>
+```
+
+##### Optional Classes
+
+The footer component has the same optional classes as the header component.
+
+```html
+	<footer class="footer default">
+	</footer>
+
+	<footer class="footer light">
+	</footer>
+
+	<footer class="footer dark">
+	</footer>
+```
+
+<br/>
+#### Alert
+
+Create alert messages by adding a class ``alert`` with any of the optional styling classes.
+
+Example - 
+
+```html
+	<div class="alert">
+	</div>
+```
+
+##### Optional Classes
+
+Create alerts for multiple types, add a simple class ``line`` to create a line alert message.
+
+```html
+	<div class="alert default">
+	</div>
+
+	<div class="alert primary">
+	</div>
+
+	<div class="alert success">
+	</div>
+
+	<div class="alert info">
+	</div>
+
+	<div class="alert warning">
+	</div>
+
+	<div class="alert error">
+	</div>
+
+
+	<div class="alert default line">
+	</div>
+
+	<div class="alert primary line">
+	</div>
+
+	<div class="alert success line">
+	</div>
+
+	<div class="alert info line">
+	</div>
+
+	<div class="alert warning line">
+	</div>
+
+	<div class="alert error line">
+	</div>
+```
+
+![CSS Mint Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/alert/alert.png)
+
+![CSS Mint Line Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/alert/alert-line.png)
+
+<br/>
+#### Utilities
+
+##### Content container
+
+Add a class ``container`` to create a fixed width content container for your wrapper elements.
+
+Example - 
+
+```html
+	<div class="container">
+		....
+	</div>
+```
+
+##### Transitions
+
+CSS Mint currently supports ony 3 transitions that can be added to any element which is supposed to change its state (i.e. hover, focus, active etc).
+
+* Ease in
+* Ease out
+* Ease in out 
+
+Example - 
+
+```html
+	<button class="btn info ease-in-out"></button>
+```
+
+## License
+
+MIT Licensed
+
+Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+
+
 
 
 
