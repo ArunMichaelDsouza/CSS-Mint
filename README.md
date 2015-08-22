@@ -107,6 +107,9 @@ Example -
 
 ![CSS Mint Grid System](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/grid/grid.png)
 
+<br/>
+#### Typography
+
 
 
 
