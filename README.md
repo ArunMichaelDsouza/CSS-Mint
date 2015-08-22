@@ -139,6 +139,43 @@ Example -
 	<p class="text-big"></p> 
 ```
 
+<br/>
+#### Buttons
+
+Add a ``btn`` class to a button element and add any of the optional styling classes.
+
+Example - 
+
+```html
+	<button class="btn"></button>
+```
+
+##### Optional Classes
+
+```html
+	<button class="btn default"></button>
+	<button class="btn primary"></button>
+	<button class="btn success"></button>
+	<button class="btn info"></button>
+	<button class="btn warning"></button>
+	<button class="btn error"></button>
+```
+
+![CSS Mint buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons.png)
+
+Make simple line buttons by adding a class ``line`` to the button element along with the ``btn`` class
+
+![CSS Mint line buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-line.png)
+
+Make buttons rounded by adding a class ``rounded`` to the button element along with the ``btn`` class
+
+![CSS Mint rounded buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-rounded.png)
+
+You can also make small or large sized buttons by adding a class ``small`` or ``large`` to the button element along with the ``btn`` class
+
+![CSS Mint size buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-size.png)
+
+
 
 
 
