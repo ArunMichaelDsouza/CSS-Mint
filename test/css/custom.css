@@ -114,17 +114,6 @@ form {
     font-size: 1.5em;
 }
 
-a {
-    text-decoration: none;
-    color: #0F73B4;
-    font-weight: 400;
-}
-
-a:hover,
-a:focus {
-    color: #002F7D;
-}
-
 footer > .gr-row {
     padding: 20px 0;
 }

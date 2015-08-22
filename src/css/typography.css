@@ -7,6 +7,16 @@ html, body {
 	font-size: 16px;
 }
 
+a {
+	color: #0F73B4;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+a:hover, a:active, a:focus {
+	color: #002F7D;
+}
+
 .font-light {
 	font-weight: 300;
 }
