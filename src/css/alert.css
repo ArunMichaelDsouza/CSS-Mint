@@ -1,0 +1,94 @@
+/****************************************/
+/****************************************/
+/* Alert Classes for CSS Mint */
+
+.alert {
+	width: 100%;
+	padding: 10px;
+	box-shadow: 1px 2px 1px #aaa;
+	margin: 10px;
+}
+
+.alert.default {
+  background-color: #eaeaea;
+  border: 1px solid #d3d3d3;
+  color: #555;
+}
+
+.alert.primary {
+  color: #fff;
+  background-color: #5C9DED;
+  border: 1px solid #4B8CDC;
+}
+
+.alert.success {
+  color: #fff;
+  background-color: #42CB6F;
+  border: 1px solid #3BB85D;
+}
+
+.alert.info {
+  color: #fff;
+  background-color: #4EC2E7;
+  border: 1px solid #3BB1D9;
+}
+
+.alert.warning {
+  color: #fff;
+  background-color: #FCCE54;
+  border: 1px solid #F4B941;
+  color: #fff;
+}
+
+.alert.error {
+  color: #fff;
+  background-color: #ED5564;
+  border: 1px solid #D9434E;
+}
+
+.alert.line {
+	background-color: transparent;
+}
+
+.alert.default.line {
+  color: #eaeaea;
+}
+
+.alert.primary.line {
+	color: #5C9DED;
+}
+
+.alert.success.line {
+	color: #42CB6F;
+}
+
+.alert.info.line {
+	color: #4EC2E7;
+}
+
+.alert.warning.line {
+	color: #FCCE54;
+}
+
+.alert.error.line {
+	color: #ED5564;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,21 @@
   color: #444;
 }
 
+.btn.small {
+  font-size: 0.8em;
+  padding: 5px 8px;
+}
+
+.btn.large {
+  font-size: 2em;
+  padding: 15px 35px;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+
 .btn.default {
   background-color: #eaeaea;
   border: 1px solid #d3d3d3;
@@ -86,4 +101,42 @@
 .btn.error:hover {
   background-color: #D9434E;
 }
+
+.btn.line {
+  background-color: transparent;
+}
+
+.btn.default.line {
+  color: #eaeaea;
+}
+
+.btn.primary.line {
+  color: #5C9DED;
+}
+
+.btn.success.line {
+  color: #42CB6F;
+}
+
+.btn.info.line {
+  color: #4EC2E7;
+}
+
+.btn.warning.line {
+  color: #FCCE54;
+}
+
+.btn.error.line {
+  color: #ED5564;
+}
+
+.btn.default.line:hover, .btn.primary.line:hover, .btn.success.line:hover, .btn.info.line:hover, .btn.warning.line:hover, .btn.error.line:hover {
+  color: #fff;
+} 
+
+.btn.rounded {
+  border-radius: 10px;
+}
+
+
 
