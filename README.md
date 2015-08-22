@@ -11,7 +11,7 @@ CSS Mint recommends HTML5 based semantic style for writing markup. All examples 
 
 #### Header
 
-To create a header element, simply add a ``header`` class to a header tag along with any of the optional styling classes.
+To create a header element, simply add a ``header`` class to the header tag along with any of the optional styling classes.
 
 Example - 
 
@@ -34,6 +34,8 @@ Adding a right navbar in the header element
 	</div>
 ```
 
+![CSS Mint Header Navbar](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20nav-right.png)
+
 
 ##### Optional Classes
 
@@ -52,7 +54,10 @@ Adding a right navbar in the header element
 ```
 ![CSS Mint Header Dark](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20dark.png)
 
+<br/>
 #### Navbar
+
+Simply add a ``navbar`` class to the nav tag and add an unordered list with refrences to your nav links. The same can be used with the header component as shown above.
 
 Example - 
 
@@ -65,3 +70,62 @@ Example -
         </ul>
     </nav>
 ```
+
+<br/>
+#### Panel
+
+Create a panel to contain information.
+
+Example - 
+
+```html
+	<div class="panel">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore.
+	</div>
+```
+
+<br/>
+#### The Grid
+
+CSS Mint comes bundled with a 6-column grid system that can be used to create complex layouts. Add columns that can be spanned from 16% ``(col-span-1)`` to 100% ``(col-span-6)`` of the screen width. These columns need to be wrapped within a grid row ``(gr-row)`` container. 
+
+Example - 
+
+```html
+	<div class="gr-row">
+		<div class="col-span-3">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore.
+		</div>
+		<div class="col-span-3">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore.
+		</div>
+	</div>
+```
+
+![CSS Mint Grid System](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/grid/grid.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
