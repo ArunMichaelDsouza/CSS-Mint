@@ -36,9 +36,9 @@ Adding a right navbar in the header element
 	<div class="nav-right">
 		<nav class="navbar">
 	 		<ul>
-	        	<li><a class="ease-in-out active" href="">Home</a></li>
-	        	<li><a class="ease-in-out" href="">About</a></li>
-	            <li><a class="ease-in-out" href="">Contact</a></li>
+	        	<li><a href="">Home</a></li>
+	        	<li><a href="">About</a></li>
+	            <li><a href="">Contact</a></li>
 	        </ul>
 	    </nav>
 	</div>
