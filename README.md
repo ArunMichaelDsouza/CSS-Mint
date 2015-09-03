@@ -120,7 +120,7 @@ Example -
 <br/>
 #### Typography
 
-![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/typography/typography.png)
+![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/399259b6ebb7915d6edd1b090068636844218aca/test/screenshots/typography/typography.png)
 
 CSS Mint has built in classes to customise text.
 
