@@ -6,3 +6,15 @@ body {
 	min-width: 1100px;
 	color: #333;
 }
+
+a, a:link {
+	color: #0a6da7;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+a:hover, a:active, a:focus {
+	color: #002F7D;
+}
+
+
