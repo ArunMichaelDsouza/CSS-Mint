@@ -322,6 +322,20 @@ Example -
 	<button class="btn info ease-in-out"></button>
 ```
 
+## Todos
+##### Components to be added 
+* Typography (blockquotes)
+* Color swatches
+* Panel (pricing, change general one)
+* Input types (inactive, active, disabled)
+* Forms
+* Tables
+* Breadcrumbs
+* Pagination
+* Badges
+* Thumbnails
+* Lists (ordered, unordered, scroll list)
+
 ## License
 
 MIT Licensed
