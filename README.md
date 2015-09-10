@@ -324,7 +324,7 @@ Example -
 
 ## Todos
 ##### Components to be added 
-* Typography (blockquotes)
+* ~~Typography (blockquotes)~~
 * Color swatches
 * Panel (pricing, change general one)
 * Input types (inactive, active, disabled)
