@@ -89,3 +89,15 @@ p {
 .text-big {
 	font-size: 2em;
 }
+
+blockquote {
+	margin: 20px 0;
+    border-left: 2px solid #eaeaea;
+    padding-left: 10px;
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+
