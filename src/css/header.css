@@ -30,6 +30,12 @@ header.header.dark {
   border-bottom: 1px solid #000;
 }
 
+header.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 .logo {
   text-decoration: none;
 }
