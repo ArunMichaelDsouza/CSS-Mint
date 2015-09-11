@@ -64,6 +64,12 @@ Adding a right navbar in the header element
 ```
 ![CSS Mint Header Dark](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20dark.png)
 
+Add class ``fixed`` to your header element to make it stick to the top, when you scroll down. 
+
+```html
+	<header class="header dark fixed"></header>
+```
+
 <br/>
 #### Navbar
 
