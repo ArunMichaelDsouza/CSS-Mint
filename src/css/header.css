@@ -4,10 +4,12 @@
 
 header.header {
   margin: 0 auto;
-  padding: 10px;
   position: relative;
-  background-color: #f0f0f0;
-  border-bottom: 1px solid #dadada;
+  background-color: #5C9DED;
+  border-bottom: 1px solid #4B8CDC;
+  width: 100%;
+  float: right;
+  padding: 5px 0;
 }
 
 header.header > .nav {
@@ -15,7 +17,7 @@ header.header > .nav {
   margin: 0 auto;
 }
 
-header.header.default {
+header.header.grey {
   background-color: #eaeaea;
   border-bottom: 1px solid #d3d3d3;
 }
@@ -38,12 +40,15 @@ header.fixed {
 
 .logo {
   text-decoration: none;
+  display: inline-block;
+  float: left;
+  padding: 10px 20px;
 }
 
-.logo > h1 {
+.logo h1 {
   font-size: 1.2em;
-  font-weight: 400;
-  color: #6a6a6a;
+  font-weight: 300;
+  color: #fff;
   display: inline-block;
   text-decoration: none;
   padding: 0;
@@ -51,29 +56,34 @@ header.fixed {
   overflow: initial;
 }
 
-.logo > img {
+.logo img {
   width: 40px;
   height: auto;
   vertical-align: middle;
 }
 
 .nav-right nav.navbar > ul > li a {
-  color: #6a6a6a;
+  color: #fff;
 }
 
-.logo > h1:hover, header.header.default .logo > h1:hover, header.header.light .logo > h1:hover {
+.logo h1:hover, header.header.grey .logo h1:hover, header.header.light .logo h1:hover, .header.grey .logo h1:hover, header.header.grey .logo h1, header.header.grey .nav-right nav.navbar > ul > li a {
   color: #4a4a4a;
 }
 
-header.header.light .logo > h1, header.header.light .nav-right nav.navbar > ul > li a {
+header.header.light .logo h1, header.header.light .nav-right nav.navbar > ul > li a {
   color: #8a8a8a;
 }
 
-header.header.dark .logo > h1, header.header.dark .nav-right nav.navbar > ul > li a {
+header.header.dark .logo h1, header.header.dark .nav-right nav.navbar > ul > li a {
   color: #fff;
 }
 
 .nav-right {
   float: right;
   color: #6a6a6a;
+  margin-right: 10px;
+  margin-top: 4px;
 }
+
+
+

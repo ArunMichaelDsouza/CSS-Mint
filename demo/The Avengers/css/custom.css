@@ -4,6 +4,10 @@ nav.navbar > ul > li > a.active {
     border-bottom: 2px solid #0F73B4;
 }
 
+header.header {
+    padding: 0;
+}
+
 .logo h1 {
     margin-left: -5px;
 }

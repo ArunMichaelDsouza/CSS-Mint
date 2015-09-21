@@ -28,7 +28,6 @@ Example -
 ```html
 	<header class="header"></header>
 ```
-![CSS Mint Header](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header.png)
 
 Adding a right navbar in the header element  
 
@@ -44,8 +43,13 @@ Adding a right navbar in the header element
 	</div>
 ```
 
-![CSS Mint Header Navbar](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header%20nav-right.png)
+Adding the logo pane in the header.
 
+```html
+	<div class="logo">  
+    	<a href="#"><h1>Logo</h1></a>
+    </div>
+```
 
 ##### Optional Classes
 
