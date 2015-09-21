@@ -2,10 +2,6 @@
 /****************************************/
 /* Card Classes for CSS Mint */
 
-.card-wrapper {
-	padding: 10px;
-}
-
 .card-wrapper > .card {
   	border-top: 1px solid #efefef;
   	background-color: #fcfcfc;

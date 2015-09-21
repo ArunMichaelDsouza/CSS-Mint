@@ -5,10 +5,13 @@
 .panel {
   background-color: #f0f0f0;
   border-bottom: 1px solid #dadada;
-  margin: 0 auto;
   display: table;
   content: '';
   width: 100%;
+  padding: 10px;
+  clear: both;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 .panel .panel-header, .panel .panel-footer {
