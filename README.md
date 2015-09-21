@@ -28,7 +28,7 @@ Example -
 ```html
 	<header class="header"></header>
 ```
-![CSS Mint Header](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header.png)
+![CSS Mint Header](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header.png)
 
 Adding a right navbar in the header element  
 
@@ -44,7 +44,7 @@ Adding a right navbar in the header element
 	</div>
 ```
 
-![CSS Mint Header Navbar](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20nav-right.png)
+![CSS Mint Header Navbar](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header%20nav-right.png)
 
 
 ##### Optional Classes
@@ -52,17 +52,17 @@ Adding a right navbar in the header element
 ```html
 	<header class="header default"></header>
 ```
-![CSS Mint Header Default](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20default.png)
+![CSS Mint Header Default](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header%20default.png)
 
 ```html
 	<header class="header light"></header>
 ```
-![CSS Mint Header Light](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20light.png)
+![CSS Mint Header Light](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header%20light.png)
 
 ```html
 	<header class="header dark"></header>
 ```
-![CSS Mint Header Dark](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/header/header%20dark.png)
+![CSS Mint Header Dark](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header%20dark.png)
 
 Add class ``fixed`` to your header element to make it stick to the top, when you scroll down. 
 
@@ -121,14 +121,14 @@ Example -
 	</div>
 ```
 
-![CSS Mint Grid System](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/grid/grid.png)
+![CSS Mint Grid System](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/grid/grid.png)
 
 <br/>
 #### Typography
 
 CSS Mint has clean and smooth typography styles that can be used in your project. 
 
-![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/typography/typography.png)
+![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/typography/typography.png)
 
 CSS Mint also has in built classes that can be used to customise text.
 
@@ -181,19 +181,19 @@ Example -
 	<button class="btn error"></button>
 ```
 
-![CSS Mint Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons.png)
+![CSS Mint Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons.png)
 
 Make simple line buttons by adding a class ``line`` to the button element along with the ``btn`` class
 
-![CSS Mint Line Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-line.png)
+![CSS Mint Line Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-line.png)
 
 Make buttons rounded by adding a class ``rounded`` to the button element along with the ``btn`` class
 
-![CSS Mint Rounded Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-rounded.png)
+![CSS Mint Rounded Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-rounded.png)
 
 You can also make small or large sized buttons by adding a class ``small`` or ``large`` to the button element along with the ``btn`` class
 
-![CSS Mint Size Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/button/buttons-size.png)
+![CSS Mint Size Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-size.png)
 
 <br/>
 #### Card
@@ -211,7 +211,7 @@ Example -
 	</div>
 ```
 
-![CSS Mint Card](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/card/card.png)
+![CSS Mint Card](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/card/card.png)
 
 <br/>
 #### Footer
@@ -295,9 +295,9 @@ Create alerts for multiple types, add a simple class ``line`` to create a line a
 	</div>
 ```
 
-![CSS Mint Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/alert/alert.png)
+![CSS Mint Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/alert/alert.png)
 
-![CSS Mint Line Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/test/screenshots/alert/alert-line.png)
+![CSS Mint Line Alerts](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/alert/alert-line.png)
 
 <br/>
 #### Utilities
