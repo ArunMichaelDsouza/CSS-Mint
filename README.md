@@ -237,7 +237,7 @@ Example -
 Add ``footer-container`` class within the footer wrapper to add content and links
 
 ```html
-	<footer class="footer default">
+	<footer class="footer">
 		<div class="footer-container">
 			Company &copy;2015
 		</div>
@@ -249,13 +249,13 @@ Add ``footer-container`` class within the footer wrapper to add content and link
 The footer component has the same optional classes as the header component.
 
 ```html
-	<footer class="footer default">
+	<footer class="footer dark">
+	</footer>
+
+	<footer class="footer grey">
 	</footer>
 
 	<footer class="footer light">
-	</footer>
-
-	<footer class="footer dark">
 	</footer>
 ```
 
