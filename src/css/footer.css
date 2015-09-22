@@ -8,8 +8,12 @@
     position: relative;
     background-color: #5C9DED;
     border-top: 1px solid #4B8CDC;
-    padding: 10px;
+    padding: 10px 0;
     color: #fff;
+}
+
+.footer-container {
+    padding: 0 10px;
 }
 
 footer.footer.grey {
