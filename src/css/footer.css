@@ -3,37 +3,38 @@
 /* Footer Classes for CSS Mint */
 
 .footer {
-	float: left;
-	width: 100%;
-  	margin: 0 auto;
-  	position: relative;
-  	background-color: #f0f0f0;
-  	border-top: 1px solid #dadada;
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #5C9DED;
+    border-top: 1px solid #4B8CDC;
+    padding: 10px;
+    color: #fff;
 }
 
-footer.footer.default {
-  	background-color: #eaeaea;
-  	border-top: 1px solid #d3d3d3;
+footer.footer.grey {
+    background-color: #eaeaea;
+    border-top: 1px solid #d3d3d3;
+    color: #4a4a4a;
 }
 
 footer.footer.light {
-  	background-color: #fff;
-  	border-top: 1px solid #ccc;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    color: #4a4a4a;
 }
 
 footer.footer.dark {
-  	background-color: #202020;
-  	border-top: 1px solid #000;
-  	color: #fff;
+    background-color: #202020;
+    border-top: 1px solid #000;
+    color: #fff;
 }
 
 .footer-list {
-  list-style: none;
+    list-style: none;
 }
 
-.footer-list > li > a, .footer-list > li > a:hover {
-  text-decoration: none;
+.footer-list > li > a,
+.footer-list > li > a:hover {
+    text-decoration: none;
 }
-
-
-
