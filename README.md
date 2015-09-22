@@ -161,6 +161,13 @@ Example -
 ```
 
 <br/>
+#### Color Swatches
+
+CSS Mint has schematic color swatches to go with. 
+![CSS Color Swatches](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/color-swatches/color-swatches.png)
+
+
+<br/>
 #### Buttons
 
 Add a ``btn`` class to a button element and add any of the optional styling classes.
