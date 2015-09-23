@@ -163,7 +163,7 @@ Example -
 <br/>
 #### Color Swatches
 
-CSS Mint has schematic color swatches to go with. 
+CSS Mint has a schematic color scheme to go with. 
 
 ![CSS Color Swatches](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/color-swatches/color-swatches.png)
 
