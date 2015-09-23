@@ -3,12 +3,38 @@
 /* Card Classes for CSS Mint */
 
 .card-wrapper > .card {
-  	border-top: 1px solid #efefef;
   	background-color: #fcfcfc;
   	position: relative;
-  	box-shadow: 1px 2px 2px #eee, -1px 1px 1px #eee;
+  	box-shadow: 1px 1px 4px #bbb;
   	padding: 10px;
     line-height: 25px;
     color: #444;
     font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card-wrapper.pricing > .card {
+	background-color: #5C9DED;
+	color: #fff;
+	box-shadow: 1px 1px 4px #5a5a5a;
+}
+
+.card-wrapper.pricing > .card button {
+	border: 1px solid #fff;
+    background-color: transparent;
+    padding: 3px 30px;
+    border-radius: 2px;
+    display: block;
+    margin: 10px auto;
+}
+
+.card-wrapper.pricing > .card button:hover {
+	background-color: #fff;
+	color: #5C9DED;
+}
+
+.card-wrapper.pricing > .card img {
+	width: 30%;
+	height: auto;
+	margin: 10px auto;
 }
