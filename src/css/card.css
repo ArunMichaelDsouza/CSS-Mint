@@ -7,10 +7,11 @@
   	position: relative;
   	box-shadow: 1px 1px 4px #bbb;
   	padding: 10px;
-    line-height: 25px;
+    line-height: 22px;
     color: #444;
     font-weight: 300;
     margin-bottom: 20px;
+    font-size: 0.95em;
 }
 
 .card-wrapper.pricing > .card {
@@ -22,7 +23,7 @@
 .card-wrapper.pricing > .card button {
 	border: 1px solid #fff;
     background-color: transparent;
-    padding: 3px 30px;
+    padding: 5px 30px;
     border-radius: 2px;
     display: block;
     margin: 10px auto;
