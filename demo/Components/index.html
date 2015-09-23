@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="../../build/css-mint.min.css">
     <style>
-    *[class*='col-span'] > div {
+    .grid *[class*='col-span'] > div {
         color: #fff;
         background-color: #5C9DED;
         margin: 5px;
@@ -86,7 +86,7 @@
     <!-- Panel -->
     <!-- The Grid -->
     <h5 style="margin-top: 50px; float: left;">The Grid</h5>
-    <div style="width: 80%;">
+    <div style="width: 80%;" class="grid">
         <div class="gr-row align-center">
             <div class="col-span-1">
                 <div>.col-span-1</div>
@@ -220,9 +220,23 @@
     <!-- Buttons -->
     <!-- Card -->
     <h5 style="margin-top: 50px;">Card</h5>
-    <div class="card-wrapper" style="width: 50%;">
+    <div class="card-wrapper" style="width: 40%;"> 
         <div class="card">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+    <div class="card-wrapper pricing" style="width: 40%;">
+        <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+            <div class="align-center">
+                <img src="http://designmodo.github.io/Flat-UI/img/icons/svg/map.svg" />
+                <button class="ease-in-out">Buy for $499</button>
+            </div>
         </div>
     </div>
     <!-- Card -->
