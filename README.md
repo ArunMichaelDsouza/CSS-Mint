@@ -347,9 +347,8 @@ Example -
 ##### Components to be added 
 * ~~Typography (blockquotes)~~
 * ~~Color swatches~~
-* ~~Card (pricing)~~
-* Input types (inactive, active, disabled)
-* Forms
+* Card (pricing, info, pic)
+* ~~Input types (inactive, active, disabled)~~
 * Tables
 * Breadcrumbs
 * Pagination

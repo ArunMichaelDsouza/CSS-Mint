@@ -1,12 +1,16 @@
 /****************************************/
+
+
 /****************************************/
+
+
 /* Card Classes for CSS Mint */
 
 .card-wrapper > .card {
-  	background-color: #fcfcfc;
-  	position: relative;
-  	box-shadow: 1px 1px 4px #bbb;
-  	padding: 10px;
+    background-color: #fcfcfc;
+    position: relative;
+    box-shadow: 1px 1px 4px #bbb;
+    padding: 10px;
     line-height: 22px;
     color: #444;
     font-weight: 300;
@@ -15,13 +19,13 @@
 }
 
 .card-wrapper.info > .card {
-	background-color: #5C9DED;
-	color: #fff;
-	box-shadow: 1px 1px 4px #5a5a5a;
+    background-color: #5C9DED;
+    color: #fff;
+    box-shadow: 1px 1px 4px #5a5a5a;
 }
 
 .card-wrapper.info > .card button {
-	border: 1px solid #fff;
+    border: 1px solid #fff;
     background-color: transparent;
     padding: 5px 30px;
     border-radius: 2px;
@@ -30,12 +34,55 @@
 }
 
 .card-wrapper.info > .card button:hover {
-	background-color: #fff;
-	color: #5C9DED;
+    background-color: #fff;
+    color: #5C9DED;
 }
 
 .card-wrapper.info > .card img {
-	width: 30%;
-	height: auto;
-	margin: 10px auto;
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.card-wrapper.pricing > .card {
+    background-color: #f4f4f4;
+}
+
+.card-wrapper.pricing > .card button {
+    padding: 8px 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #dadada;
+    font-weight: 300;
+    font-size: 0.92em;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #42CB6F;
+    border: 1px solid #3BB85D;
+    margin: 20px 0 10px;
+}
+
+.card-wrapper.photo > .card {
+    padding: 0;
+}
+
+.card-wrapper.photo > .card > .card-content {
+    padding: 10px;
+}
+
+.card-wrapper.photo > .card > .card-content button {
+    padding: 8px 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #dadada;
+    font-weight: 300;
+    font-size: 0.92em;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #5C9DED;
+    border: 1px solid #4B8CDC;
+    margin: 20px 0 10px;
+}
+
+.card-wrapper.photo > .card img {
+    width: 100%;
+    height: auto;
 }

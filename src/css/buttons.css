@@ -58,7 +58,7 @@
   border: 1px solid #4B8CDC;
 }
 
-.btn.primary:hover, input[type="submit"]:hover, input[type="button"]:hover {
+.btn.primary:hover, input[type="submit"]:hover, input[type="button"]:hover, .card-wrapper.photo > .card > .card-content button:hover {
   background-color: #4B8CDC;
 }
 
@@ -68,7 +68,7 @@
   border: 1px solid #3BB85D;
 }
 
-.btn.success:hover {
+.btn.success:hover, .card-wrapper.pricing > .card button:hover {
   background-color: #3BB85D;
 }
 
