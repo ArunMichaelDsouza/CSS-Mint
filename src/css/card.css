@@ -14,13 +14,13 @@
     font-size: 0.95em;
 }
 
-.card-wrapper.pricing > .card {
+.card-wrapper.info > .card {
 	background-color: #5C9DED;
 	color: #fff;
 	box-shadow: 1px 1px 4px #5a5a5a;
 }
 
-.card-wrapper.pricing > .card button {
+.card-wrapper.info > .card button {
 	border: 1px solid #fff;
     background-color: transparent;
     padding: 5px 30px;
@@ -29,12 +29,12 @@
     margin: 10px auto;
 }
 
-.card-wrapper.pricing > .card button:hover {
+.card-wrapper.info > .card button:hover {
 	background-color: #fff;
 	color: #5C9DED;
 }
 
-.card-wrapper.pricing > .card img {
+.card-wrapper.info > .card img {
 	width: 30%;
 	height: auto;
 	margin: 10px auto;
