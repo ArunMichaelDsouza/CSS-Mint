@@ -1,6 +1,6 @@
 /****************************************/
 /****************************************/
-/* Button Classes for CSS Mint */
+/* Button component for CSS Mint */
 
 .btn, input[type="reset"], input[type="submit"], input[type="button"] {
   padding: 8px 30px;

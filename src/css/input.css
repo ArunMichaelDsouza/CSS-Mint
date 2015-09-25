@@ -1,6 +1,6 @@
 /****************************************/
 /****************************************/
-/* Input Components for CSS Mint */
+/* Input component for CSS Mint */
 
 input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="search"], input[type="url"] {
 	background-color: #fff;
