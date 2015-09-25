@@ -349,7 +349,7 @@ Example -
 * ~~Color swatches~~
 * ~~Card (pricing, info, pic)~~
 * ~~Input types (inactive, active, disabled)~~
-* Tables
+* ~~Tables~~
 * Breadcrumbs
 * Pagination
 * Badges
