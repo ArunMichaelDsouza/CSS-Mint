@@ -1,0 +1,44 @@
+/****************************************/
+/****************************************/
+/* Pagination component for CSS Mint */
+
+ul.pagination {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.pagination > li {
+	display: inline-block;
+}
+
+ul.pagination > li > a {
+	background-color: #e8e8e8;
+	padding: 4px 8px;
+	font-size: 0.8em;
+	color: #444;
+	border-radius: 2px;
+}
+
+ul.pagination > li > a:hover {
+	background-color: #d8d8d8;
+}
+
+ul.pagination > li.active > a {
+	background-color: #5C9DED;
+	color: #fff;
+}
+
+ul.pagination > li.active > a:hover {
+	background-color: #4B8CDC;
+}
+
+ul.pagination > li.prev:first-child a {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+ul.pagination > li.next:last-child a {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
