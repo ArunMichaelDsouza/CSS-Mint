@@ -365,6 +365,7 @@ Create alerts for multiple types, add a simple class ``line`` to create a line a
 
 Create badges by simply adding a class ``badge`` to a span tag.
 
+Example - 
 
 ```html
 	<span class="badge">
@@ -380,6 +381,8 @@ You can also add a ``line`` class to make a line badge and ``notification`` clas
 #### Breadcrumbs
 
 Create clickable breadcrumbs by adding a class ``breadcrumb`` to an unordered list and adding list items for follow-up links.
+
+Example - 
 
 ```html
 	<ul class="breadcrumb">
@@ -416,6 +419,8 @@ Use the class ``file-upload`` to create a simple file uploader -
 #### Pagination
 
 Create a pagination component by adding the class ``pagination`` to an unordered list and adding clickable list items.
+
+Example - 
 
 ```html
 	<ul class="pagination">
@@ -461,6 +466,8 @@ Create a pagination component by adding the class ``pagination`` to an unordered
 #### Tables
 
 Create simple tables with the table tag for which CSS Mint offers base styling. You can also create info tables by adding a class ``info`` to a table tag.
+
+Example - 
 
 ```html
 	<table>
@@ -587,6 +594,8 @@ Create simple tables with the table tag for which CSS Mint offers base styling. 
 #### Thumbnail
 
 Create an image thumbnail with the ``thumbnail`` class and add a thumbnail title.
+
+Example - 
 
 ```html
 	<div class="thumbnail">
