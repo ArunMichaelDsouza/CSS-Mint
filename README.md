@@ -1,7 +1,7 @@
 CSS-Mint
 ========
 
-CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up Layout and Structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
+CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
 
 It follows the OOCSS approach for better and cleaner CSS styling.
 
@@ -65,6 +65,9 @@ Adding the logo pane in the header.
 	<header class="header light"></header>
 ```
 
+![CSS Mint Header](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/header/header.png)
+
+
 Add class ``fixed`` to your header element to make it stick to the top, when you scroll down. 
 
 ```html
@@ -88,6 +91,8 @@ Example -
     </nav>
 ```
 
+![CSS Mint Navbar](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/navbar/navbar.png)
+
 <br/>
 #### Panel
 
@@ -98,9 +103,15 @@ Example -
 ```html
 	<div class="panel">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore.
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</div>
 ```
+
+![CSS Mint Panel](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/panel/panel.png)
 
 <br/>
 #### The Grid
@@ -190,19 +201,16 @@ Example -
 	<button class="btn error"></button>
 ```
 
-![CSS Mint Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons.png)
 
 Make simple line buttons by adding a class ``line`` to the button element along with the ``btn`` class
 
-![CSS Mint Line Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-line.png)
 
 Make buttons rounded by adding a class ``rounded`` to the button element along with the ``btn`` class
 
-![CSS Mint Rounded Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-rounded.png)
 
 You can also make small or large sized buttons by adding a class ``small`` or ``large`` to the button element along with the ``btn`` class
 
-![CSS Mint Size Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/button/buttons-size.png)
+![CSS Mint Buttons](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/buttons/buttons.png)
 
 <br/>
 #### Card
@@ -215,7 +223,41 @@ Example -
 	<div class="card-wrapper">
 		<div class="card">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore.
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+```
+##### Optional Classes
+
+Add these inbuilt classes to customise your card
+
+``info`` to make an information card
+```html
+	<div class="card-wrapper info">
+		<div class="card">
+			. . .
+		</div>
+	</div>
+```
+
+``pricing`` to make a pricing card
+```html
+	<div class="card-wrapper pricing">
+		<div class="card">
+			. . .
+		</div>
+	</div>
+```
+
+``photo`` to make a photo card
+```html
+	<div class="card-wrapper photo">
+		<div class="card">
+			. . .
 		</div>
 	</div>
 ```
@@ -258,6 +300,8 @@ The footer component has the same optional classes as the header component.
 	<footer class="footer light">
 	</footer>
 ```
+
+![CSS Mint Footer](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/footer/footer.png)
 
 <br/>
 #### Alert
@@ -314,6 +358,245 @@ Create alerts for multiple types, add a simple class ``line`` to create a line a
 	</div>
 ```
 
+![CSS Mint Alert](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/alert/alert.png)
+
+<br/>
+#### Badges
+
+Create badges by simply adding a class ``badge`` to a span tag.
+
+
+```html
+	<span class="badge">
+		21
+	</span>
+```
+
+You can also add a ``line`` class to make a line badge and ``notification`` class to make a notification badge.
+
+![CSS Mint Badge](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/badge/badge.png)
+
+<br/>
+#### Breadcrumbs
+
+Create clickable breadcrumbs by adding a class ``breadcrumb`` to an unordered list and adding list items for follow-up links.
+
+```html
+	<ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">One</a></li>
+        <li><a href="#">One.one</a></li>
+        <li><a href="#">One.two</a></li>
+    </ul>
+```
+
+![CSS Mint Breadcrumbs](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/breadcrumb/breadcrumb.png)
+
+<br/>
+#### Input
+
+CSS Mint also offers customisable input fields to be used in HTML forms. CSS Mint has a base styling for input elements which can be altered using a custom CSS file.
+
+You can add a class ``error`` to indicate incorrect input fields.
+
+Use the class ``file-upload`` to create a simple file uploader -  
+
+```html
+	<div class="file-upload">
+    	<img class="upload-icon" src="http://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/128/upload-icon.png"/>
+        <label class="upload-label">Upload file</label>
+        <input type="file"/>
+    </div>
+```
+
+![CSS Mint Input](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/input/input.png)
+
+<br/>
+#### Pagination
+
+Create a pagination component by adding the class ``pagination`` to an unordered list and adding clickable list items.
+
+```html
+	<ul class="pagination">
+        <li class="prev">
+            <a href="#">Prev</a>
+        </li>
+        <li class="active">
+            <a href="#">1</a>
+        </li>
+        <li>
+            <a href="#">2</a>
+        </li>
+        <li>
+            <a href="#">3</a>
+        </li>
+        <li>
+            <a href="#">4</a>
+        </li>
+        <li>
+            <a href="#">5</a>
+        </li>
+        <li>
+            <a href="#">6</a>
+        </li>
+        <li>
+            <a href="#">7</a>
+        </li>
+        <li>
+            <a href="#">8</a>
+        </li>
+        <li>
+            <a href="#">9</a>
+        </li>
+        <li class="next">
+            <a href="#">Next</a>
+        </li>
+    </ul>
+```
+
+![CSS Mint Pagination](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/pagination/pagination.png)
+
+<br/>
+#### Tables
+
+Create simple tables with the table tag for which CSS Mint offers base styling. You can also create info tables by adding a class ``info`` to a table tag.
+
+```html
+	<table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Dept.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Rachel</td>
+                <td>5220</td>
+                <td>Operations</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Anders</td>
+                <td>1098</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Steve</td>
+                <td>1120</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Alice</td>
+                <td>3420</td>
+                <td>Marketing</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Mike</td>
+                <td>1276</td>
+                <td>Sales</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    
+                </td>
+                <td>
+                    <span class="font-normal">All check</span>
+                </td>
+                <td>
+                    <span class="font-normal">All check</span> 
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <table class="info">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Dept.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Rachel</td>
+                <td>5220</td>
+                <td>Operations</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Anders</td>
+                <td>1098</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Steve</td>
+                <td>1120</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Alice</td>
+                <td>3420</td>
+                <td>Marketing</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Mike</td>
+                <td>1276</td>
+                <td>Sales</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    
+                </td>
+                <td>
+                    <span class="font-normal">All check</span>
+                </td>
+                <td>
+                    <span class="font-normal">All check</span> 
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+```
+
+![CSS Mint Tables](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/tables/tables.png)
+
+<br/>
+#### Thumbnail
+
+Create an image thumbnail with the ``thumbnail`` class and add a thumbnail title.
+
+```html
+	<div class="thumbnail">
+        <img src="img/design.png"/>
+        <span class="thumbnail-title">This is a title</span>
+    </div>
+```
+
+![CSS Mint Thumbnail](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/thumbnail/thumbnail.png)
+
 <br/>
 #### Utilities
 
@@ -342,18 +625,6 @@ Example -
 ```html
 	<button class="btn info ease-in-out"></button>
 ```
-
-## Todos
-##### Components to be added 
-* ~~Typography (blockquotes)~~
-* ~~Color swatches~~
-* ~~Card (pricing, info, pic)~~
-* ~~Input types (inactive, active, disabled)~~
-* ~~Tables~~
-* ~~Breadcrumbs~~
-* ~~Pagination~~
-* ~~Badges~~
-* ~~Thumbnails~~
 
 ## License
 
