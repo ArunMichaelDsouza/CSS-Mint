@@ -353,7 +353,7 @@ Example -
 * ~~Breadcrumbs~~
 * ~~Pagination~~
 * ~~Badges~~
-* Thumbnails
+* ~~Thumbnails~~
 * Lists (ordered, unordered, scroll list)
 
 ## License
