@@ -1,7 +1,7 @@
 CSS-Mint
 ========
 
-CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up Layout and Structuring of your Web Application. Built on top of Normalize.css, It handles cross browser inconsistencies and aims at reducing markup. 
+CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up Layout and Structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
 
 It follows the OOCSS approach for better and cleaner CSS styling.
 
@@ -354,7 +354,6 @@ Example -
 * ~~Pagination~~
 * ~~Badges~~
 * ~~Thumbnails~~
-* Lists (ordered, unordered, scroll list)
 
 ## License
 
