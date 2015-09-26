@@ -350,7 +350,7 @@ Example -
 * ~~Card (pricing, info, pic)~~
 * ~~Input types (inactive, active, disabled)~~
 * ~~Tables~~
-* Breadcrumbs
+* ~~Breadcrumbs~~
 * Pagination
 * Badges
 * Thumbnails

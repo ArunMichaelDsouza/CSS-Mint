@@ -2,18 +2,18 @@
 /****************************************/
 /* Breadcrumb component for CSS Mint */
 
-.breadcrumb {
+ul.breadcrumb {
     list-style: none;
     display: inline-block;
     margin: 0;
     padding: 0;
 }
 
-.breadcrumb li {
+ul.breadcrumb li {
     float: left;
 }
 
-.breadcrumb li a {
+ul.breadcrumb li a {
     color: #FFF;
     display: block;
     background: #5C9DED;
@@ -26,43 +26,43 @@
     font-size: 0.8em;
 }
 
-.breadcrumb li:nth-child(even) a {
+ul.breadcrumb li:nth-child(even) a {
     background-color: #5C9DED;
 }
 
-.breadcrumb li:nth-child(even) a:before {
+ul.breadcrumb li:nth-child(even) a:before {
     border-color: #5C9DED;
     border-left-color: transparent;
 }
 
-.breadcrumb li:nth-child(even) a:after {
+ul.breadcrumb li:nth-child(even) a:after {
     border-left-color: #5C9DED;
 }
 
-.breadcrumb li:first-child a {
+ul.breadcrumb li:first-child a {
     padding-left: 15px;
     -moz-border-radius: 4px 0 0 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px 0 0 4px;
 }
 
-.breadcrumb li:first-child a:before {
+ul.breadcrumb li:first-child a:before {
     border: none;
 }
 
-.breadcrumb li:last-child a {
+ul.breadcrumb li:last-child a {
     padding-right: 15px;
     -moz-border-radius: 0 4px 4px 0;
     -webkit-border-radius: 0;
     border-radius: 0 4px 4px 0;
 }
 
-.breadcrumb li:last-child a:after {
+ul.breadcrumb li:last-child a:after {
     border: none;
 }
 
-.breadcrumb li a:before,
-.breadcrumb li a:after {
+ul.breadcrumb li a:before,
+ul.breadcrumb li a:after {
     content: "";
     position: absolute;
     top: 0;
@@ -72,39 +72,39 @@
     height: 0;
 }
 
-.breadcrumb li a:before {
+ul.breadcrumb li a:before {
     left: -20px;
     border-left-color: transparent;
 }
 
-.breadcrumb li a:after {
+ul.breadcrumb li a:after {
     left: 100%;
     border-color: transparent;
     border-left-color: #5C9DED;
 }
 
-.breadcrumb li a:hover {
+ul.breadcrumb li a:hover {
     background-color: #4B8CDC;
 }
 
-.breadcrumb li a:hover:before {
+ul.breadcrumb li a:hover:before {
     border-color: #4B8CDC;
     border-left-color: transparent;
 }
 
-.breadcrumb li a:hover:after {
+ul.breadcrumb li a:hover:after {
     border-left-color: #4B8CDC;
 }
 
-.breadcrumb li a:active {
+ul.breadcrumb li a:active {
     background-color: #4B8CDC;
 }
 
-.breadcrumb li a:active:before {
+ul.breadcrumb li a:active:before {
     border-color: #4B8CDC;
     border-left-color: transparent;
 }
 
-.breadcrumb li a:active:after {
+ul.breadcrumb li a:active:after {
     border-left-color: #4B8CDC;
 }
