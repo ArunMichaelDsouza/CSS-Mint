@@ -351,8 +351,8 @@ Example -
 * ~~Input types (inactive, active, disabled)~~
 * ~~Tables~~
 * ~~Breadcrumbs~~
-* Pagination
-* Badges
+* ~~Pagination~~
+* ~~Badges~~
 * Thumbnails
 * Lists (ordered, unordered, scroll list)
 
