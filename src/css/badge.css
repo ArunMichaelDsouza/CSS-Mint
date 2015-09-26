@@ -1,0 +1,31 @@
+/****************************************/
+/****************************************/
+/* Badge component for CSS Mint */
+
+.badge {
+	background-color: #eaeaea;
+	font-size: 0.8em;
+	border-radius: 4px;
+	padding: 4px;
+}
+
+.badge.line:not(.notification) {
+	border: 1px solid #d3d3d3;
+	color: #bbb;
+	background-color: transparent;
+}
+
+.badge.rounded {
+	border-radius: 100%;
+}
+
+.badge.notification {
+	background-color: #ED5564;
+	color: #fff;
+}
+
+.badge.notification.line {
+	background-color: transparent;
+	color: #ED5564;
+	border: 1px solid #ED5564;
+}
