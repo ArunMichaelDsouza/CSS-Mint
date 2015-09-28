@@ -239,8 +239,12 @@ Add these inbuilt classes to customise your card
 ```html
 	<div class="card-wrapper info">
 		<div class="card">
-			. . .
-		</div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+            <div class="align-center">
+                <img src="http://designmodo.github.io/Flat-UI/img/icons/svg/map.svg">
+                <button class="ease-in-out">Know More</button>
+            </div>
+        </div>
 	</div>
 ```
 
@@ -248,8 +252,11 @@ Add these inbuilt classes to customise your card
 ```html
 	<div class="card-wrapper pricing">
 		<div class="card">
-			. . .
-		</div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+            <div class="align-center">
+                <button class="ease-in-out">Buy for $499</button>
+            </div>
+        </div>
 	</div>
 ```
 
@@ -257,8 +264,14 @@ Add these inbuilt classes to customise your card
 ```html
 	<div class="card-wrapper photo">
 		<div class="card">
-			. . .
-		</div>
+            <img src="http://static1.squarespace.com/static/54e63432e4b02904f4c632e8/t/54ef890ce4b0a7de0912942d/1424984343312/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg?format=2500w"/>
+            <div class="card-content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+                <div class="align-center">
+                    <button class="ease-in-out">Add to list</button>
+                </div>
+            </div>
+        </div>
 	</div>
 ```
 
@@ -371,6 +384,26 @@ Example -
 	<span class="badge">
 		21
 	</span>
+
+    <span class="badge rounded">
+        21
+    </span>
+
+    <span class="badge rounded line">
+        21
+    </span>
+
+    <span class="badge notification">
+        21
+    </span>
+
+    <span class="badge notification rounded">
+        21
+    </span>
+
+    <span class="badge notification rounded line">
+        21
+    </span>
 ```
 
 You can also add a ``line`` class to make a line badge and ``notification`` class to make a notification badge.
