@@ -17,4 +17,13 @@ a:hover, a:active, a:focus {
 	color: #002F7D;
 }
 
+hr {
+	border: none;
+    height: 1px;
+    background-color: #dadada;
+    margin: 20px 0;
+}
+
+
+
 
