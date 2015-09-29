@@ -1,5 +1,7 @@
-CSS-Mint
+CSS-Mint 
 ========
+
+[http://arunmichaeldsouza.github.io/CSS-Mint/](http://arunmichaeldsouza.github.io/CSS-Mint/)
 
 CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
 
