@@ -7,6 +7,11 @@ It follows the OOCSS approach for better and cleaner CSS styling.
 
 CSS Mint recommends HTML5 based semantic style for writing markup. All examples and the bundled test project is based on the same approach.
 
+<br/>
+![CSS Mint Logo](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Components/img/logo.png)
+<br/>
+<br/>
+
 ## Installation
 
 You can install the kit using bower. Make sure you have bower installed, then run : 
