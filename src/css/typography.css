@@ -108,6 +108,11 @@ blockquote {
     padding: 10px;
 }
 
+.highlight {
+	background-color: #FFFD02;
+    padding: 2px;
+    color: #5a5a5a;
+}
 
 
 
