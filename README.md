@@ -147,7 +147,7 @@ Example -
 
 CSS Mint has clean and smooth typography styles that can be used in your project. 
 
-![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/typography/typography.png)
+![CSS Mint Typography](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/29326ba20a481db756de3924d765e301adb6cf31/demo/Screenshots/typography/typography.png)
 
 CSS Mint also has in built classes that can be used to customise text.
 
@@ -176,6 +176,8 @@ Example -
 	<p class="text-normal"></p> 
 	<!-- For bigger text size -->
 	<p class="text-big"></p> 
+    <!-- Highlighting text -->
+    <span class="highlight">Highlight</span>
 ```
 
 <br/>
