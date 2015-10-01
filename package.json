@@ -1,7 +1,7 @@
 {
   "name": "css-mint",
-  "version": "0.1.0",
-  "description": "Simple to use UI Kit",
+  "version": "1.2.42",
+  "description": "Lightweight and simple to use UI Kit",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/ArunMichaelDsouza/CSS-Mint/issues"
   },
-  "homepage": "https://github.com/ArunMichaelDsouza/CSS-Mint#readme",
+  "homepage": "http://arunmichaeldsouza.github.io/CSS-Mint/",
   "dependencies": {
     "grunt": "^0.4.5"
   },

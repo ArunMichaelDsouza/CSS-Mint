@@ -16,19 +16,29 @@ CSS Mint recommends HTML5 based semantic style for writing markup. All examples 
 
 ## Installation
 
+#### CDN 
+
 Use CSS Mint directly from jsdelivr CDN
 
 ```html
 https://cdn.jsdelivr.net/css-mint/1.2.4/css-mint.min.css
 ```
 
+#### via bower
+
 You can install the kit using bower. Make sure you have bower installed, then run : 
 
 ```html
 bower install CSS-Mint
 ```
-Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the latest version and include ``css-mint.min.css`` to your project.
 
+#### via npm
+
+```html
+npm install CSS-Mint
+```
+
+Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the latest version and include ``css-mint.min.css`` to your project.
 
 ## Components
 
