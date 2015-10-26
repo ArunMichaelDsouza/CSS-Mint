@@ -4,7 +4,13 @@
 
 .gr-row {
 	width: 100%;
-	float: left;
+}
+
+.gr-row:after,
+.gr-row:before {
+	content: '';
+	clear: both;
+	display: table;
 }
 
 *[class*='col-span'] {
