@@ -1,4 +1,4 @@
-CSS-Mint 
+CSS-Mint [v1.3.7]
 ========
 > Add some "Mint" to your web pages
 
