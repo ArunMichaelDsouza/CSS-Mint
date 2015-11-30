@@ -76,13 +76,13 @@ form {
     background-color: #002F7D;
 }
 
-.card-wrapper {
-    padding: 0 20px 30px;
+.card {
+    background-color: #fff;
+    text-align: center;
 }
 
-.card-wrapper > .card {
-    text-align: center;
-    background-color: #fff;
+.card > .card-content {
+    text-align: left;
 }
 
 .card > img {
@@ -101,7 +101,7 @@ form {
     font-size: 1.1em;
 }
 
-.card-content {
+.content {
     text-align: left;
     font-weight: 300;
     line-height: 26px;
@@ -110,6 +110,10 @@ form {
     padding: 15px;
     background-color: #f8f8f8;
     color: #444;
+}
+
+.card-container {
+    background-color: #f3f5f7;  
 }
 
 .card-content::first-letter {

@@ -1,9 +1,3 @@
-/*
-    CSS Mint v1.3.7
-    Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
-    Licence: MIT
-*/
-
 /****************************************/
 /****************************************/
 /* Global Normalization Styles */
@@ -756,6 +750,7 @@ blockquote {
 
 *[class*='col-span'] {
 	float: left;
+	padding: 10px;
 }
 
 .col-span-1 {
@@ -792,7 +787,7 @@ blockquote {
 /****************************************/
 /* Card component for CSS Mint */
 
-.card-wrapper > .card {
+.card {
     background-color: #fcfcfc;
     position: relative;
     box-shadow: 1px 1px 3px rgba(0,0,0,.15);
@@ -802,15 +797,16 @@ blockquote {
     font-weight: 300;
     margin-bottom: 20px;
     font-size: 0.95em;
+    line-height: 28px;
 }
 
-.card-wrapper.info > .card {
+.card.info {
     background-color: #5C9DED;
     color: #fff;
     box-shadow: 1px 1px 4px #5a5a5a;
 }
 
-.card-wrapper.info > .card button {
+.card.info button {
     border: 1px solid #fff;
     background-color: transparent;
     padding: 5px 30px;
@@ -819,22 +815,22 @@ blockquote {
     margin: 10px auto;
 }
 
-.card-wrapper.info > .card button:hover {
+.card.info button:hover {
     background-color: #fff;
     color: #5C9DED;
 }
 
-.card-wrapper.info > .card img {
+.card.info img {
     width: 30%;
     height: auto;
     margin: 10px auto;
 }
 
-.card-wrapper.pricing > .card {
+.card.pricing {
     background-color: #f4f4f4;
 }
 
-.card-wrapper.pricing > .card button {
+.card.pricing button {
     padding: 8px 30px;
     background-color: #f0f0f0;
     border: 1px solid #dadada;
@@ -847,15 +843,15 @@ blockquote {
     margin: 20px 0 10px;
 }
 
-.card-wrapper.photo > .card {
+.card.photo {
     padding: 0;
 }
 
-.card-wrapper.photo > .card > .card-content {
+.card.photo > .card-content {
     padding: 10px;
 }
 
-.card-wrapper.photo > .card > .card-content button {
+.card.photo > .card-content button {
     padding: 8px 30px;
     background-color: #f0f0f0;
     border: 1px solid #dadada;
@@ -868,7 +864,7 @@ blockquote {
     margin: 20px 0 10px;
 }
 
-.card-wrapper.photo > .card img {
+.card.photo img {
     width: 100%;
     height: auto;
 }

@@ -15,6 +15,7 @@
 
 *[class*='col-span'] {
 	float: left;
+	padding: 10px;
 }
 
 .col-span-1 {
