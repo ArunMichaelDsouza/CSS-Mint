@@ -2,7 +2,7 @@
   "name": "css-mint",
   "version": "1.4.3",
   "description": "Lightweight and simple to use UI Kit",
-  "main": "index.js",
+  "main": "build/css-mint.min.css",
   "directories": {
     "test": "test"
   },
