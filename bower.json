@@ -6,6 +6,7 @@
     "Arun Michael Dsouza <amdsouza92@gmail.com>"
   ],
   "description": "Simple to use UI Kit",
+  "main": "build/css-mint.min.css",
   "keywords": [
     "CSS",
     "UI"
