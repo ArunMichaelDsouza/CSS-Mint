@@ -26,6 +26,14 @@ Use CSS Mint directly from jsdelivr CDN
 https://cdn.jsdelivr.net/css-mint/1.4.3/css-mint.min.css
 ```
 
+Or
+
+Use CSS Mint from KeyCDN
+
+```html
+http://cssmint-4be7.kxcdn.com/dist/1.4.3/css-mint.min.css
+```
+
 #### via bower
 
 You can install the kit using bower. Make sure you have bower installed, then run : 
