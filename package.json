@@ -28,8 +28,8 @@
     "grunt": "^0.4.5"
   },
   "devDependencies": {
-    "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-cssmin": "^0.13.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^2.0.0"
   }
 }
