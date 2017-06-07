@@ -25,7 +25,8 @@
   },
   "homepage": "http://arunmichaeldsouza.github.io/CSS-Mint/",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "pineapple-sass": "^1.11.15"
   },
   "devDependencies": {
     "grunt-contrib-cssmin": "^0.13.0",

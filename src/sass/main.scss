@@ -1,6 +1,8 @@
 // CSS Mint main sass script
 
 // Include reset css
-@import "reset/normalize";
+@import "misc/normalize";
+@import "node_modules/pineapple-sass/build/pineapple-sass";
 
-// Include all components
+// Include components
+@import "components/alert";
