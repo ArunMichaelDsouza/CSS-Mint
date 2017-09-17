@@ -1,6 +1,6 @@
 {
   "name": "css-mint",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Lightweight and simple to use UI Kit",
   "main": "build/css-mint.min.css",
   "directories": {
