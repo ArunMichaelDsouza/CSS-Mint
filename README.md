@@ -23,7 +23,7 @@ CSS Mint recommends HTML5 based semantic style for writing markup. All examples 
 Use CSS Mint directly from jsdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/css-mint@1.4.3/build/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@1.4.4/build/css-mint.min.css
 ```
 
 Or
@@ -31,7 +31,7 @@ Or
 Use CSS Mint from KeyCDN
 
 ```html
-http://cssmint-4be7.kxcdn.com/dist/1.4.3/css-mint.min.css
+http://cssmint-4be7.kxcdn.com/dist/1.4.4/css-mint.min.css
 ```
 
 #### via bower
