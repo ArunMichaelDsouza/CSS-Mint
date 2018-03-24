@@ -1,0 +1,34 @@
+// Global variables
+
+$font: sans-serif;
+
+$textLight: #fff;
+$textDark: #333;
+$textSmall: .8em;
+
+$boxShadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+$borderRadius: 3px;
+$gapLarge: 15px;
+$gapSmall: 5px;
+
+%shadowBox {
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    padding: $gapLarge;
+    margin-bottom: $gapLarge;
+}
+
+$greyLight: #dadada;
+$greyDark: #999;
+
+$blueLight: #7DB1F1;
+$blueDark: #4B8CDC;
+
+$greenLight: #68D58C; 
+$greenDark: #3BB85D;
+
+$yellowLight: #FDD876;
+$yellowDark: #F4B941;
+
+$redLight: #F17783;
+$redDark: #D9434E;

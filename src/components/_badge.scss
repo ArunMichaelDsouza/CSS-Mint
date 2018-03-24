@@ -1,0 +1,12 @@
+// Badge component
+
+.cm-badge {
+    font-size: $textSmall;
+	background-color: $greyLight;
+    border-radius: $borderRadius;
+    padding: $gapSmall;
+    &.rounded {
+        border-radius: 50%;
+    }
+    @include variants;
+}

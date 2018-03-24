@@ -1,0 +1,13 @@
+// Base styles
+
+html,
+body {
+    font-size: 16px;
+    font-family: $font;
+    color: $textDark;
+}
+
+hr {
+    margin: 40px 0;
+    @include border(.7px, $greyLight);
+}

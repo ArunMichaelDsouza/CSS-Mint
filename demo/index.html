@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>CSS Mint test</title>
-	<link rel="stylesheet" type="text/css" href="../build/css-mint.min.css">
+	<link rel="stylesheet" type="text/css" href="../dist/css-mint.min.css">
+	<style>
+		main {
+			padding: 40px;
+		}
+
+		.cm-alert {
+			width: 280px;
+		}
+	</style>
 </head>
+
 <body>
-	<div class="alert">
-		test
-	</div>
+	<main>
+		<section class="cm-alert-wrapper">
+			<div class="cm-alert">
+				Default alert
+			</div>
+			<div class="cm-alert primary">
+				Primary alert
+			</div>
+			<div class="cm-alert success">
+				Success alert
+			</div>
+			<div class="cm-alert warning">
+				Warning alert
+			</div>
+			<div class="cm-alert error">
+				Error alert
+			</div>
+		</section>
+		<hr/>
+		<section class="cm-badge-wrapper">
+			<span class="cm-badge">Default</span>
+			<span class="cm-badge primary">Primary</span>
+			<span class="cm-badge success">Success</span>
+			<span class="cm-badge warning">Warning</span>
+			<span class="cm-badge error">Error</span>
+			<span class="cm-badge rounded">10</span>
+			<span class="cm-badge rounded primary">20</span>
+			<span class="cm-badge rounded success">30</span>
+			<span class="cm-badge rounded warning">40</span>
+			<span class="cm-badge rounded error">50</span>
+		</section>
+	</main>
 </body>
+
 </html>

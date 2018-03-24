@@ -1,7 +1,8 @@
 // CSS Mint main sass script
 
-// Include reset css
 @import "misc/normalize";
-
-// Include components
+@import "misc/variables";
+@import "misc/mixins";
+@import "misc/base";
 @import "components/alert";
+@import "components/badge";

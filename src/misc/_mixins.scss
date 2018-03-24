@@ -1,0 +1,24 @@
+// Shared mixins
+
+@mixin variants {
+    &.primary {
+        background-color: $blueLight;
+        color: $textLight;
+    }
+    &.success {
+        background-color: $greenLight;
+        color: $textLight;
+    }
+    &.warning {
+        background-color: $yellowLight;
+        color: $textLight;
+    }
+    &.error {
+        background-color: $redLight;
+        color: $textLight;
+    }
+}
+
+@mixin border($width, $color) {
+    border: $width solid $color;
+}
