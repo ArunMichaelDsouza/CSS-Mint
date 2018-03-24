@@ -24,11 +24,8 @@
     "url": "https://github.com/ArunMichaelDsouza/CSS-Mint/issues"
   },
   "homepage": "http://arunmichaeldsouza.github.io/CSS-Mint/",
-  "dependencies": {
-    "grunt": "^0.4.5",
-    "pineapple-sass": "^1.11.15"
-  },
   "devDependencies": {
+    "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.13.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^2.0.0"

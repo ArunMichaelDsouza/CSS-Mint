@@ -3,20 +3,20 @@ module.exports = function(grunt) {
         cssmin: {
             target: {
                 files: {
-                    'build/css-mint.min.css': ['build/css-mint.css']
+                    'dist/css-mint.min.css': ['dist/css-mint.css']
                 }
             }
         },
         sass: {
             dist: {
                 files: {
-                    'build/css-mint.css': 'src/sass/main.scss'
+                    'dist/css-mint.css': 'src/index.scss'
                 }
             }
         },
         watch: {
             scripts: {
-                files: ['src/sass/*.scss', 'src/sass/**/*.scss'],
+                files: ['src/*.scss', 'src/**/*.scss'],
                 tasks: ['sass', 'cssmin'],
                 options: {
                     spawn: false,
@@ -28,4 +28,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-sass');
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('build', ['sass', 'cssmin']);
 };
