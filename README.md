@@ -1,8 +1,11 @@
-CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint)
+<img src="https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Components/img/logo.png" width="150" height="auto" alt="CSS mint icon"/>
+
+CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint)
 ========
 > Add some "Mint" to your web pages
 
 <br/>
+
 [http://arunmichaeldsouza.github.io/CSS-Mint/](http://arunmichaeldsouza.github.io/CSS-Mint/)
 
 CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
@@ -11,11 +14,6 @@ It follows the OOCSS approach for better and cleaner CSS styling.
 
 CSS Mint recommends HTML5 based semantic style for writing markup. All examples and the bundled test project is based on the same approach.
 
-<br/>
-![CSS Mint Logo](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Components/img/logo.png)
-<br/>
-<br/>
-
 ## Installation
 
 #### CDN 
@@ -23,15 +21,7 @@ CSS Mint recommends HTML5 based semantic style for writing markup. All examples 
 Use CSS Mint directly from jsdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/css-mint/1.4.3/css-mint.min.css
-```
-
-Or
-
-Use CSS Mint from KeyCDN
-
-```html
-http://cssmint-4be7.kxcdn.com/dist/1.4.3/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@1.4.6/build/css-mint.min.css
 ```
 
 #### via bower
