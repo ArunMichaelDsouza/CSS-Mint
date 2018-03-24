@@ -12,12 +12,22 @@
 		.cm-alert {
 			width: 280px;
 		}
+
+		@media screen and (max-width: 768px) {
+			.cm-badge {
+				display: inline-block;
+			}
+			.cm-badge,
+			.cm-btn {
+				margin-bottom: 15px;
+			}
+		}
 	</style>
 </head>
 
 <body>
 	<main>
-		<section class="cm-alert-wrapper">
+		<section>
 			<div class="cm-alert">
 				Default alert
 			</div>
@@ -35,7 +45,7 @@
 			</div>
 		</section>
 		<hr/>
-		<section class="cm-badge-wrapper">
+		<section>
 			<span class="cm-badge">Default</span>
 			<span class="cm-badge primary">Primary</span>
 			<span class="cm-badge success">Success</span>
@@ -46,6 +56,38 @@
 			<span class="cm-badge rounded success">30</span>
 			<span class="cm-badge rounded warning">40</span>
 			<span class="cm-badge rounded error">50</span>
+		</section>
+		<hr/>
+		<section>
+			<ul class="cm-breadcrumb">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Products</a>
+				</li>
+				<li>
+					<a href="#">Electronics</a>
+				</li>
+				<li>
+					<a href="#">Headphones</a>
+				</li>
+				<li class="active">
+					<a href="#">JBL</a>
+				</li>
+			</ul>
+		</section>
+		<hr/>
+		<section>
+			<button class="cm-btn">Default</button>
+			<button class="cm-btn primary">Primary</button>
+			<button class="cm-btn success">Success</button>
+			<button class="cm-btn warning">Warning</button>
+			<button class="cm-btn error">Error</button>
+			<button class="cm-btn primary line">Primary</button>
+			<button class="cm-btn success line">Success</button>
+			<button class="cm-btn warning line">Warning</button>
+			<button class="cm-btn error line">Error</button>
 		</section>
 	</main>
 </body>

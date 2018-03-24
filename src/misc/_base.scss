@@ -9,5 +9,5 @@ body {
 
 hr {
     margin: 40px 0;
-    @include border(.7px, $greyLight);
+    @include border(.5px, $greyLight);
 }
