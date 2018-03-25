@@ -3,8 +3,5 @@
 .cm-btn {
 	padding: $gapLarge;
 	border-radius: $borderRadius;
-	@include pointer;
-	@include variants;
-	@include lineVariants;
-	@include noOutline;
+	@extend %pointer, %noOutline, %variants, %lineVariants;
 }

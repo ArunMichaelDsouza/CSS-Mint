@@ -1,0 +1,70 @@
+// Shared extends
+
+%variants {
+    &.primary,
+    &.success,
+    &.warning,
+    &.error {
+        color: $textLight;
+        border: none;
+    }
+    &.primary {
+        background-color: $blueLight;
+    }
+    &.success {
+        background-color: $greenLight;
+    }
+    &.warning {
+        background-color: $yellowLight;
+    }
+    &.error {
+        background-color: $redLight;
+    }
+}
+
+%lineVariants {
+    &.line {
+		background-color: transparent;
+		&.primary {
+			@include setLineVariantStyles($blueLight);
+        }
+        &.success {
+			@include setLineVariantStyles($greenLight);
+        }
+        &.warning {
+			@include setLineVariantStyles($yellowLight);
+        }
+        &.error {
+			@include setLineVariantStyles($redLight);
+		}
+	}
+}
+
+%shadowBox {
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    padding: $gapLarge;
+    margin-bottom: $gapLarge;
+}
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+%pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+%noOutline {
+    &:active,
+	&:focus {
+        outline: none;
+	}
+}

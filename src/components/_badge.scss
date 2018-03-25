@@ -8,5 +8,5 @@
     &.rounded {
         border-radius: 50%;
     }
-    @include variants;
+    @extend %variants;
 }
