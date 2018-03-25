@@ -1,9 +1,11 @@
 // Global variables
 
+$fontSize: 16px;
 $font: sans-serif;
+$lineHeight: 1.38em;
 
 $textLight: #fff;
-$textDark: #333;
+$textDark: #444;
 $textSmall: .8em;
 
 $boxShadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
@@ -12,7 +14,6 @@ $gapLarge: 15px;
 $gapSmall: 5px;
 
 $greyLight: #dadada;
-$greyDark: #999;
 
 $blueLight: #7DB1F1;
 $blueDark: #4B8CDC;

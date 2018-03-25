@@ -12,7 +12,7 @@ ol {
             padding: $gapSmall;
             border-left: 1px solid $greyLight;
             &:not(.active) > a {
-                color: lighten($greyDark, 10%);
+                color: lighten($textDark, 25%);
                 text-decoration: none;
                 pointer-events: none;
             }

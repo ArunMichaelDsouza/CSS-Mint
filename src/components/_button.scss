@@ -3,5 +3,6 @@
 .cm-btn {
 	padding: $gapLarge;
 	border-radius: $borderRadius;
+	color: $textDark;
 	@extend %pointer, %noOutline, %variants, %lineVariants;
 }

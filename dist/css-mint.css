@@ -328,8 +328,10 @@ template {
     color: #F17783;
     border: 1px solid #F17783; }
 
+.cm-alert, .cm-card {
+  box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1); }
+
 .cm-alert {
-  box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   padding: 15px;
   margin-bottom: 15px; }
@@ -351,7 +353,8 @@ html,
 body {
   font-size: 16px;
   font-family: sans-serif;
-  color: #333; }
+  color: #444;
+  line-height: 1.38em; }
 
 hr {
   margin: 40px 0;
@@ -363,6 +366,8 @@ hr {
   border-radius: 3px;
   padding: 5px; }
   .cm-badge.rounded {
+    width: 20px;
+    height: 20px;
     border-radius: 50%; }
 
 ul.cm-breadcrumb,
@@ -377,7 +382,7 @@ ol.cm-breadcrumb {
     border-left: 1px solid #dadada; }
     ul.cm-breadcrumb > li:not(.active) > a,
     ol.cm-breadcrumb > li:not(.active) > a {
-      color: #b3b2b2;
+      color: #848484;
       text-decoration: none;
       pointer-events: none; }
     ul.cm-breadcrumb > li:first-child,
@@ -392,4 +397,42 @@ ol.cm-breadcrumb {
 
 .cm-btn {
   padding: 15px;
+  border-radius: 3px;
+  color: #444; }
+
+.cm-card {
+  overflow: hidden;
+  margin-bottom: 15px;
   border-radius: 3px; }
+  .cm-card > .cm-card-body,
+  .cm-card > .cm-card-header,
+  .cm-card > .cm-card-footer {
+    padding: 15px; }
+  .cm-card > .cm-card-header {
+    border-bottom: 1px solid #dadada; }
+  .cm-card > .cm-card-footer {
+    border-top: 1px solid #dadada; }
+
+.cm-text-center, .cm-badge {
+  text-align: center; }
+
+.cm-text-left {
+  text-align: left; }
+
+.cm-text-right {
+  text-align: right; }
+
+.cm-text-large, .cm-card > .cm-card-header {
+  font-size: 1.2em; }
+
+.cm-text-small, .cm-card > .cm-card-footer {
+  font-size: .8em; }
+
+.cm-text-bold, .cm-card > .cm-card-header {
+  font-weight: 700; }
+
+.cm-text-medium {
+  font-weight: 400; }
+
+.cm-text-light {
+  font-weight: 300; }

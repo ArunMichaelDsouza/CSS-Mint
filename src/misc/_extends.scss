@@ -40,8 +40,12 @@
 	}
 }
 
-%shadowBox {
+%shadow {
     box-shadow: $boxShadow;
+}
+
+%shadowBox {
+    @extend %shadow;
     border-radius: $borderRadius;
     padding: $gapLarge;
     margin-bottom: $gapLarge;

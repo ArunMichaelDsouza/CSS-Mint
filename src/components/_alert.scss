@@ -1,8 +1,7 @@
 // Alert component
 
 .cm-alert {
-	@extend %shadowBox;
-	@extend %variants;
+	@extend %shadowBox, %variants;
 }
 
 

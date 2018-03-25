@@ -3,6 +3,7 @@
 
 <head>
 	<title>CSS Mint test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" type="text/css" href="../dist/css-mint.min.css">
 	<style>
 		main {
@@ -13,12 +14,34 @@
 			width: 280px;
 		}
 
+		.card-img,
+		.card-img-2 {
+			height: 350px;
+			width: 100%;
+			background-position: center;
+			background-size: cover;
+		}
+
+		.card-img {
+			background-image: url(img/landscape.jpg);
+		}
+
+		.card-img-2 {
+			background-image: url(img/tech.jpg);
+		}
+
+		.get-started {
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, .15);
+			text-transform: uppercase;
+			padding: 15px 25px;
+		}
+
 		@media screen and (max-width: 768px) {
 			.cm-badge {
 				display: inline-block;
 			}
 			.cm-badge,
-			.cm-btn {
+			.buttons .cm-btn {
 				margin-bottom: 15px;
 			}
 		}
@@ -78,7 +101,7 @@
 			</ul>
 		</section>
 		<hr/>
-		<section>
+		<section class="buttons">
 			<button class="cm-btn">Default</button>
 			<button class="cm-btn primary">Primary</button>
 			<button class="cm-btn success">Success</button>
@@ -89,6 +112,43 @@
 			<button class="cm-btn warning line">Warning</button>
 			<button class="cm-btn error line">Error</button>
 		</section>
+		<hr/>
+		<section>
+			<div class="cm-card">
+				<div class="cm-card-header">
+					Header
+				</div>
+				<div class="cm-card-body">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium neque possimus pariatur provident tempora. Aut
+					perferendis iste unde cum, rerum consequatur tempora, porro voluptatum sequi tenetur recusandae eos suscipit.
+				</div>
+				<div class="cm-card-footer">
+					Footer
+				</div>
+			</div>
+			<div class="cm-card">
+				<div class="card-img"></div>
+				<div class="cm-card-body">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+					incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas qui maxime blanditiis pariatur?
+				</div>
+			</div>
+			<a target="_blank" href="https://www.freepik.com/free-vector/mountainous-landscape-background-at-sunset_1051638.htm#term=landscape&page=1&position=21">Image source</a>
+			<br/>
+			<br/>
+			<div class="cm-card">
+				<div class="card-img-2"></div>
+				<div class="cm-card-body">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+					incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas qui maxime blanditiis pariatur?
+				</div>
+				<div class="cm-card-footer">
+					<button class="cm-btn success get-started">Get Started</button>
+				</div>
+			</div>
+			<a target="_blank" href="https://www.freepik.com/free-vector/landing-page-template-for-a-website_1989849.htm#term=tech&page=1&position=6">Image source</a>
+		</section>
+		<hr/>
 	</main>
 </body>
 
