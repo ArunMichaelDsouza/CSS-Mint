@@ -5,14 +5,16 @@
     margin-right: -15px;
     @extend %clearfix;
     *[class*='cm-col'] {
-        float: left;
         position: relative;
         padding-left: 15px;
         padding-right: 15px;
         box-sizing: border-box;
     }
     .cm-col-1 {
-        width: 8.33333%;
+        @media (min-width: 992px) {
+            float: left;
+            width: 8.33333%;
+        }
     }
     .cm-col-2 {
         width: 16.66666%;

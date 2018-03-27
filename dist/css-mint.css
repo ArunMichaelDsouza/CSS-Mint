@@ -441,13 +441,14 @@ ol.cm-breadcrumb {
   margin-left: -15px;
   margin-right: -15px; }
   .cm-row *[class*='cm-col'] {
-    float: left;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box; }
-  .cm-row .cm-col-1 {
-    width: 8.33333%; }
+  @media (min-width: 992px) {
+    .cm-row .cm-col-1 {
+      float: left;
+      width: 8.33333%; } }
   .cm-row .cm-col-2 {
     width: 16.66666%; }
   .cm-row .cm-col-3 {
