@@ -27,8 +27,6 @@ $yellowDark: #F4B941;
 $redLight: #F17783;
 $redDark: #D9434E;
 
-$xlBreakpoint: 1280px;
-$lgBreakpoint: 1024px;
-$mdBreakpoint: 768px;
-$smBreakpoint: 568px;
-$xsBreakpoint: 320px;
+$gridBreakpoints: 1280px 1170px 1024px 768px 568px;
+$gridColWidths: 8.33333% 16.66666% 25% 33.33333% 41.66666% 50% 58.33333% 66.66666% 75% 83.33333% 91.66666 100%;
+

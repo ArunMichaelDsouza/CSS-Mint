@@ -8,3 +8,14 @@
     color: $color;
 	@include border(1px, $color);
 }
+
+@mixin gridBreakpoints($col, $width) {
+    @each $breakpoint in $gridBreakpoints {
+        @media (min-width: $breakpoint) {
+            .cm-col-#{$col} { 
+                float: left;
+                width: $width;
+            }
+        }
+    }
+}
