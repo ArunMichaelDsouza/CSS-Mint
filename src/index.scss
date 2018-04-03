@@ -1,10 +1,10 @@
 // CSS Mint main sass script
 
-@import "misc/normalize";
-@import "misc/variables";
-@import "misc/mixins";
-@import "misc/extends";
-@import "misc/base";
+@import "helpers/normalize";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/extends";
+@import "helpers/base";
 
 @import "components/alert";
 @import "components/badge";
