@@ -12,8 +12,41 @@
         box-sizing: border-box;
     }
 
-    @each $width in $gridColWidths {
-        $i: index($gridColWidths, $width);
-        @include gridBreakpoints($i, $width);
+    @media (min-width: 1170px) {
+        .cm-col-xl-1 {
+            float: left;
+            width: 8.33333%;
+        }
     }
+
+    @media (min-width: 1024px) {
+        .cm-col-lg-1 {
+            float: left;
+            width: 8.33333%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .cm-col-md-1 {
+            float: left;
+            width: 8.33333%;
+        }
+    }
+
+    @media (min-width: 568px) {
+        .cm-col-sm-1 {
+            float: left;
+            width: 8.33333%;
+        }
+    }
+
+    .cm-col-xs-1 {
+        float: left;
+        width: 8.33333%;
+    }
+
+    // @each $width in $gridColWidths {
+    //     $i: index($gridColWidths, $width);
+    //     @include gridBreakpoints($i, $width);
+    // }
 }

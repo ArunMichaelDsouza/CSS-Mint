@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     grunt.initConfig({
         cssmin: {
             target: {
@@ -8,6 +8,9 @@ module.exports = function(grunt) {
             }
         },
         sass: {
+            options: {
+                outputStyle: 'expanded'
+            },
             dist: {
                 files: {
                     'dist/css-mint.css': 'src/index.scss'
