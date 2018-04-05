@@ -834,7 +834,3 @@ ol.cm-breadcrumb > li.active a:hover {
 .cm-header .cm-nav ul li:not(:last-child), .cm-header .cm-nav ol li:not(:last-child) {
   margin-right: 10px;
 }
-
-.cm-header .cm-nav ul li a, .cm-header .cm-nav ol li a {
-  color: #2466b7;
-}

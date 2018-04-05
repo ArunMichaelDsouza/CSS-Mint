@@ -38,9 +38,6 @@
 				&:not(:last-child) {
 					margin-right: $gapMedium;
 				}
-				a {
-					color: darken($blueDark, $gapLarge);
-				}
 			}
 		}
 	}
