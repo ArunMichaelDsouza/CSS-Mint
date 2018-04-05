@@ -375,7 +375,7 @@ template {
   border: 1px solid #F17783;
 }
 
-.cm-alert, .cm-card {
+.cm-alert, .cm-card, .cm-header {
   box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -386,8 +386,8 @@ template {
 }
 
 ul.cm-breadcrumb:before,
-ol.cm-breadcrumb:before, .cm-row:before, ul.cm-breadcrumb:after,
-ol.cm-breadcrumb:after, .cm-row:after {
+ol.cm-breadcrumb:before, .cm-row:before, .cm-header:before, .cm-header .cm-nav ul:before, .cm-header .cm-nav ol:before, ul.cm-breadcrumb:after,
+ol.cm-breadcrumb:after, .cm-row:after, .cm-header:after, .cm-header .cm-nav ul:after, .cm-header .cm-nav ol:after {
   content: "";
   clear: both;
   display: table;
@@ -401,7 +401,7 @@ ol.cm-breadcrumb:after, .cm-row:after {
   outline: none;
 }
 
-.cm-row .cm-col-xs-1, .cm-row .cm-col-xs-2, .cm-row .cm-col-xs-3, .cm-row .cm-col-xs-4, .cm-row .cm-col-xs-5, .cm-row .cm-col-xs-6, .cm-row .cm-col-xs-7, .cm-row .cm-col-xs-8, .cm-row .cm-col-xs-9, .cm-row .cm-col-xs-10, .cm-row .cm-col-xs-11, .cm-row .cm-col-xs-12 {
+.cm-row .cm-col-xs-1, .cm-row .cm-col-xs-2, .cm-row .cm-col-xs-3, .cm-row .cm-col-xs-4, .cm-row .cm-col-xs-5, .cm-row .cm-col-xs-6, .cm-row .cm-col-xs-7, .cm-row .cm-col-xs-8, .cm-row .cm-col-xs-9, .cm-row .cm-col-xs-10, .cm-row .cm-col-xs-11, .cm-row .cm-col-xs-12, .cm-header .cm-nav ul li, .cm-header .cm-nav ol li {
   float: left;
 }
 
@@ -787,4 +787,54 @@ ol.cm-breadcrumb > li.active a:hover {
     float: left;
     width: 100%;
   }
+}
+
+.cm-header {
+  background-color: #7DB1F1;
+  padding: 15px;
+  color: #fff;
+}
+
+.cm-header.inverted {
+  background-color: #444;
+}
+
+.cm-header.fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cm-header a {
+  color: #fff;
+}
+
+.cm-header .cm-logo {
+  float: left;
+  font-weight: 700;
+}
+
+.cm-header .cm-logo a {
+  text-decoration: none;
+}
+
+.cm-header .cm-nav {
+  float: right;
+}
+
+.cm-header .cm-nav ul, .cm-header .cm-nav ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.cm-header .cm-nav ul li:not(:last-child), .cm-header .cm-nav ol li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.cm-header .cm-nav ul li a, .cm-header .cm-nav ol li a {
+  color: #2466b7;
 }
