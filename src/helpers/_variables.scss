@@ -27,8 +27,13 @@ $yellowDark: #F4B941;
 $redLight: #F17783;
 $redDark: #D9434E;
 
-$gridBreakpoints: 1170px 1024px 768px 568px;
-$gridColWidths: (
+$gridBreakpointClassMap: (
+    1170px: "xl",
+    1024px: "lg",
+    768px: "md",
+    568px: "sm"
+);
+$gridColWidthMap: (
     1: 8.33333%,
     2: 16.66666%,
     3: 25%,
@@ -42,4 +47,3 @@ $gridColWidths: (
     11: 91.66666,
     12: 100%
 );
-
