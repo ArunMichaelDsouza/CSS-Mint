@@ -27,8 +27,19 @@ $yellowDark: #F4B941;
 $redLight: #F17783;
 $redDark: #D9434E;
 
-$gridBreakpoints: 1280px 1170px 1024px 768px 568px;
-$gridXSPrefix: 'xs';
-$gridBreakpointClassPrefixes: 'xl' 'lg' 'md' 'sm' 'xs';
-$gridColWidths: 8.33333% 16.66666% 25% 33.33333% 41.66666% 50% 58.33333% 66.66666% 75% 83.33333% 91.66666 100%;
+$gridBreakpoints: 1170px 1024px 768px 568px;
+$gridColWidths: (
+    1: 8.33333%,
+    2: 16.66666%,
+    3: 25%,
+    4: 33.33333%,
+    5: 41.66666%,
+    6: 50%,
+    7: 58.33333%,
+    8: 66.66666%,
+    9: 75%,
+    10: 83.33333%,
+    11: 91.66666,
+    12: 100%
+);
 
