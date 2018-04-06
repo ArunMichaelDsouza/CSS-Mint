@@ -41,6 +41,26 @@
 			color: #fff;
 		}
 
+		.cm-input {
+			display: block;
+			margin-bottom: 15px;
+		}
+
+		.cm-file-input,
+		.cm-select-input {
+			width: 250px;
+		}
+
+		.file-input-label {
+			padding: 15px;
+			text-align: center;
+			color: #777;
+		}
+
+		.cm-select-input {
+			margin-top: 15px;
+		}
+
 		@media screen and (max-width: 768px) {
 			.cm-badge {
 				display: inline-block;
@@ -283,6 +303,28 @@
 					</ul>
 				</nav>
 			</header>
+		</section>
+		<hr/>
+		<section>
+			<input class="cm-input" type="text" placeholder="Enter your name" />
+			<input class="cm-input" type="text" placeholder="I am disabled" disabled />
+			<input class="cm-input" type="password" placeholder="Enter your password" />
+			<input class="cm-input" type="email" placeholder="Enter your email" />
+			<input class="cm-input" type="number" placeholder="Enter your phone no." />
+			<input class="cm-input" type="search" placeholder="Search..." />
+			<input class="cm-input" type="url" placeholder="Enter your website" />
+			<div class="cm-file-input">
+				<div class="file-input-label">Upload a file</div>
+				<input type="file" />
+			</div>
+			<div class="cm-select-input">
+				<select>
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+					<option>Option 4</option>
+				</select>
+			</div>
 		</section>
 	</main>
 </body>

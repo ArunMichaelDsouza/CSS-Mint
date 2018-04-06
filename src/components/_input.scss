@@ -1,0 +1,60 @@
+// Input Component
+
+input[type="text"].cm-input, 
+input[type="password"].cm-input, 
+input[type="email"].cm-input,
+input[type="number"].cm-input, 
+input[type="search"].cm-input, 
+input[type="url"].cm-input {
+    padding: $gapMedium;
+    @include border(1px, $greyLight);
+    border-radius: $borderRadius;
+    transition: all 0.20s ease-in;
+    &:focus {
+        outline: none;
+        border-color: $blueLight;
+    }
+    &:disabled {
+        opacity: $faded;
+    }
+    &:disabled {
+        cursor: not-allowed;
+    }
+    @include placeholder {
+        color: darken($greyLight, 10%);
+    }
+}
+
+.cm-file-input {
+    width: 100%;
+    @include border(1px, $greyLight);
+    @extend %pointer;
+    border-radius: $borderRadius;
+    position: relative;
+    & > input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.cm-select-input {
+    width: 100%;
+    padding: $gapLarge;
+    border-radius: $borderRadius;
+    @include border(1px, $greyLight);
+    & > select {
+        width: 100%;
+        background: none;
+        border: none;
+        &:focus {
+            outline: none;
+        }   
+    }
+}
