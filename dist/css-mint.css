@@ -947,3 +947,48 @@ input[type="url"].cm-input:-ms-input-placeholder {
 .cm-select-input > select:focus {
   outline: none;
 }
+
+ul.cm-pagination,
+ol.cm-pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.cm-pagination > li,
+ol.cm-pagination > li {
+  display: inline-block;
+  background-color: #dadada;
+  font-size: 0.8em;
+  border-radius: 3px;
+}
+
+ul.cm-pagination > li > a,
+ol.cm-pagination > li > a {
+  display: inline-block;
+  padding: 2px 8px;
+  color: #444;
+  text-decoration: none;
+}
+
+ul.cm-pagination > li.active,
+ol.cm-pagination > li.active {
+  background-color: #7DB1F1;
+}
+
+ul.cm-pagination > li.active > a,
+ol.cm-pagination > li.active > a {
+  color: #fff;
+}
+
+ul.cm-pagination > li.prev,
+ol.cm-pagination > li.prev {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+ul.cm-pagination > li.next,
+ol.cm-pagination > li.next {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
