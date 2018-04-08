@@ -3,7 +3,7 @@ module.exports = function (grunt) {
         cssmin: {
             target: {
                 files: {
-                    'dist/css-mint.min.css': ['dist/css-mint.css']
+                    'build/css-mint.min.css': ['build/css-mint.css']
                 }
             }
         },
@@ -11,9 +11,9 @@ module.exports = function (grunt) {
             options: {
                 outputStyle: 'expanded'
             },
-            dist: {
+            build: {
                 files: {
-                    'dist/css-mint.css': 'src/index.scss'
+                    'build/css-mint.css': 'src/index.scss'
                 }
             }
         },
