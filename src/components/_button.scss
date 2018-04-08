@@ -4,5 +4,9 @@
 	padding: $gapLarge;
 	border-radius: $borderRadius;
 	color: $textDark;
+	&:disabled {
+		opacity: $faded;
+		cursor: not-allowed;
+	}
 	@extend %pointer, %noOutline, %variants, %lineVariants;
 }

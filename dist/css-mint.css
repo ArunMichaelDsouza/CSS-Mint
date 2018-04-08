@@ -473,6 +473,11 @@ ol.cm-breadcrumb > li.active a:hover {
   color: #444;
 }
 
+.cm-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .cm-card {
   overflow: hidden;
   margin-bottom: 15px;
@@ -952,6 +957,16 @@ input[type="url"].cm-input:-ms-input-placeholder {
   outline: none;
 }
 
+.cm-textarea {
+  padding: 15px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+}
+
+.cm-textarea:focus {
+  outline: none;
+}
+
 ul.cm-pagination,
 ol.cm-pagination {
   list-style: none;
@@ -1057,4 +1072,13 @@ table.info > tbody > tr:nth-child(even) {
   font-weight: 300;
   font-size: 0.9em;
   padding: 10px 0;
+}
+
+.cm-resp-img {
+  width: 100%;
+  height: auto;
+}
+
+.cm-hide {
+  display: none;
 }

@@ -58,3 +58,12 @@ input[type="url"].cm-input {
         }   
     }
 }
+
+.cm-textarea {
+    padding: $gapLarge;
+    @include border(1px, $greyLight);
+    border-radius: $borderRadius;
+    &:focus {
+        outline: none;
+    }
+}
