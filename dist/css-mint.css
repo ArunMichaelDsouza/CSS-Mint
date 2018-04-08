@@ -375,7 +375,7 @@ template {
   border: 1px solid #F17783;
 }
 
-.cm-alert, .cm-card, .cm-header {
+.cm-alert, .cm-card, .cm-header, .cm-thumbnail {
   box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -1030,4 +1030,27 @@ table.info > thead {
 
 table.info > tbody > tr:nth-child(even) {
   background-color: #EFF5FD;
+}
+
+.cm-thumbnail {
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cm-thumbnail > img {
+  width: 100%;
+  height: auto;
+}
+
+.cm-thumbnail > .cm-thumbnail-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.45);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.9em;
+  padding: 10px 0;
 }
