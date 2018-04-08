@@ -992,3 +992,42 @@ ol.cm-pagination > li.next {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+table {
+  border: 1px solid #dadada;
+}
+
+table th,
+table td {
+  padding: 10px 15px;
+}
+
+table thead {
+  background-color: #f3f3f3;
+}
+
+table thead > tr > th {
+  font-weight: 700;
+  text-align: left;
+}
+
+table tbody > tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table tbody > tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+table.info {
+  border-color: #7DB1F1;
+}
+
+table.info > thead {
+  background-color: #4B8CDC;
+  color: #fff;
+}
+
+table.info > tbody > tr:nth-child(even) {
+  background-color: #EFF5FD;
+}

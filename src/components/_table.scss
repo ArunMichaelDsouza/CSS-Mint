@@ -1,0 +1,42 @@
+// Table component
+
+table {
+    @include border(1px, $greyLight);
+    th, 
+    td {
+        padding: 10px 15px;
+    }
+    thead {
+        background-color: #f3f3f3;
+    }
+    thead > tr > th {
+        font-weight: 700;
+        text-align: left;
+    }
+    tbody > tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    tbody > tr:nth-child(even) {
+        background-color: #f7f7f7;
+    }
+    &.info {
+        border-color: $blueLight;
+        & > thead {
+            background-color: $blueDark;
+            color: #fff;
+        }
+        & > tbody {
+            & > tr:nth-child(even) {
+                background-color: #EFF5FD;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
