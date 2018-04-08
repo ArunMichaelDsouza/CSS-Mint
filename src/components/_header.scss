@@ -6,7 +6,7 @@
     color: $textLight;
     @extend %shadow, %clearfix;
     &.inverted {
-        background-color: $textDark;
+        background-color: $textDarker;
 	}
 	&.fixed {
 		position: fixed;
@@ -20,19 +20,15 @@
 		color: $textLight;
 	}
 	.cm-logo {
-		float: left;
-		font-weight: 700;
+		@extend %floatLeft, .cm-text-bold;
 		a {
-			text-decoration: none;
+			@extend %noTextDecoration;
 		}
 	}
 	.cm-nav {
 		float: right;
 		ul, ol {
-			@extend %clearfix;
-			padding: 0;
-			margin: 0;
-			list-style-type: none;
+			@extend %clearfix, %noPadding, %noMargin, %resetListStyle;
 			li {
 				@extend %floatLeft;
 				&:not(:last-child) {

@@ -1,33 +1,39 @@
 // Global variables
 
+// Font styles
 $fontSize: 16px;
-$font: sans-serif;
+$fontFamily: sans-serif;
 $lineHeight: 1.38em;
 
+// Text styles
 $textLight: #fff;
 $textDark: #444;
+$textDarker: #222;
 $textSmall: .8em;
 
+// Box styles
 $boxShadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
-$borderRadius: 3px;
+$curvedRadius: 3px;
+$circleRadius: 50%;
+
+// Margin/padding styles
 $gapLarge: 15px;
 $gapMedium: 10px;
 $gapSmall: 5px;
 
+// Swatches
 $greyLight: #dadada;
-
+$greyDark: #9a9a9a;
 $blueLight: #7DB1F1;
 $blueDark: #4B8CDC;
-
 $greenLight: #68D58C; 
 $greenDark: #3BB85D;
-
 $yellowLight: #FDD876;
 $yellowDark: #F4B941;
-
 $redLight: #F17783;
 $redDark: #D9434E;
 
+// Grid system styles
 $gridBreakpointClassMap: (
     1170px: "xl",
     1024px: "lg",
@@ -49,4 +55,5 @@ $gridColWidthMap: (
     12: 100%
 );
 
+// Other styles
 $faded: .6;

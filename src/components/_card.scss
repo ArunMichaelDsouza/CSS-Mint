@@ -4,7 +4,7 @@
     @extend %shadow;
     overflow: hidden;
     margin-bottom: $gapLarge;
-    border-radius: $borderRadius;
+    border-radius: $curvedRadius;
     & > .cm-card-body,
     & > .cm-card-header,
     & > .cm-card-footer {
@@ -12,10 +12,10 @@
     }
     & > .cm-card-header {
         @extend .cm-text-large, .cm-text-bold;
-        border-bottom: 1px solid $greyLight;
+        @include border(1px, $greyLight, "bottom");
     }
     & > .cm-card-footer {
         @extend .cm-text-small;
-        border-top: 1px solid $greyLight;
+        @include border(1px, $greyLight, "top");
     }
 }

@@ -2,14 +2,12 @@
 
 ul.cm-pagination,
 ol.cm-pagination {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	@extend %resetListStyle, %noPadding, %noMargin;
 	& > li {
 		display: inline-block;
 		background-color: $greyLight;
 		font-size: $textSmall;
-		border-radius: $borderRadius;
+		border-radius: $curvedRadius;
 		& > a {
 			display: inline-block;
 			padding: 2px 8px;

@@ -4,10 +4,15 @@
 <head>
 	<title>CSS Mint test</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" type="text/css" href="../dist/css-mint.min.css">
+	<link rel="stylesheet" type="text/css" href="../build/css-mint.min.css">
 	<style>
 		main {
 			padding: 40px;
+		}
+
+		hr {
+			margin: 40px 0;
+			border: .5px solid #dadada;
 		}
 
 		.cm-alert {
@@ -132,6 +137,7 @@
 		<hr/>
 		<section class="buttons">
 			<button class="cm-btn">Default</button>
+			<button class="cm-btn primary" disabled>Disabled</button>
 			<button class="cm-btn primary">Primary</button>
 			<button class="cm-btn success">Success</button>
 			<button class="cm-btn warning">Warning</button>
@@ -290,6 +296,22 @@
 		<hr/>
 		<section>
 			<header class="cm-header">
+				<div class="cm-logo cm-text-large">
+					<a href="#">Logo</a>
+				</div>
+				<nav class="cm-nav">
+					<ul>
+						<li>
+							<a href="#">Link 1</a>
+						</li>
+						<li>
+							<a href="#">Link 1</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<br/>
+			<header class="cm-header inverted">
 				<div class="cm-logo cm-text-large">
 					<a href="#">Logo</a>
 				</div>

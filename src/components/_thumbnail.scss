@@ -2,7 +2,7 @@
 
 .cm-thumbnail {
     @extend %shadow;
-    border-radius: $borderRadius;
+    border-radius: $curvedRadius;
     overflow: hidden;
     position: relative;
     & > img {

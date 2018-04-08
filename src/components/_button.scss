@@ -2,11 +2,9 @@
 
 .cm-btn {
 	padding: $gapLarge;
-	border-radius: $borderRadius;
-	color: $textDark;
+	border-radius: $curvedRadius;
 	&:disabled {
 		opacity: $faded;
-		cursor: not-allowed;
 	}
-	@extend %pointer, %noOutline, %variants, %lineVariants;
+	@extend %pointer, %noOutline, %variants, %lineVariants, %noCursor;
 }

@@ -46,7 +46,7 @@
 
 %shadowBox {
     @extend %shadow;
-    border-radius: $borderRadius;
+    border-radius: $curvedRadius;
     padding: $gapLarge;
     margin-bottom: $gapLarge;
 }
@@ -66,11 +66,34 @@
     }
 }
 
+%noTextDecoration {
+    text-decoration: none;
+}
+
+%resetListStyle {
+    list-style: none;
+    list-style-type: none;
+}
+
 %noOutline {
     &:active,
 	&:focus {
         outline: none;
 	}
+}
+
+%noCursor {
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+%noPadding {
+    padding: 0;
+}
+
+%noMargin {
+    margin: 0;
 }
 
 %floatLeft {

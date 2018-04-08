@@ -3,17 +3,14 @@
 ul,
 ol {
     &.cm-breadcrumb {
-        @extend %clearfix;
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        @extend %clearfix, %noPadding, %noMargin, %resetListStyle;
         & > li {
-            float: left;
+            @extend %floatLeft;
             padding: $gapSmall;
-            border-left: 1px solid $greyLight;
+            @include border(1px, $greyLight, "left");
             &:not(.active) > a {
-                color: lighten($textDark, 25%);
-                text-decoration: none;
+                color: $greyDark;
+                @extend %noTextDecoration;
                 pointer-events: none;
             }
             &:first-child {

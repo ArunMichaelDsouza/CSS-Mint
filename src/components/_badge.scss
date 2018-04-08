@@ -3,12 +3,12 @@
 .cm-badge {
     font-size: $textSmall;
 	background-color: $greyLight;
-    border-radius: $borderRadius;
+    border-radius: $curvedRadius;
     padding: $gapSmall;
     &.rounded {
         width: 20px;
         height: 20px;
-        border-radius: 50%;
+        border-radius: $circleRadius;
     }
     @extend %variants, .cm-text-center;
 }

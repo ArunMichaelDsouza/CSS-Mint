@@ -3,12 +3,7 @@
 html,
 body {
     font-size: $fontSize;
-    font-family: $font;
+    font-family: $fontFamily;
     color: $textDark;
     line-height: $lineHeight;
-}
-
-hr {
-    margin: 40px 0;
-    @include border(.5px, $greyLight);
 }

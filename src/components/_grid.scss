@@ -7,8 +7,8 @@
 
     *[class*='cm-col'] {
         position: relative;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: $gapLarge;
+        padding-right: $gapLarge;
         box-sizing: border-box;
     }
 
