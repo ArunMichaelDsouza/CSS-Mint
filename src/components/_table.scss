@@ -4,30 +4,29 @@ table {
     @include border(1px, $greyLight);
     th, 
     td {
-        padding: 10px 15px;
+        padding: $gapMedium $gapLarge;
     }
     thead {
-        background-color: #f3f3f3;
+        background-color: $greyLighter;
     }
     thead > tr > th {
-        font-weight: 700;
-        text-align: left;
+        @extend .cm-text-bold, .cm-text-left;
     }
     tbody > tr:nth-child(odd) {
-        background-color: #fff;
+        background-color: $textLight;
     }
     tbody > tr:nth-child(even) {
-        background-color: #f7f7f7;
+        background-color: $greyLightest;
     }
     &.info {
         border-color: $blueLight;
         & > thead {
-            background-color: $blueDark;
-            color: #fff;
+            background-color: $blueLight;
+            color: $textLight;
         }
         & > tbody {
             & > tr:nth-child(even) {
-                background-color: #EFF5FD;
+                background-color: $blueLightest;
             }
         }
     }

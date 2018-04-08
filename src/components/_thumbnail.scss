@@ -14,10 +14,8 @@
         background-color: rgba(0,0,0,0.45);
         bottom: 0;
         width: 100%;
-        text-align: center;
-        color: #fff;
-        font-weight: 300;
-        font-size: 0.9em;
-        padding: 10px 0;
+        @extend .cm-text-center;
+        padding: $gapMedium;
+        color: $textLight;
     }
 }
