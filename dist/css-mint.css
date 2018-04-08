@@ -505,6 +505,10 @@ ol.cm-breadcrumb > li.active a:hover {
   text-align: right;
 }
 
+.cm-text-justify {
+  text-align: justify;
+}
+
 .cm-text-large, .cm-card > .cm-card-header {
   font-size: 1.2em;
 }
