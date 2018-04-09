@@ -474,7 +474,13 @@ body {
 ul.cm-breadcrumb > li,
 ol.cm-breadcrumb > li {
   padding: 5px;
-  border-left: 1px solid #dadada;
+}
+
+ul.cm-breadcrumb > li:not(:first-child):before,
+ol.cm-breadcrumb > li:not(:first-child):before {
+  content: "/";
+  color: #dadada;
+  padding-right: 5px;
 }
 
 ul.cm-breadcrumb > li:not(.active) > a,

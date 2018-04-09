@@ -5,9 +5,13 @@ ol {
     &.cm-breadcrumb {
         @extend %clearfix, %noPadding, %noMargin, %resetListStyle;
         & > li {
+            &:not(:first-child):before {
+                content: "/";
+                color: $greyLight;
+                padding-right: $gapSmall;
+            }
             @extend %floatLeft;
             padding: $gapSmall;
-            @include border(1px, $greyLight, "left");
             &:not(.active) > a {
                 color: $greyDark;
                 @extend %noTextDecoration;
