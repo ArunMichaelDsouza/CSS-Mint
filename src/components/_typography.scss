@@ -35,3 +35,19 @@
 .cm-text-light {
     font-weight: 300;
 }
+
+.cm-text-primary {
+    color: $blueLight;
+}
+
+.cm-text-success {
+    color: $greenLight;
+}
+
+.cm-text-warning {
+    color: $yellowLight;
+}
+
+.cm-text-error {
+    color: $redLight;
+}

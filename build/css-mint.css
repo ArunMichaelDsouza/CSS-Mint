@@ -569,6 +569,22 @@ ol.cm-breadcrumb > li.active a:hover {
   font-weight: 300;
 }
 
+.cm-text-primary {
+  color: #7db1f1;
+}
+
+.cm-text-success {
+  color: #68d58c;
+}
+
+.cm-text-warning {
+  color: #fdd867;
+}
+
+.cm-text-error {
+  color: #f17783;
+}
+
 .cm-row {
   margin-left: -15px;
   margin-right: -15px;
