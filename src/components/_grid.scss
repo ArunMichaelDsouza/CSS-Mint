@@ -17,6 +17,9 @@
             @extend %floatLeft;
             width: $width;
         }
+        .cm-col-xs-offset-#{$col} {
+            margin-left: map-get($gridColWidthMap, $col);
+        }
     }
 
     @each $breakpoint, $classPrefix in $gridBreakpointClassMap {
@@ -25,6 +28,9 @@
                 .cm-col-#{$classPrefix}-#{$col} {
                     float: left;
                     width: $width;
+                }
+                .cm-col-#{$classPrefix}-offset-#{$col} {
+                    margin-left: map-get($gridColWidthMap, $col);
                 }
             }
         }
