@@ -373,6 +373,12 @@ Example -
 
 <br/>
 
+#### Swatches
+
+Create badges by simply adding a class ``cm-pagination``.
+
+![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
+
 #### Table
 
 Create badges by simply adding a class ``cm-table``.
