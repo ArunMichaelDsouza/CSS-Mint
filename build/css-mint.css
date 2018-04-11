@@ -581,6 +581,18 @@ button:disabled,
   font-size: .8em;
 }
 
+.cm-text-uppercase {
+  text-transform: uppercase;
+}
+
+.cm-text-lowercase {
+  text-transform: lowercase;
+}
+
+.cm-text-capitalize {
+  text-transform: capitalize;
+}
+
 .cm-text-bold, .cm-card > .cm-card-header, .cm-header .cm-logo, table thead > tr > th {
   font-weight: 700;
 }
