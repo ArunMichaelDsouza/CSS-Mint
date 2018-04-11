@@ -1258,16 +1258,16 @@ table tbody > tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-table.info {
+table.primary {
   border-color: #7db1f1;
 }
 
-table.info > thead {
+table.primary > thead {
   background-color: #7db1f1;
   color: #fff;
 }
 
-table.info > tbody > tr:nth-child(even) {
+table.primary > tbody > tr:nth-child(even) {
   background-color: #eff5fd;
 }
 

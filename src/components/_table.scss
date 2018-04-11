@@ -19,7 +19,7 @@ table {
     tbody > tr:nth-child(even) {
         background-color: $greyLightest;
     }
-    &.info {
+    &.primary {
         border-color: $blueLight;
         & > thead {
             background-color: $blueLight;
