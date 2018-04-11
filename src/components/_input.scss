@@ -1,12 +1,13 @@
 // Input Component
 
-input[type="text"].cm-input, 
-input[type="password"].cm-input, 
-input[type="email"].cm-input,
-input[type="number"].cm-input, 
-input[type="search"].cm-input, 
-input[type="url"].cm-input {
+input[type="text"], 
+input[type="password"], 
+input[type="email"],
+input[type="number"], 
+input[type="search"], 
+input[type="url"] {
     padding: $gapLarge;
+    box-sizing: border-box;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;
     @extend %noOutline, %noCursor;
@@ -23,6 +24,7 @@ input[type="url"].cm-input {
 
 .cm-file-input {
     width: 100%;
+    box-sizing: border-box;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;
     position: relative;
@@ -39,6 +41,7 @@ input[type="url"].cm-input {
 
 .cm-select-input {
     width: 100%;
+    box-sizing: border-box;
     padding: $gapLarge;
     border-radius: $curvedRadius;
     @include border(1px, $greyLight);
@@ -51,6 +54,7 @@ input[type="url"].cm-input {
 }
 
 .cm-textarea {
+    box-sizing: border-box;
     padding: $gapLarge;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;

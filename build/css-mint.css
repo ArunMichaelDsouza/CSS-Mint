@@ -425,28 +425,28 @@ ol.cm-pagination {
 }
 
 button:active,
-.cm-btn:active, input[type="text"].cm-input:active,
-input[type="password"].cm-input:active,
-input[type="email"].cm-input:active,
-input[type="number"].cm-input:active,
-input[type="search"].cm-input:active,
-input[type="url"].cm-input:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, .cm-textarea:active, button:focus,
-.cm-btn:focus, input[type="text"].cm-input:focus,
-input[type="password"].cm-input:focus,
-input[type="email"].cm-input:focus,
-input[type="number"].cm-input:focus,
-input[type="search"].cm-input:focus,
-input[type="url"].cm-input:focus, .cm-file-input > input[type="file"]:focus, .cm-select-input > select:focus, .cm-textarea:focus {
+.cm-btn:active, input[type="text"]:active,
+input[type="password"]:active,
+input[type="email"]:active,
+input[type="number"]:active,
+input[type="search"]:active,
+input[type="url"]:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, .cm-textarea:active, button:focus,
+.cm-btn:focus, input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus, .cm-file-input > input[type="file"]:focus, .cm-select-input > select:focus, .cm-textarea:focus {
   outline: none;
 }
 
 button:disabled,
-.cm-btn:disabled, input[type="text"].cm-input:disabled,
-input[type="password"].cm-input:disabled,
-input[type="email"].cm-input:disabled,
-input[type="number"].cm-input:disabled,
-input[type="search"].cm-input:disabled,
-input[type="url"].cm-input:disabled {
+.cm-btn:disabled, input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="url"]:disabled {
   cursor: not-allowed;
 }
 
@@ -473,6 +473,10 @@ body {
   font-family: sans-serif;
   color: #444;
   line-height: 1.38em;
+}
+
+.cm-alert {
+  background-color: #fff;
 }
 
 .cm-badge {
@@ -1091,73 +1095,75 @@ button:disabled,
   margin-right: 10px;
 }
 
-input[type="text"].cm-input,
-input[type="password"].cm-input,
-input[type="email"].cm-input,
-input[type="number"].cm-input,
-input[type="search"].cm-input,
-input[type="url"].cm-input {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="url"] {
   padding: 15px;
+  box-sizing: border-box;
   border: 1px solid #dadada;
   border-radius: 3px;
 }
 
-input[type="text"].cm-input:focus,
-input[type="password"].cm-input:focus,
-input[type="email"].cm-input:focus,
-input[type="number"].cm-input:focus,
-input[type="search"].cm-input:focus,
-input[type="url"].cm-input:focus {
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus {
   border-color: #7db1f1;
 }
 
-input[type="text"].cm-input:disabled,
-input[type="password"].cm-input:disabled,
-input[type="email"].cm-input:disabled,
-input[type="number"].cm-input:disabled,
-input[type="search"].cm-input:disabled,
-input[type="url"].cm-input:disabled {
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="url"]:disabled {
   opacity: 0.6;
 }
 
-input[type="text"].cm-input::-webkit-input-placeholder,
-input[type="password"].cm-input::-webkit-input-placeholder,
-input[type="email"].cm-input::-webkit-input-placeholder,
-input[type="number"].cm-input::-webkit-input-placeholder,
-input[type="search"].cm-input::-webkit-input-placeholder,
-input[type="url"].cm-input::-webkit-input-placeholder {
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder {
   color: #9a9a9a;
 }
 
-input[type="text"].cm-input:-moz-placeholder,
-input[type="password"].cm-input:-moz-placeholder,
-input[type="email"].cm-input:-moz-placeholder,
-input[type="number"].cm-input:-moz-placeholder,
-input[type="search"].cm-input:-moz-placeholder,
-input[type="url"].cm-input:-moz-placeholder {
+input[type="text"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="number"]:-moz-placeholder,
+input[type="search"]:-moz-placeholder,
+input[type="url"]:-moz-placeholder {
   color: #9a9a9a;
 }
 
-input[type="text"].cm-input::-moz-placeholder,
-input[type="password"].cm-input::-moz-placeholder,
-input[type="email"].cm-input::-moz-placeholder,
-input[type="number"].cm-input::-moz-placeholder,
-input[type="search"].cm-input::-moz-placeholder,
-input[type="url"].cm-input::-moz-placeholder {
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder {
   color: #9a9a9a;
 }
 
-input[type="text"].cm-input:-ms-input-placeholder,
-input[type="password"].cm-input:-ms-input-placeholder,
-input[type="email"].cm-input:-ms-input-placeholder,
-input[type="number"].cm-input:-ms-input-placeholder,
-input[type="search"].cm-input:-ms-input-placeholder,
-input[type="url"].cm-input:-ms-input-placeholder {
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder {
   color: #9a9a9a;
 }
 
 .cm-file-input {
   width: 100%;
+  box-sizing: border-box;
   border: 1px solid #dadada;
   border-radius: 3px;
   position: relative;
@@ -1174,6 +1180,7 @@ input[type="url"].cm-input:-ms-input-placeholder {
 
 .cm-select-input {
   width: 100%;
+  box-sizing: border-box;
   padding: 15px;
   border-radius: 3px;
   border: 1px solid #dadada;
@@ -1186,6 +1193,7 @@ input[type="url"].cm-input:-ms-input-placeholder {
 }
 
 .cm-textarea {
+  box-sizing: border-box;
   padding: 15px;
   border: 1px solid #dadada;
   border-radius: 3px;

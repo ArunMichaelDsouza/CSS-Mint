@@ -16,8 +16,15 @@
             margin-top: 20px;
         }
 
-        .cm-card {
+        .cm-card,
+        form {
             margin-top: 40px;
+        }
+
+        form>input {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
         }
     </style>
 </head>
@@ -84,6 +91,18 @@
                     Lorem ipsum, dolor sit amet consectetur
                 </div>
             </div>
+            <form>
+                <input type="text" placeholder="Lorem ipsum" />
+                <input type="password" placeholder="Lorem ipsum" />
+                <div class="cm-select-input">
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                    </select>
+                </div>
+            </form>
         </div>
     </div>
 </body>
