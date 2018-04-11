@@ -1,6 +1,7 @@
 // Table component
 
 table {
+    width: 100%;
     @include border(1px, $greyLight);
     th, 
     td {
