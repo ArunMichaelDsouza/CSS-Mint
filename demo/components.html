@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSS Mint Components demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" type="text/css" href="../build/css-mint.min.css">
@@ -10,9 +12,14 @@
             padding: 40px;
         }
 
-        hr {
-            margin: 40px 0;
-            border: .5px solid #dadada;
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #aaa;
+            margin-bottom: 20px;
         }
 
         .cm-alert {
@@ -95,6 +102,7 @@
 <body>
     <main>
         <section>
+            <h2>Alerts</h2>
             <div class="cm-alert">
                 Default alert
             </div>
@@ -111,8 +119,8 @@
                 Error alert
             </div>
         </section>
-        <hr/>
         <section>
+            <h2>Badges</h2>
             <span class="cm-badge">Default</span>
             <span class="cm-badge primary">Primary</span>
             <span class="cm-badge success">Success</span>
@@ -124,8 +132,8 @@
             <span class="cm-badge rounded warning">40</span>
             <span class="cm-badge rounded error">50</span>
         </section>
-        <hr/>
         <section>
+            <h2>Breadcrumbs</h2>
             <ul class="cm-breadcrumb">
                 <li>
                     <a href="#">Home</a>
@@ -144,8 +152,8 @@
                 </li>
             </ul>
         </section>
-        <hr/>
         <section class="buttons">
+            <h2>Buttons</h2>
             <button class="cm-btn">Default</button>
             <button class="cm-btn primary" disabled>Disabled</button>
             <button class="cm-btn primary">Primary</button>
@@ -157,65 +165,71 @@
             <button class="cm-btn warning line">Warning</button>
             <button class="cm-btn error line">Error</button>
         </section>
-        <hr/>
         <section>
-            <div class="cm-card">
-                <div class="cm-card-header">
-                    Header
-                </div>
-                <div class="cm-card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium neque possimus pariatur provident tempora. Aut
-                    perferendis iste unde cum, rerum consequatur tempora, porro voluptatum sequi tenetur recusandae eos suscipit.
-                </div>
-                <div class="cm-card-footer">
-                    Footer
+            <h2>Cards</h2>
+            <div class="cm-row">
+                <div class="cm-col-sm-4">
+                    <div class="cm-card">
+                        <div class="cm-card-header">
+                            Header
+                        </div>
+                        <div class="cm-card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium neque possimus pariatur provident tempora. Aut
+                            perferendis iste unde cum, rerum consequatur tempora, porro voluptatum sequi tenetur recusandae
+                            eos suscipit.
+                        </div>
+                        <div class="cm-card-footer">
+                            Footer
+                        </div>
+                    </div>
+                    <div class="cm-card">
+                        <div class="card-img"></div>
+                        <div class="cm-card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+                            incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas
+                            qui maxime blanditiis pariatur?
+                        </div>
+                    </div>
+                    <div class="cm-card">
+                        <div class="card-img-2"></div>
+                        <div class="cm-card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+                            incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas
+                            qui maxime blanditiis pariatur?
+                        </div>
+                        <div class="cm-card-footer">
+                            <button class="cm-btn success get-started">Get Started</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="cm-card">
-                <div class="card-img"></div>
-                <div class="cm-card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
-                    incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas qui maxime
-                    blanditiis pariatur?
-                </div>
-            </div>
-            <a target="_blank" href="https://www.freepik.com/free-vector/mountainous-landscape-background-at-sunset_1051638.htm#term=landscape&page=1&position=21">Image source</a>
-            <br/>
-            <br/>
-            <div class="cm-card">
-                <div class="card-img-2"></div>
-                <div class="cm-card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
-                    incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas qui maxime
-                    blanditiis pariatur?
-                </div>
-                <div class="cm-card-footer">
-                    <button class="cm-btn success get-started">Get Started</button>
-                </div>
-            </div>
-            <a target="_blank" href="https://www.freepik.com/free-vector/landing-page-template-for-a-website_1989849.htm#term=tech&page=1&position=6">Image source</a>
         </section>
-        <hr/>
         <section class="typography">
-            <div class="cm-text-primary">Primary Text</div>
-            <div class="cm-text-success">Success Text</div>
-            <div class="cm-text-warning">Warning Text</div>
-            <div class="cm-text-error">Error Text</div>
-            <div class="cm-text-left">Left Text</div>
-            <div class="cm-text-center">Center Text</div>
-            <div class="cm-text-right">Right Text</div>
-            <div class="cm-text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat aliquam alias distinctio ea ratione quasi aliquid mollitia
-                sint sit accusamus, veritatis at, corporis porro eius non reiciendis aspernatur? Mollitia.
+            <h2>Typography</h2>
+            <div class="cm-row">
+                <div class="cm-col-sm-4">
+                    <div class="cm-text-primary">Primary Text</div>
+                    <div class="cm-text-success">Success Text</div>
+                    <div class="cm-text-warning">Warning Text</div>
+                    <div class="cm-text-error">Error Text</div>
+                    <div class="cm-text-left">Left Text</div>
+                    <div class="cm-text-center">Center Text</div>
+                    <div class="cm-text-right">Right Text</div>
+                    <div class="cm-text-justify">
+                        Justified text Justified text Justified text Justified text Justified text Justified text Justified text Justified text Justified
+                        text Justified text Justified text Justified text Justified text Justified text Justified text Justified
+                        text Justified text Justified text Justified text Justified text Justified text Justified text
+                    </div>
+                    <div class="cm-text-large">Large Text</div>
+                    <div class="cm-text-small">Small Text</div>
+                    <div class="cm-text-bold">Bold Text</div>
+                    <div class="cm-text-medium">Medium Text</div>
+                    <div class="cm-text-light">Light Text</div>
+                </div>
             </div>
-            <div class="cm-text-large">Large Text</div>
-            <div class="cm-text-small">Small Text</div>
-            <div class="cm-text-bold">Bold Text</div>
-            <div class="cm-text-medium">Medium Text</div>
-            <div class="cm-text-light">Light Text</div>
         </section>
-        <hr/>
         <section>
+            <h2>Grid system</h2>
             <div class="cm-row grid-boxes cm-text-center">
                 <div class="cm-col-md-1">
                     <div class="grid-box">1</div>
@@ -324,8 +338,8 @@
                 </div>
             </div>
         </section>
-        <hr/>
         <section>
+            <h2>Header</h2>
             <header class="cm-header">
                 <div class="cm-logo cm-text-large">
                     <a href="#">Logo</a>
@@ -374,8 +388,8 @@
                 </nav>
             </header>
         </section>
-        <hr/>
         <section>
+            <h2>Swatches</h2>
             <div class="cm-row swatch cm-text-center">
                 <div class="cm-col-sm-3">
                     <div style="background-color: #7db1f1;">#7db1f1</div>
@@ -413,8 +427,8 @@
                 </div>
             </div>
         </section>
-        <hr/>
         <section>
+            <h2>Form inputs</h2>
             <input class="cm-input" type="text" placeholder="Enter your name" />
             <input class="cm-input" type="text" placeholder="I am disabled" disabled />
             <input class="cm-input" type="password" placeholder="Enter your password" />
@@ -439,8 +453,8 @@
             <input type="radio" />
             <input type="checkbox" />
         </section>
-        <hr/>
         <section>
+            <h2>Pagination</h2>
             <ul class="cm-pagination">
                 <li class="prev">
                     <a href="#">Prev</a>
@@ -474,75 +488,83 @@
                 </li>
             </ul>
         </section>
-        <hr/>
         <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th>S.no.</th>
-                        <th>Name</th>
-                        <th>User Id</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Alice</td>
-                        <td>453</td>
-                        <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Bob</td>
-                        <td>222</td>
-                        <td>Inactive</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sam</td>
-                        <td>643</td>
-                        <td>Inactive</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br/>
-            <table class="info">
-                <thead>
-                    <tr>
-                        <th>S.no.</th>
-                        <th>Name</th>
-                        <th>User Id</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Alice</td>
-                        <td>453</td>
-                        <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Bob</td>
-                        <td>222</td>
-                        <td>Inactive</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sam</td>
-                        <td>643</td>
-                        <td>Inactive</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>Tables</h2>
+            <div class="cm-row">
+                <div class="cm-col-sm-4">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.no.</th>
+                                <th>Name</th>
+                                <th>User Id</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Alice</td>
+                                <td>453</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Bob</td>
+                                <td>222</td>
+                                <td>Inactive</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Sam</td>
+                                <td>643</td>
+                                <td>Inactive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                    <table class="primary">
+                        <thead>
+                            <tr>
+                                <th>S.no.</th>
+                                <th>Name</th>
+                                <th>User Id</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Alice</td>
+                                <td>453</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Bob</td>
+                                <td>222</td>
+                                <td>Inactive</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Sam</td>
+                                <td>643</td>
+                                <td>Inactive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </section>
-        <hr/>
         <section>
-            <div class="cm-thumbnail">
-                <img src="img/tech.jpg" />
-                <div class="cm-thumbnail-title">This is the title</div>
+            <h2>Thumbnail</h2>
+            <div class="cm-row">
+                <div class="cm-col-sm-4">
+                    <div class="cm-thumbnail">
+                        <img src="img/tech.jpg" />
+                        <div class="cm-thumbnail-title">This is the title</div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
