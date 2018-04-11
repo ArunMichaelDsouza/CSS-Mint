@@ -1,10 +1,13 @@
 // Header component
 
 .cm-header {
-	background-color: $blueLight;
+	background-color: $greyDark;
     padding: $gapLarge;
     color: $textLight;
-    @extend %shadow, %clearfix;
+	@extend %shadow, %clearfix;
+	&.primary {
+		background-color: $blueLight;
+	}
     &.inverted {
         background-color: $textDarker;
 	}

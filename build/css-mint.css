@@ -585,11 +585,6 @@ ol.cm-breadcrumb > li.active a:hover {
   color: #f17783;
 }
 
-.cm-row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 .cm-row *[class*='cm-col'] {
   position: relative;
   padding-left: 15px;
@@ -1042,9 +1037,13 @@ ol.cm-breadcrumb > li.active a:hover {
 }
 
 .cm-header {
-  background-color: #7db1f1;
+  background-color: #9a9a9a;
   padding: 15px;
   color: #fff;
+}
+
+.cm-header.primary {
+  background-color: #7db1f1;
 }
 
 .cm-header.inverted {
