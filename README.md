@@ -12,6 +12,8 @@ It follows the OOCSS approach for better and cleaner CSS styling.
 
 CSS Mint recommends HTML5 based semantic style for writing markup. All examples and the bundled test project is based on the same approach.
 
+<br/>
+
 ## Installation
 
 #### CDN 
@@ -37,6 +39,8 @@ npm install CSS-Mint
 ```
 
 Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the latest version and include ``css-mint.min.css`` to your project.
+
+<br/>
 
 ## Components
 
@@ -301,7 +305,7 @@ header class="cm-header">
 
 <br/>
 
-#### Inputs
+#### Input
 
 Create badges by simply adding a class ``cm-button``.
 
@@ -378,6 +382,8 @@ Example -
 Create badges by simply adding a class ``cm-pagination``.
 
 ![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
+
+<br/>
 
 #### Table
 
@@ -467,6 +473,8 @@ Example -
 
 ![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
 
+<br/>
+
 #### Typography
 
 Create badges by simply adding a class ``cm-thumbnail``.
@@ -499,7 +507,24 @@ Example -
 
 ![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
 
+<br/>
 
+#### Utilities
+
+Create badges by simply adding a class ``cm-thumbnail``.
+
+```html
+<img src="path_to_image" class="cm-resp-img"/>
+```
+
+Create badges by simply adding a class ``cm-thumbnail``.
+
+```html
+<div class="cm-hide">
+    This is to be hidden
+</div>
+
+<br/>
 
 ## License
 
