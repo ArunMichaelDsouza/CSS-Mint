@@ -330,46 +330,59 @@ template {
   display: none;
 }
 
-.primary.cm-alert, .primary.cm-badge, .primary.cm-btn, .success.cm-alert, .success.cm-badge, .success.cm-btn, .warning.cm-alert, .warning.cm-badge, .warning.cm-btn, .error.cm-alert, .error.cm-badge, .error.cm-btn {
+.primary.cm-alert, .primary.cm-badge, button.primary,
+.primary.cm-btn, .success.cm-alert, .success.cm-badge, button.success,
+.success.cm-btn, .warning.cm-alert, .warning.cm-badge, button.warning,
+.warning.cm-btn, .error.cm-alert, .error.cm-badge, button.error,
+.error.cm-btn {
   color: #fff;
   border: none;
 }
 
-.primary.cm-alert, .primary.cm-badge, .primary.cm-btn {
+.primary.cm-alert, .primary.cm-badge, button.primary,
+.primary.cm-btn {
   background-color: #7db1f1;
 }
 
-.success.cm-alert, .success.cm-badge, .success.cm-btn {
+.success.cm-alert, .success.cm-badge, button.success,
+.success.cm-btn {
   background-color: #68d58c;
 }
 
-.warning.cm-alert, .warning.cm-badge, .warning.cm-btn {
+.warning.cm-alert, .warning.cm-badge, button.warning,
+.warning.cm-btn {
   background-color: #fdd867;
 }
 
-.error.cm-alert, .error.cm-badge, .error.cm-btn {
+.error.cm-alert, .error.cm-badge, button.error,
+.error.cm-btn {
   background-color: #f17783;
 }
 
+button.line,
 .line.cm-btn {
   background-color: transparent;
 }
 
+button.line.primary,
 .line.primary.cm-btn {
   color: #7db1f1;
   border: 1px solid #7db1f1;
 }
 
+button.line.success,
 .line.success.cm-btn {
   color: #68d58c;
   border: 1px solid #68d58c;
 }
 
+button.line.warning,
 .line.warning.cm-btn {
   color: #fdd867;
   border: 1px solid #fdd867;
 }
 
+button.line.error,
 .line.error.cm-btn {
   color: #f17783;
   border: 1px solid #f17783;
@@ -393,6 +406,7 @@ ol.cm-breadcrumb:after, .cm-row:after, .cm-header:after, .cm-header .cm-nav ul:a
   display: table;
 }
 
+button:hover,
 .cm-btn:hover {
   cursor: pointer;
 }
@@ -410,12 +424,14 @@ ol.cm-pagination {
   list-style-type: none;
 }
 
+button:active,
 .cm-btn:active, input[type="text"].cm-input:active,
 input[type="password"].cm-input:active,
 input[type="email"].cm-input:active,
 input[type="number"].cm-input:active,
 input[type="search"].cm-input:active,
-input[type="url"].cm-input:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, .cm-textarea:active, .cm-btn:focus, input[type="text"].cm-input:focus,
+input[type="url"].cm-input:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, .cm-textarea:active, button:focus,
+.cm-btn:focus, input[type="text"].cm-input:focus,
 input[type="password"].cm-input:focus,
 input[type="email"].cm-input:focus,
 input[type="number"].cm-input:focus,
@@ -424,6 +440,7 @@ input[type="url"].cm-input:focus, .cm-file-input > input[type="file"]:focus, .cm
   outline: none;
 }
 
+button:disabled,
 .cm-btn:disabled, input[type="text"].cm-input:disabled,
 input[type="password"].cm-input:disabled,
 input[type="email"].cm-input:disabled,
@@ -504,11 +521,14 @@ ol.cm-breadcrumb > li.active a:hover {
   color: #4b8cdc;
 }
 
+button,
 .cm-btn {
-  padding: 15px;
+  background-color: #fff;
+  padding: 15px 20px;
   border-radius: 3px;
 }
 
+button:disabled,
 .cm-btn:disabled {
   opacity: 0.6;
 }

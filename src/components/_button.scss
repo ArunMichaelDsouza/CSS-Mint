@@ -1,7 +1,9 @@
 // Button component
 
+button,
 .cm-btn {
-	padding: $gapLarge;
+	background-color: $textLight;
+	padding: $gapLarge $gapXLarge;
 	border-radius: $curvedRadius;
 	&:disabled {
 		opacity: $faded;
