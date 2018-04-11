@@ -523,6 +523,7 @@ Create badges by simply adding a class ``cm-thumbnail``.
 <div class="cm-hide">
     This is to be hidden
 </div>
+```
 
 <br/>
 
