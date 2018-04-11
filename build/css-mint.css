@@ -1308,6 +1308,7 @@ table.primary > tbody > tr:nth-child(even) {
 }
 
 .cm-thumbnail > .cm-thumbnail-title {
+  box-sizing: border-box;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.45);
   bottom: 0;
