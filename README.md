@@ -49,18 +49,14 @@ Example -
 ```html
 	<div class="cm-alert">
     </div>
-
     <div class="cm-alert primary">
     </div>
-    
     <div class="cm-alert success">
     </div>
-    
     <div class="cm-alert warning">
     </div>
-    
     <div class="cm-alert error">
-	</div>
+    </div>
 ```
 
 ![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png)
