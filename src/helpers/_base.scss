@@ -1,0 +1,9 @@
+// Base styles
+
+html,
+body {
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    color: $textDark;
+    line-height: $lineHeight;
+}

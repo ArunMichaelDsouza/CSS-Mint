@@ -1,0 +1,45 @@
+// Grid system
+
+.cm-grid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .cm-row {
+        margin-left: -15px;
+        margin-right: -15px;
+        @extend %clearfix;
+
+        *[class*='cm-col'] {
+            position: relative;
+            padding-left: $gapLarge;
+            padding-right: $gapLarge;
+            box-sizing: border-box;
+        }
+
+        @each $col, $width in $gridColWidthMap {
+            .cm-col-xs-#{$col} {
+                @extend %floatLeft;
+                width: $width;
+            }
+            .cm-col-xs-offset-#{$col} {
+                margin-left: map-get($gridColWidthMap, $col);
+            }
+        }
+
+        @each $breakpoint, $classPrefix in $gridBreakpointClassMap {
+            @media (min-width: $breakpoint) {
+                @each $col, $width in $gridColWidthMap {
+                    .cm-col-#{$classPrefix}-#{$col} {
+                        float: left;
+                        width: $width;
+                    }
+                    .cm-col-#{$classPrefix}-offset-#{$col} {
+                        margin-left: map-get($gridColWidthMap, $col);
+                    }
+                }
+            }
+        }
+    }
+}

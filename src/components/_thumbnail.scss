@@ -1,0 +1,22 @@
+// Thumbnail component
+
+.cm-thumbnail {
+    @extend %shadow;
+    border-radius: $curvedRadius;
+    overflow: hidden;
+    position: relative;
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+    & > .cm-thumbnail-title {
+        box-sizing: border-box;
+        position: absolute;
+        background-color: rgba(0,0,0,0.45);
+        bottom: 0;
+        width: 100%;
+        @extend .cm-text-center;
+        padding: $gapMedium;
+        color: $textLight;
+    }
+}

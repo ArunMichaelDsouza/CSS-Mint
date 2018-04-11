@@ -1,0 +1,42 @@
+// Table component
+
+table {
+    width: 100%;
+    @include border(1px, $greyLight);
+    th, 
+    td {
+        padding: $gapMedium $gapLarge;
+    }
+    thead {
+        background-color: $greyLighter;
+    }
+    thead > tr > th {
+        @extend .cm-text-bold, .cm-text-left;
+    }
+    tbody > tr:nth-child(odd) {
+        background-color: $textLight;
+    }
+    tbody > tr:nth-child(even) {
+        background-color: $greyLightest;
+    }
+    &.primary {
+        border-color: $blueLight;
+        & > thead {
+            background-color: $blueLight;
+            color: $textLight;
+        }
+        & > tbody {
+            & > tr:nth-child(even) {
+                background-color: $blueLightest;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

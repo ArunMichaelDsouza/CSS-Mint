@@ -1,0 +1,43 @@
+// Header component
+
+.cm-header {
+	background-color: $greyDark;
+    padding: $gapLarge;
+    color: $textLight;
+	@extend %shadow, %clearfix;
+	&.primary {
+		background-color: $blueLight;
+	}
+    &.inverted {
+        background-color: $textDarker;
+	}
+	&.fixed {
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	a {
+		color: $textLight;
+	}
+	.cm-logo {
+		@extend %floatLeft, .cm-text-bold;
+		a {
+			@extend %noTextDecoration;
+		}
+	}
+	.cm-nav {
+		float: right;
+		ul, ol {
+			@extend %clearfix, %noPadding, %noMargin, %resetListStyle;
+			li {
+				@extend %floatLeft;
+				&:not(:last-child) {
+					margin-right: $gapMedium;
+				}
+			}
+		}
+	}
+  }

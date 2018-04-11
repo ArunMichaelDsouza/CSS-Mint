@@ -1,0 +1,21 @@
+// Card component
+
+.cm-card {
+    @extend %shadow;
+    overflow: hidden;
+    margin-bottom: $gapLarge;
+    border-radius: $curvedRadius;
+    & > .cm-card-body,
+    & > .cm-card-header,
+    & > .cm-card-footer {
+        padding: $gapLarge;
+    }
+    & > .cm-card-header {
+        @extend .cm-text-large, .cm-text-bold;
+        @include border(1px, $greyLight, "bottom");
+    }
+    & > .cm-card-footer {
+        @extend .cm-text-small;
+        @include border(1px, $greyLight, "top");
+    }
+}

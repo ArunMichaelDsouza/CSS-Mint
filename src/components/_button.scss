@@ -1,0 +1,12 @@
+// Button component
+
+button,
+.cm-btn {
+	background-color: $textLight;
+	padding: $gapLarge $gapXLarge;
+	border-radius: $curvedRadius;
+	&:disabled {
+		opacity: $faded;
+	}
+	@extend %pointer, %noOutline, %variants, %lineVariants, %noCursor;
+}

@@ -1,0 +1,33 @@
+// Breadcrumb component
+
+ul,
+ol {
+    &.cm-breadcrumb {
+        @extend %clearfix, %noPadding, %noMargin, %resetListStyle;
+        & > li {
+            &:not(:first-child):before {
+                content: "/";
+                color: $greyLight;
+                padding-right: $gapSmall;
+            }
+            @extend %floatLeft;
+            padding: $gapSmall;
+            &:not(.active) > a {
+                color: $greyDark;
+                @extend %noTextDecoration;
+                pointer-events: none;
+            }
+            &:first-child {
+                border-left: none;
+            }
+            &.active {
+                a {
+                    color: $blueLight;
+                    &:hover {
+                        color: $blueDark;
+                    }
+                }
+            }
+        }
+    }
+}

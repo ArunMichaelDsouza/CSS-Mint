@@ -1,0 +1,63 @@
+// Global variables
+
+// Font styles
+$fontSize: 16px;
+$fontFamily: sans-serif;
+$lineHeight: 1.38em;
+
+// Text styles
+$textLight: #fff;
+$textDark: #444;
+$textDarker: #222;
+$textSmall: .8em;
+
+// Box styles
+$boxShadow: 0 0.5em 1.5em 0 rgba(0,0,0,.1);
+$curvedRadius: 3px;
+$circleRadius: 50%;
+
+// Margin/padding styles
+$gapXLarge: 20px;
+$gapLarge: 15px;
+$gapMedium: 10px;
+$gapSmall: 5px;
+
+// Swatches
+$greyLightest: #f2f2f2;
+$greyLighter: #eaeaea;
+$greyLight: #dadada;
+$greyDark: #9a9a9a;
+$blueLightest: #eff5fd;
+$blueLight: #7db1f1;
+$blueDark: #4b8cdc;
+$greenLight: #68d58c; 
+$greenDark: #3bb85d;
+$yellowLight: #fdd867;
+$yellowDark: #f4b941;
+$redLight: #f17783;
+$redDark: #d9434E;
+
+// Grid system styles
+$gridBreakpointClassMap: (
+    1170px: "xl",
+    1024px: "lg",
+    768px: "md",
+    568px: "sm"
+);
+$gridColWidthMap: (
+    1: 8.33333%,
+    2: 16.66666%,
+    3: 25%,
+    4: 33.33333%,
+    5: 41.66666%,
+    6: 50%,
+    7: 58.33333%,
+    8: 66.66666%,
+    9: 75%,
+    10: 83.33333%,
+    11: 91.66666,
+    12: 100%
+);
+
+// Other styles
+$faded: .6;

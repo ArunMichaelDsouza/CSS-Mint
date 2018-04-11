@@ -1,0 +1,101 @@
+// Shared extends
+
+%variants {
+    &.primary,
+    &.success,
+    &.warning,
+    &.error {
+        color: $textLight;
+        border: none;
+    }
+    &.primary {
+        background-color: $blueLight;
+    }
+    &.success {
+        background-color: $greenLight;
+    }
+    &.warning {
+        background-color: $yellowLight;
+    }
+    &.error {
+        background-color: $redLight;
+    }
+}
+
+%lineVariants {
+    &.line {
+		background-color: transparent;
+		&.primary {
+			@include setLineVariantStyles($blueLight);
+        }
+        &.success {
+			@include setLineVariantStyles($greenLight);
+        }
+        &.warning {
+			@include setLineVariantStyles($yellowLight);
+        }
+        &.error {
+			@include setLineVariantStyles($redLight);
+		}
+	}
+}
+
+%shadow {
+    box-shadow: $boxShadow;
+}
+
+%shadowBox {
+    @extend %shadow;
+    border-radius: $curvedRadius;
+    padding: $gapLarge;
+    margin-bottom: $gapLarge;
+}
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+%pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+%noTextDecoration {
+    text-decoration: none;
+}
+
+%resetListStyle {
+    list-style: none;
+    list-style-type: none;
+}
+
+%noOutline {
+    &:active,
+	&:focus {
+        outline: none;
+	}
+}
+
+%noCursor {
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+%noPadding {
+    padding: 0;
+}
+
+%noMargin {
+    margin: 0;
+}
+
+%floatLeft {
+    float: left;
+}

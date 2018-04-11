@@ -1,0 +1,65 @@
+// Typography component
+
+.cm-text-center {
+    text-align: center;
+}
+
+.cm-text-left {
+    text-align: left;
+}
+
+.cm-text-right {
+    text-align: right;
+}
+
+.cm-text-justify {
+    text-align: justify;
+}
+
+.cm-text-large {
+    font-size: 1.2em;
+}
+
+.cm-text-small {
+    font-size: .8em;
+}
+
+.cm-text-uppercase {
+    text-transform: uppercase;
+}
+
+.cm-text-lowercase {
+    text-transform: lowercase;
+}
+
+.cm-text-capitalize {
+    text-transform: capitalize;
+}
+
+.cm-text-bold {
+    font-weight: 700;
+}
+
+.cm-text-medium {
+    font-weight: 400;
+}
+
+.cm-text-light {
+    font-weight: 300;
+}
+
+.cm-text-primary {
+    color: $blueLight;
+}
+
+.cm-text-success {
+    color: $greenLight;
+}
+
+.cm-text-warning {
+    color: $yellowLight;
+}
+
+.cm-text-error {
+    color: $redLight;
+}

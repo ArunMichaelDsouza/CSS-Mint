@@ -1,0 +1,14 @@
+// Badge component
+
+.cm-badge {
+    font-size: $textSmall;
+	background-color: $greyLight;
+    border-radius: $curvedRadius;
+    padding: $gapSmall;
+    &.rounded {
+        width: 20px;
+        height: 20px;
+        border-radius: $circleRadius;
+    }
+    @extend %variants, .cm-text-center;
+}

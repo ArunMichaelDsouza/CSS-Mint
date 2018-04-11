@@ -1,0 +1,31 @@
+// Shared mixins
+
+@mixin border($width, $color, $side:null) {
+	@if($side) {
+		border-#{$side}: $width solid $color;
+	}
+	@else {
+		border: $width solid $color;
+	}
+
+}
+
+@mixin setLineVariantStyles($color) {
+    color: $color;
+	@include border(1px, $color);
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}	
+	&:-moz-placeholder {
+		@content;
+	}
+	&::-moz-placeholder {
+		@content;
+	}
+	&:-ms-input-placeholder {
+		@content;
+	}
+} 
