@@ -1,12 +1,10 @@
-<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/logo_v2.png" width="150" height="auto" alt="CSS mint icon"/>
+<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/logo_v2.png" width="140" height="auto" alt="CSS mint icon"/>
 
 CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint)
 ========
 > Add some "Mint" to your web pages
 
 <br/>
-
-[http://arunmichaeldsouza.github.io/CSS-Mint/](http://arunmichaeldsouza.github.io/CSS-Mint/)
 
 CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
 
@@ -41,6 +39,71 @@ npm install CSS-Mint
 Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the latest version and include ``css-mint.min.css`` to your project.
 
 ## Components
+
+#### Alert
+
+Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes.
+
+Example - 
+
+```html
+	<div class="cm-alert">
+    </div>
+
+    <div class="cm-alert primary">
+    </div>
+    
+    <div class="cm-alert success">
+    </div>
+    
+    <div class="cm-alert warning">
+    </div>
+    
+    <div class="cm-alert error">
+	</div>
+```
+
+![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png)
+
+<br/>
+
+#### Badge
+
+Create badges by simply adding a class ``cm-badge``.
+
+Example - 
+
+```html
+	<span class="badge">
+		21
+	</span>
+
+    <span class="badge rounded">
+        21
+    </span>
+
+    <span class="badge rounded line">
+        21
+    </span>
+
+    <span class="badge notification">
+        21
+    </span>
+
+    <span class="badge notification rounded">
+        21
+    </span>
+
+    <span class="badge notification rounded line">
+        21
+    </span>
+```
+
+You can also add a ``line`` class to make a line badge and ``notification`` class to make a notification badge.
+
+![CSS Mint Badge](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/badge/badge.png)
+
+<br/>
 
 #### Header
 
@@ -334,16 +397,6 @@ The footer component has the same optional classes as the header component.
 ![CSS Mint Footer](https://raw.githubusercontent.com/ArunMichaelDsouza/CSS-Mint/master/demo/Screenshots/footer/footer.png)
 
 <br/>
-#### Alert
-
-Create alert messages by adding a class ``alert`` with any of the optional styling classes.
-
-Example - 
-
-```html
-	<div class="alert">
-	</div>
-```
 
 ##### Optional Classes
 
