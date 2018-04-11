@@ -16,6 +16,11 @@
             margin-bottom: 80px;
         }
 
+        h1 {
+            padding: 40px 40px 0;
+            line-height: 30px;
+        }
+
         h2 {
             padding-bottom: 20px;
             border-bottom: 1px solid #aaa;
@@ -85,6 +90,9 @@
         }
 
         @media screen and (max-width: 768px) {
+            .cm-alert {
+                width: 100%;
+            }
             .cm-badge {
                 display: inline-block;
             }
@@ -100,6 +108,7 @@
 </head>
 
 <body>
+    <h1>CSS Mint 2.0 Components</h1>
     <main>
         <section>
             <h2>Alerts</h2>
@@ -225,6 +234,9 @@
                     <div class="cm-text-bold">Bold Text</div>
                     <div class="cm-text-medium">Medium Text</div>
                     <div class="cm-text-light">Light Text</div>
+                    <div class="cm-text-uppercase">Uppercase Text</div>
+                    <div class="cm-text-lowercase">Lowercase Text</div>
+                    <div class="cm-text-capitalize">Capitalized Text</div>
                 </div>
             </div>
         </section>
@@ -473,15 +485,6 @@
                 </li>
                 <li>
                     <a href="#">5</a>
-                </li>
-                <li>
-                    <a href="#">6</a>
-                </li>
-                <li>
-                    <a href="#">7</a>
-                </li>
-                <li>
-                    <a href="#">8</a>
                 </li>
                 <li class="next">
                     <a href="#">Next</a>

@@ -477,6 +477,7 @@ body {
 
 .cm-alert {
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .cm-badge {
