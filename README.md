@@ -11,7 +11,7 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to speed
 
 ## CDN sponsor
 
-<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/keycdn-logo.png" width="140" height="auto" alt="KeyCDN icon"/></a>
+<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/keycdn-logo.png" width="220" height="auto" alt="KeyCDN icon"/></a>
 
 <br/>
 
@@ -51,6 +51,8 @@ Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the lates
 
 ## Components
 
+All component classes have a ``cm-*`` prefix.
+
 #### Alert
 
 Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes.
@@ -58,16 +60,11 @@ Create alert messages by adding a ``cm-alert`` class with any of the optional st
 Example - 
 
 ```html
-<div class="cm-alert">
-</div>
-<div class="cm-alert primary">
-</div>
-<div class="cm-alert success">
-</div>
-<div class="cm-alert warning">
-</div>
-<div class="cm-alert error">
-</div>
+<div class="cm-alert">Default alert</div>
+<div class="cm-alert primary">Primary alert</div>
+<div class="cm-alert success">Success alert</div>
+<div class="cm-alert warning">Warning alert</div>
+<div class="cm-alert error">Error alert</div>
 ```
 
 ![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png)
@@ -76,7 +73,7 @@ Example -
 
 #### Badge
 
-Create badges by simply adding a class ``cm-badge``.
+Create badges by simply adding a ``cm-badge`` class with any of the optional styling classes. Add a ``rounded`` class to have a circular badge.
 
 Example - 
 
@@ -92,8 +89,6 @@ Example -
 <span class="cm-badge rounded warning">40</span>
 <span class="cm-badge rounded error">50</span>
 ```
-
-You can also add a ``line`` class to make a line badge and ``notification`` class to make a notification badge.
 
 ![CSS mint badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/badge.png)
 
