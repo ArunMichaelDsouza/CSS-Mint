@@ -9,11 +9,23 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to speed
 
 <br/>
 
+## CDN sponsor
+
+<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/keycdn-logo.png" width="140" height="auto" alt="KeyCDN icon"/></a>
+
+<br/>
+
 ## Installation
 
 #### CDN 
 
-Use CSS Mint directly from jsdelivr CDN
+Key CDN
+
+```html
+https://cdn.jsdelivr.net/npm/css-mint@1.4.6/build/css-mint.min.css
+```
+
+Jsdelivr CDN
 
 ```html
 https://cdn.jsdelivr.net/npm/css-mint@1.4.6/build/css-mint.min.css
