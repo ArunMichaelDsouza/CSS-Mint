@@ -4,13 +4,8 @@ CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.f
 ========
 > Add some "Mint" to your web pages
 
-<br/>
 
-CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
-
-It follows the OOCSS approach for better and cleaner CSS styling.
-
-CSS Mint recommends HTML5 based semantic style for writing markup. All examples and the bundled test project is based on the same approach.
+CSS Mint is a lightweight and fully-responsive open source UI kit built to speed up layout and structuring of your web application. Built on top of normalize.css, it handles cross browser inconsistencies and provides minimalistic CSS components to be used in your application.
 
 <br/>
 
