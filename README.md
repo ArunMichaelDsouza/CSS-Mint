@@ -55,7 +55,7 @@ All component classes have a ``cm-*`` prefix.
 
 #### Alert
 
-Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes.
+Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes - ``primary``, ``success``, ``warning`` or ``error``.
 
 Example - 
 
@@ -96,7 +96,7 @@ Example -
 
 #### Breadcrumb
 
-Create badges by simply adding a class ``cm-breadcrumb``.
+Use the ``cm-breadcrumb`` class to create a breadcrumb component out of an ``ol`` or ``ul`` element with the specified list items.
 
 Example - 
 
@@ -126,7 +126,7 @@ Example -
 
 #### Button
 
-Create badges by simply adding a class ``cm-button``.
+Create solid buttons using the ``cm-button`` class with any of the optional styling classes. Alternatively you can create line buttons with the additional ``line`` class.
 
 Example - 
 
@@ -149,7 +149,7 @@ Example -
 
 #### Card
 
-Create badges by simply adding a class ``cm-card``.
+Create lifted card components with the ``cm-card`` class. You can optionally add a dedicated ``header``, ``body`` and ``footer`` to the card using the ``cm-card-header``, ``cm-card-body`` and ``cm-card-footer`` classes.
 
 Example - 
 
