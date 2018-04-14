@@ -53,7 +53,7 @@ input[type="url"] {
     }
 }
 
-.cm-textarea {
+textarea {
     box-sizing: border-box;
     padding: $gapLarge;
     @include border(1px, $greyLight);

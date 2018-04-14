@@ -96,7 +96,7 @@ Example -
 
 #### Breadcrumb
 
-Use the ``cm-breadcrumb`` class to create a breadcrumb component out of an ``ol`` or ``ul`` element with the specified list items.
+Use the ``cm-breadcrumb`` class to create a breadcrumb component out of a ``ul`` or ``ol`` element with the specified list items.
 
 Example - 
 
@@ -196,7 +196,7 @@ Example -
 
 #### Grid system
 
-Create badges by simply adding a class ``cm-grid``.
+CSS mint comes with a standard ``12`` column responsive grid system. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your layout.
 
 Example - 
 
@@ -249,25 +249,27 @@ Example -
 
 #### Header
 
-Create badges by simply adding a class ``cm-header``.
+Create a header component with the ``cm-header`` class. Optionally you can add a ``primary`` or ``inverted`` class to have a thematic header. To make a header fixed to the top, add a ``fixed`` class.
+
+The header component comes with an additional logo and nav component. The logo can be used to place a left aligned logo in the header using the ``cm-logo`` class. A right aligned nav bar can be placed in the header using the ``cm-nav`` class. 
 
 Example - 
 
 ```html
-header class="cm-header">
-<div class="cm-logo cm-text-large">
-   <a href="#">Logo</a>
-</div>
-<nav class="cm-nav">
-   <ul>
-      <li>
-         <a href="#">Link 1</a>
-      </li>
-      <li>
-         <a href="#">Link 1</a>
-      </li>
-   </ul>
-</nav>
+<header class="cm-header">
+    <div class="cm-logo cm-text-large">
+    <a href="#">Logo</a>
+    </div>
+    <nav class="cm-nav">
+    <ul>
+        <li>
+            <a href="#">Link 1</a>
+        </li>
+        <li>
+            <a href="#">Link 1</a>
+        </li>
+    </ul>
+    </nav>
 </header>
 
 <header class="cm-header primary">
@@ -309,18 +311,18 @@ header class="cm-header">
 
 #### Input
 
-Create badges by simply adding a class ``cm-button``.
+CSS mint has standard styling for input elements. It also comes with optional component wrappers for file upload using the ``cm-file-input`` class and select box using the ``cm-select-input`` class.
 
 Example - 
 
 ```html
-<input class="cm-input" type="text" placeholder="Enter your name" />
-<input class="cm-input" type="text" placeholder="I am disabled" disabled />
-<input class="cm-input" type="password" placeholder="Enter your password" />
-<input class="cm-input" type="email" placeholder="Enter your email" />
-<input class="cm-input" type="number" placeholder="Enter your phone no." />
-<input class="cm-input" type="search" placeholder="Search..." />
-<input class="cm-input" type="url" placeholder="Enter your website" />
+<input type="text" placeholder="Enter your name" />
+<input type="text" placeholder="I am disabled" disabled />
+<input type="password" placeholder="Enter your password" />
+<input type="email" placeholder="Enter your email" />
+<input type="number" placeholder="Enter your phone no." />
+<input type="search" placeholder="Search..." />
+<input type="url" placeholder="Enter your website" />
 <div class="cm-file-input">
    <div class="file-input-label">Upload a file</div>
    <input type="file" />
@@ -334,7 +336,7 @@ Example -
    </select>
 </div>
 <br/>
-<textarea class="cm-textarea"></textarea>
+<textarea></textarea>
 <input type="radio" />
 <input type="checkbox" />
 ```
@@ -345,7 +347,7 @@ Example -
 
 #### Pagination
 
-Create badges by simply adding a class ``cm-pagination``.
+Add a ``cm-pagination`` class to a ``ul`` or ``ol`` to create a pagination component.
 
 Example - 
 
@@ -381,15 +383,13 @@ Example -
 
 #### Swatches
 
-Create badges by simply adding a class ``cm-pagination``.
-
 ![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
 
 <br/>
 
 #### Table
 
-Create badges by simply adding a class ``cm-table``.
+CSS mint comes with standard styling for tables. Optionally you can add a ``primary`` class to have a thematic table.
 
 Example - 
 
@@ -462,7 +462,7 @@ Example -
 
 #### Thumbnail
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Use the ``cm-thumbnail`` and ``cm-thumbnail-title`` classes to create a thumbnail component.
 
 Example - 
 
@@ -479,7 +479,7 @@ Example -
 
 #### Typography
 
-Create badges by simply adding a class ``cm-thumbnail``.
+CSS mint has different typographic classes available for textual styling.
 
 Example - 
 
@@ -513,13 +513,13 @@ Example -
 
 #### Utilities
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Make any image responsive using the ``cm-resp-img`` class.
 
 ```html
 <img src="path_to_image" class="cm-resp-img"/>
 ```
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Hide any element using the ``cm-hide`` class.
 
 ```html
 <div class="cm-hide">
