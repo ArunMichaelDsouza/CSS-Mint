@@ -196,7 +196,7 @@ Example -
 
 #### Grid system
 
-CSS mint comes with a standard ``12`` column responsive grid system. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your layout.
+CSS mint comes with a standard ``12`` column responsive grid. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your layout.
 
 Example - 
 
@@ -251,7 +251,7 @@ Example -
 
 Create a header component with the ``cm-header`` class. Optionally you can add a ``primary`` or ``inverted`` class to have a thematic header. To make a header fixed to the top, add a ``fixed`` class.
 
-The header component comes with an additional logo and nav component. The logo can be used to place a left aligned logo in the header using the ``cm-logo`` class. A right aligned nav bar can be placed in the header using the ``cm-nav`` class. 
+The header component comes with an additional logo and a nav component. The logo component can be used to place a left aligned logo in the header using the ``cm-logo`` class. A right aligned nav bar component can be placed in the header using the ``cm-nav`` class. 
 
 Example - 
 
@@ -479,7 +479,7 @@ Example -
 
 #### Typography
 
-CSS mint has different typographic classes available for textual styling.
+CSS mint comes with different typographic classes available for textual styling.
 
 Example - 
 
