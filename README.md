@@ -196,7 +196,13 @@ Example -
 
 #### Grid system
 
-CSS mint comes with a standard ``12`` column responsive grid. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your layout.
+CSS mint comes with a standard ``12`` column responsive grid. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your layout. 
+
+* All rows and columns must be placed within the grid container, and within the grid row only should the grid columns be placed. The content is placed within these columns.
+* Columns have a default left/right padding (gutter) of ``15px``;
+* Columns can be created by specifying the number of any of the ``12`` available columns (from 1-12). Eg - Two equal columns could be created using two ``cm-col-xs-6`` classes. 
+* Grid columns can also have an offset, specifying which, adds a ``margin-left`` to the targeted column. Eg - ``cm-col-xs-offset-3`` applies a ``margin-left`` of ``100 / 4 = 25%`` to the column, as total grid columns of ``12`` can have ``12 / 3 = 4`` columns of the specified class and width of each of these columns can be ``100 / 4 = 25%``, which is the applied margin.
+* The grid system provides media query powered breakpoints for various screen sizes. These breakpoints can be used with the grid columns for desired responsive layouts. 
 
 Example - 
 
