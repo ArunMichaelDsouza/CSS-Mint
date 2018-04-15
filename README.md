@@ -120,7 +120,7 @@ Example -
 </ul>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png)
+![CSS mint breadcrumb](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png)
 
 <br/>
 
@@ -143,7 +143,7 @@ Example -
 <button class="cm-btn error line">Error</button>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png)
+![CSS mint button](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png)
 
 <br/>
 
@@ -190,7 +190,7 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png)
+![CSS mint card](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png)
 
 <br/>
 
@@ -203,6 +203,8 @@ CSS mint comes with a standard ``12`` column responsive grid. A grid container c
 * Columns can be created by specifying the number of any of the ``12`` available columns (from 1-12). Eg - Two equal columns could be created using two ``cm-col-xs-6`` classes. 
 * Grid columns can also have an offset, specifying which, adds a ``margin-left`` to the targeted column. Eg - ``cm-col-xs-offset-3`` applies a ``margin-left`` of ``100 / 4 = 25%`` to the column, as total grid columns of ``12`` can have ``12 / 3 = 4`` columns of the specified class and width of each of these columns can be ``100 / 4 = 25%``, which is the applied margin.
 * The grid system provides media query powered breakpoints for various screen sizes. These breakpoints can be used with the grid columns for desired responsive layouts. 
+
+<img alt="CSS mint grid breakpoints" src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/grid-breakpoints.png" width="550px"/>
 
 Example - 
 
@@ -249,7 +251,7 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png)
+![CSS mint grid](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png)
 
 <br/>
 
@@ -311,7 +313,7 @@ Example -
 </header>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png)
+![CSS mint header](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png)
 
 <br/>
 
@@ -347,7 +349,7 @@ Example -
 <input type="checkbox" />
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png)
+![CSS mint input](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png)
 
 <br/>
 
@@ -383,13 +385,13 @@ Example -
 </ul>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png)
+![CSS mint pagination](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png)
 
 <br/>
 
 #### Swatches
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
+![CSS mint swatches](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
 
 <br/>
 
@@ -462,7 +464,7 @@ Example -
 </table>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png)
+![CSS mint table](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png)
 
 <br/>
 
@@ -479,7 +481,7 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
+![CSS mint thumbnail](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
 
 <br/>
 
@@ -513,7 +515,7 @@ Example -
 <div class="cm-text-capitalize">Capitalized Text</div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
+![CSS mint typography](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
 
 <br/>
 
