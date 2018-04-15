@@ -4,13 +4,14 @@ CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.f
 ========
 > Add some "Mint" to your web pages
 
+
+CSS Mint is a lightweight and fully-responsive open source UI kit built to ease up layout and structuring of your web application. Built on top of normalize.css, it handles cross browser inconsistencies and provides minimalistic CSS components to be used in your application.
+
 <br/>
 
-CSS Mint is an Open Source UI Kit built to cut down front end development time and ease up layout and structuring of your Web Application. Built on top of Normalize.css, it handles cross browser inconsistencies and aims at getting you started with your web project. 
+## CDN sponsor
 
-It follows the OOCSS approach for better and cleaner CSS styling.
-
-CSS Mint recommends HTML5 based semantic style for writing markup. All examples and the bundled test project is based on the same approach.
+<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/keycdn-logo.png" width="220" height="auto" alt="KeyCDN icon"/></a>
 
 <br/>
 
@@ -18,7 +19,13 @@ CSS Mint recommends HTML5 based semantic style for writing markup. All examples 
 
 #### CDN 
 
-Use CSS Mint directly from jsdelivr CDN
+Key CDN
+
+```html
+https://cdn.jsdelivr.net/npm/css-mint@1.4.6/build/css-mint.min.css
+```
+
+JSdelivr CDN
 
 ```html
 https://cdn.jsdelivr.net/npm/css-mint@1.4.6/build/css-mint.min.css
@@ -44,23 +51,20 @@ Or, [download](https://github.com/ArunMichaelDsouza/CSS-Mint/releases) the lates
 
 ## Components
 
+All component classes have a ``cm-*`` prefix.
+
 #### Alert
 
-Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes.
+Create alert messages by adding a ``cm-alert`` class with any of the optional styling classes - ``primary``, ``success``, ``warning`` or ``error``.
 
 Example - 
 
 ```html
-<div class="cm-alert">
-</div>
-<div class="cm-alert primary">
-</div>
-<div class="cm-alert success">
-</div>
-<div class="cm-alert warning">
-</div>
-<div class="cm-alert error">
-</div>
+<div class="cm-alert">Default alert</div>
+<div class="cm-alert primary">Primary alert</div>
+<div class="cm-alert success">Success alert</div>
+<div class="cm-alert warning">Warning alert</div>
+<div class="cm-alert error">Error alert</div>
 ```
 
 ![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png)
@@ -69,7 +73,7 @@ Example -
 
 #### Badge
 
-Create badges by simply adding a class ``cm-badge``.
+Create badges by simply adding a ``cm-badge`` class with any of the optional styling classes. Add a ``rounded`` class to have a circular badge.
 
 Example - 
 
@@ -86,15 +90,13 @@ Example -
 <span class="cm-badge rounded error">50</span>
 ```
 
-You can also add a ``line`` class to make a line badge and ``notification`` class to make a notification badge.
-
 ![CSS mint badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/badge.png)
 
 <br/>
 
 #### Breadcrumb
 
-Create badges by simply adding a class ``cm-breadcrumb``.
+Use the ``cm-breadcrumb`` class to create a breadcrumb component out of a ``ul`` or ``ol`` element with the specified list items.
 
 Example - 
 
@@ -118,13 +120,13 @@ Example -
 </ul>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png)
+![CSS mint breadcrumb](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png)
 
 <br/>
 
 #### Button
 
-Create badges by simply adding a class ``cm-button``.
+Create solid buttons using the ``cm-button`` class with any of the optional styling classes. Alternatively you can create line buttons with the additional ``line`` class.
 
 Example - 
 
@@ -141,13 +143,13 @@ Example -
 <button class="cm-btn error line">Error</button>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png)
+![CSS mint button](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png)
 
 <br/>
 
 #### Card
 
-Create badges by simply adding a class ``cm-card``.
+Create lifted card components with the ``cm-card`` class. You can optionally add a dedicated ``header``, ``body`` and ``footer`` to the card using the ``cm-card-header``, ``cm-card-body`` and ``cm-card-footer`` classes.
 
 Example - 
 
@@ -188,13 +190,21 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png)
+![CSS mint card](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png)
 
 <br/>
 
 #### Grid system
 
-Create badges by simply adding a class ``cm-grid``.
+CSS mint comes with a standard ``12`` column responsive grid. A grid container can have multiple rows and these rows can have multiple columns. Create a grid container using the ``cm-grid`` class and use the ``cm-row`` and ``cm-col-*`` classes to create your responsive layout. 
+
+* All rows and columns must be placed within the grid container, and within the grid row only should the grid columns be placed. The content is placed within these columns.
+* Columns have a default left/right padding (gutter) of ``15px``.
+* Columns can be created by specifying the number of any of the ``12`` available columns (from 1-12). Eg - Two equal columns can be created using two ``cm-col-xs-6`` classes. 
+* Grid columns can also have an offset, specifying which, adds a ``margin-left`` to the targeted column. Eg - ``cm-col-xs-offset-3`` applies a ``margin-left`` of ``100 / 4 = 25%`` to the column, as total grid columns of ``12`` can have ``12 / 3 = 4`` columns of the specified class and width of each of these columns can be ``100 / 4 = 25%``, which is the applied margin.
+* The grid system provides media query powered breakpoints for various screen sizes. These breakpoints can be used with the grid columns for creating desired responsive layouts. 
+
+<img alt="CSS mint grid breakpoints" src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/grid-breakpoints.png" width="550px"/>
 
 Example - 
 
@@ -241,31 +251,33 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png)
+![CSS mint grid](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png)
 
 <br/>
 
 #### Header
 
-Create badges by simply adding a class ``cm-header``.
+Create a header component with the ``cm-header`` class. Optionally you can add a ``primary`` or ``inverted`` class to have a thematic header. To make a header fixed to the top, add a ``fixed`` class.
+
+The header component comes with an additional ``logo`` and a ``nav`` component. The logo component can be used to place a left aligned logo in the header using the ``cm-logo`` class. A right aligned nav bar component can be placed in the header using the ``cm-nav`` class. 
 
 Example - 
 
 ```html
-header class="cm-header">
-<div class="cm-logo cm-text-large">
-   <a href="#">Logo</a>
-</div>
-<nav class="cm-nav">
-   <ul>
-      <li>
-         <a href="#">Link 1</a>
-      </li>
-      <li>
-         <a href="#">Link 1</a>
-      </li>
-   </ul>
-</nav>
+<header class="cm-header">
+    <div class="cm-logo cm-text-large">
+    <a href="#">Logo</a>
+    </div>
+    <nav class="cm-nav">
+    <ul>
+        <li>
+            <a href="#">Link 1</a>
+        </li>
+        <li>
+            <a href="#">Link 1</a>
+        </li>
+    </ul>
+    </nav>
 </header>
 
 <header class="cm-header primary">
@@ -301,24 +313,24 @@ header class="cm-header">
 </header>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png)
+![CSS mint header](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png)
 
 <br/>
 
 #### Input
 
-Create badges by simply adding a class ``cm-button``.
+CSS mint has standard styling for input elements. It also comes with optional component wrappers for file upload using the ``cm-file-input`` class and select box using the ``cm-select-input`` class.
 
 Example - 
 
 ```html
-<input class="cm-input" type="text" placeholder="Enter your name" />
-<input class="cm-input" type="text" placeholder="I am disabled" disabled />
-<input class="cm-input" type="password" placeholder="Enter your password" />
-<input class="cm-input" type="email" placeholder="Enter your email" />
-<input class="cm-input" type="number" placeholder="Enter your phone no." />
-<input class="cm-input" type="search" placeholder="Search..." />
-<input class="cm-input" type="url" placeholder="Enter your website" />
+<input type="text" placeholder="Enter your name" />
+<input type="text" placeholder="I am disabled" disabled />
+<input type="password" placeholder="Enter your password" />
+<input type="email" placeholder="Enter your email" />
+<input type="number" placeholder="Enter your phone no." />
+<input type="search" placeholder="Search..." />
+<input type="url" placeholder="Enter your website" />
 <div class="cm-file-input">
    <div class="file-input-label">Upload a file</div>
    <input type="file" />
@@ -332,18 +344,18 @@ Example -
    </select>
 </div>
 <br/>
-<textarea class="cm-textarea"></textarea>
+<textarea></textarea>
 <input type="radio" />
 <input type="checkbox" />
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png)
+![CSS mint input](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png)
 
 <br/>
 
 #### Pagination
 
-Create badges by simply adding a class ``cm-pagination``.
+Add a ``cm-pagination`` class to a ``ul`` or ``ol`` to create a pagination component.
 
 Example - 
 
@@ -373,21 +385,19 @@ Example -
 </ul>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png)
+![CSS mint pagination](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png)
 
 <br/>
 
 #### Swatches
 
-Create badges by simply adding a class ``cm-pagination``.
-
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
+![CSS mint swatches](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
 
 <br/>
 
 #### Table
 
-Create badges by simply adding a class ``cm-table``.
+CSS mint comes with standard styling for tables. Optionally you can add a ``primary`` class to have a thematic table.
 
 Example - 
 
@@ -454,13 +464,13 @@ Example -
 </table>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png)
+![CSS mint table](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png)
 
 <br/>
 
 #### Thumbnail
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Use the ``cm-thumbnail`` and ``cm-thumbnail-title`` classes to create a thumbnail component.
 
 Example - 
 
@@ -471,13 +481,13 @@ Example -
 </div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
+![CSS mint thumbnail](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
 
 <br/>
 
 #### Typography
 
-Create badges by simply adding a class ``cm-thumbnail``.
+CSS mint comes with different typographic classes available for textual styling.
 
 Example - 
 
@@ -505,19 +515,19 @@ Example -
 <div class="cm-text-capitalize">Capitalized Text</div>
 ```
 
-![CSS Mint Badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
+![CSS mint typography](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
 
 <br/>
 
 #### Utilities
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Make any image responsive using the ``cm-resp-img`` class.
 
 ```html
 <img src="path_to_image" class="cm-resp-img"/>
 ```
 
-Create badges by simply adding a class ``cm-thumbnail``.
+Hide any element using the ``cm-hide`` class.
 
 ```html
 <div class="cm-hide">
