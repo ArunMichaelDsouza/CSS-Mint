@@ -7,7 +7,6 @@ input[type="number"],
 input[type="search"], 
 input[type="url"] {
     padding: $gapLarge;
-    box-sizing: border-box;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;
     @extend %noOutline, %noCursor;
@@ -24,7 +23,6 @@ input[type="url"] {
 
 .cm-file-input {
     width: 100%;
-    box-sizing: border-box;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;
     position: relative;
@@ -41,7 +39,6 @@ input[type="url"] {
 
 .cm-select-input {
     width: 100%;
-    box-sizing: border-box;
     padding: $gapLarge;
     border-radius: $curvedRadius;
     @include border(1px, $greyLight);
@@ -54,7 +51,6 @@ input[type="url"] {
 }
 
 textarea {
-    box-sizing: border-box;
     padding: $gapLarge;
     @include border(1px, $greyLight);
     border-radius: $curvedRadius;

@@ -1,5 +1,9 @@
 // Base styles
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     font-size: $fontSize;

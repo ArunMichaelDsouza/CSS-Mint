@@ -472,6 +472,10 @@ ol.cm-breadcrumb > li, .cm-grid .cm-row .cm-col-xs-1, .cm-grid .cm-row .cm-col-x
   float: left;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-size: 16px;
@@ -482,7 +486,6 @@ body {
 
 .cm-alert {
   background-color: #fff;
-  box-sizing: border-box;
 }
 
 .cm-badge {
@@ -493,8 +496,8 @@ body {
 }
 
 .cm-badge.rounded {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
@@ -643,7 +646,6 @@ button:disabled,
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
-  box-sizing: border-box;
 }
 
 .cm-grid .cm-row .cm-col-xs-1 {
@@ -1110,7 +1112,6 @@ button:disabled,
   top: 0;
   left: 0;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .cm-header a {
@@ -1132,7 +1133,6 @@ input[type="number"],
 input[type="search"],
 input[type="url"] {
   padding: 15px;
-  box-sizing: border-box;
   border: 1px solid #dadada;
   border-radius: 3px;
 }
@@ -1193,7 +1193,6 @@ input[type="url"]:-ms-input-placeholder {
 
 .cm-file-input {
   width: 100%;
-  box-sizing: border-box;
   border: 1px solid #dadada;
   border-radius: 3px;
   position: relative;
@@ -1210,7 +1209,6 @@ input[type="url"]:-ms-input-placeholder {
 
 .cm-select-input {
   width: 100%;
-  box-sizing: border-box;
   padding: 15px;
   border-radius: 3px;
   border: 1px solid #dadada;
@@ -1223,7 +1221,6 @@ input[type="url"]:-ms-input-placeholder {
 }
 
 textarea {
-  box-sizing: border-box;
   padding: 15px;
   border: 1px solid #dadada;
   border-radius: 3px;
@@ -1313,7 +1310,6 @@ table.primary > tbody > tr:nth-child(even) {
 }
 
 .cm-thumbnail > .cm-thumbnail-title {
-  box-sizing: border-box;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.45);
   bottom: 0;

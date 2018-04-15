@@ -15,7 +15,6 @@
             position: relative;
             padding-left: $gapLarge;
             padding-right: $gapLarge;
-            box-sizing: border-box;
         }
 
         @each $col, $width in $gridColWidthMap {
