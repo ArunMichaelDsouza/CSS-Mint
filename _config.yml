@@ -2,7 +2,7 @@ title: Css-mint
 description: Lightweight and simple to use UI Kit
 google_analytics: UA-68245339-1
 show_downloads: true
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
