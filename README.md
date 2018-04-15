@@ -5,7 +5,7 @@ CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.f
 > Add some "Mint" to your web pages
 
 
-CSS Mint is a lightweight and fully-responsive open source UI kit built to speed up layout and structuring of your web application. Built on top of normalize.css, it handles cross browser inconsistencies and provides minimalistic CSS components to be used in your application.
+CSS Mint is a lightweight and fully-responsive open source UI kit built to ease up layout and structuring of your web application. Built on top of normalize.css, it handles cross browser inconsistencies and provides minimalistic CSS components to be used in your application.
 
 <br/>
 
