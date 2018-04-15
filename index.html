@@ -21,6 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="dist/2.0.1/css-mint.min.css">
     <link rel="stylesheet" href="https://arunmichaeldsouza.github.io/CSS-Mint//assets/css/style.css?v=d88ba7485a798e6c4102903cb538eb1682963cf0">
     <style>
         .sponsor img {
@@ -28,6 +29,66 @@
             background: #fff;
             padding: 10px;
             border-radius: 10px;
+        }
+
+        .grid-demo .cm-col-md-1>div {
+            background-color: #7db1f1;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .cm-header {
+            margin-bottom: 30px;
+        }
+
+        input,
+        textarea {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .cm-file-input,
+        .cm-select-input {
+            width: 250px;
+        }
+
+        .file-input-label {
+            padding: 15px;
+            text-align: center;
+            color: #777;
+        }
+
+        .cm-select-input {
+            margin-top: 15px;
+        }
+
+        .main-content table {
+            display: table;
+        }
+
+        .cm-thumnbail {
+            width: 350px;
+            height: 250px;
+            display: inline-block;
+        }
+
+        @media screen and (min-width: 64em) {
+            .main-content {
+                padding: 2rem 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .cm-badge {
+                display: inline-block;
+            }
+            .cm-badge,
+            .cm-btn {
+                margin-bottom: 15px;
+            }
+            .grid-demo .cm-col-md-1>div {
+                margin-bottom: 15px;
+            }
         }
     </style>
     <script>
@@ -172,7 +233,11 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png" alt="CSS mint alert" />
+            <div class="cm-alert">Default alert</div>
+            <div class="cm-alert primary">Primary alert</div>
+            <div class="cm-alert success">Success alert</div>
+            <div class="cm-alert warning">Warning alert</div>
+            <div class="cm-alert error">Error alert</div>
         </p>
 
         <p>
@@ -204,7 +269,16 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/badge.png" alt="CSS mint badge" />
+            <span class="cm-badge">Default</span>
+            <span class="cm-badge primary">Primary</span>
+            <span class="cm-badge success">Success</span>
+            <span class="cm-badge warning">Warning</span>
+            <span class="cm-badge error">Error</span>
+            <span class="cm-badge rounded">10</span>
+            <span class="cm-badge rounded primary">20</span>
+            <span class="cm-badge rounded success">30</span>
+            <span class="cm-badge rounded warning">40</span>
+            <span class="cm-badge rounded error">50</span>
         </p>
 
         <p>
@@ -244,8 +318,23 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png" alt="CSS mint breadcrumb"
-            />
+            <ul class="cm-breadcrumb">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Electronics</a>
+                </li>
+                <li>
+                    <a href="#">Headphones</a>
+                </li>
+                <li class="active">
+                    <a href="#">JBL</a>
+                </li>
+            </ul>
         </p>
 
         <p>
@@ -277,7 +366,16 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png" alt="CSS mint button" />
+            <button class="cm-btn">Default</button>
+            <button class="cm-btn primary" disabled>Disabled</button>
+            <button class="cm-btn primary">Primary</button>
+            <button class="cm-btn success">Success</button>
+            <button class="cm-btn warning">Warning</button>
+            <button class="cm-btn error">Error</button>
+            <button class="cm-btn primary line">Primary</button>
+            <button class="cm-btn success line">Success</button>
+            <button class="cm-btn warning line">Warning</button>
+            <button class="cm-btn error line">Error</button>
         </p>
 
         <p>
@@ -338,7 +436,50 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png" alt="CSS mint card" />
+            <div class="cm-grid">
+                <div class="cm-row">
+                    <div class="cm-col-md-4">
+                        <div class="cm-card">
+                            <div class="cm-card-header">
+                                Header
+                            </div>
+                            <div class="cm-card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium neque possimus pariatur provident tempora. Aut
+                                perferendis iste unde cum, rerum consequatur tempora, porro voluptatum sequi tenetur recusandae
+                                eos suscipit.
+                            </div>
+                            <div class="cm-card-footer">
+                                Footer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cm-col-md-4">
+                        <div class="cm-card">
+                            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/landscape.jpg" class="cm-resp-img" />
+                            <div class="cm-card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+                                incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas
+                                qui maxime blanditiis pariatur?
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cm-col-md-4">
+
+                        <div class="cm-card">
+                            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/tech.jpg" class="cm-resp-img" />
+                            <div class="cm-card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius praesentium dignissimos, reprehenderit est ratione
+                                incidunt autem laudantium quia non necessitatibus earum quidem laboriosam quibusdam voluptas
+                                qui maxime blanditiis pariatur?
+                            </div>
+                            <div class="cm-card-footer">
+                                <button class="cm-btn success get-started">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </p>
 
         <p>
@@ -428,7 +569,46 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png" alt="CSS mint grid" />
+            <div class="cm-grid grid-demo">
+                <div class="cm-row">
+                    <div class="cm-col-md-1">
+                        <div>1</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>2</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>3</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>4</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>5</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>6</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>7</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>8</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>9</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>10</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>11</div>
+                    </div>
+                    <div class="cm-col-md-1">
+                        <div>12</div>
+                    </div>
+                </div>
+            </div>
         </p>
 
         <p>
@@ -505,7 +685,53 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png" alt="CSS mint header" />
+            <header class="cm-header">
+                <div class="cm-logo cm-text-large">
+                    <a href="#">Logo</a>
+                </div>
+                <nav class="cm-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <header class="cm-header primary">
+                <div class="cm-logo cm-text-large">
+                    <a href="#">Logo</a>
+                </div>
+                <nav class="cm-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <header class="cm-header inverted">
+                <div class="cm-logo cm-text-large">
+                    <a href="#">Logo</a>
+                </div>
+                <nav class="cm-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
         </p>
 
         <p>
@@ -551,7 +777,29 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png" alt="CSS mint input" />
+            <input type="text" placeholder="Enter your name" />
+            <input type="text" placeholder="I am disabled" disabled />
+            <input type="password" placeholder="Enter your password" />
+            <input type="email" placeholder="Enter your email" />
+            <input type="number" placeholder="Enter your phone no." />
+            <input type="search" placeholder="Search..." />
+            <input type="url" placeholder="Enter your website" />
+            <div class="cm-file-input">
+                <div class="file-input-label">Upload a file</div>
+                <input type="file" />
+            </div>
+            <div class="cm-select-input">
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                </select>
+            </div>
+            <br/>
+            <textarea></textarea>
+            <input type="radio" />
+            <input type="checkbox" />
         </p>
 
         <p>
@@ -597,8 +845,30 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png" alt="CSS mint pagination"
-            />
+            <ul class="cm-pagination">
+                <li class="prev">
+                    <a href="#">Prev</a>
+                </li>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li class="active">
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+                <li>
+                    <a href="#">5</a>
+                </li>
+                <li class="next">
+                    <a href="#">Next</a>
+                </li>
+            </ul>
+
         </p>
 
         <p>
@@ -689,7 +959,67 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png" alt="CSS mint table" />
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.no.</th>
+                        <th>Name</th>
+                        <th>User Id</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alice</td>
+                        <td>453</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob</td>
+                        <td>222</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sam</td>
+                        <td>643</td>
+                        <td>Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <table class="primary">
+                <thead>
+                    <tr>
+                        <th>S.no.</th>
+                        <th>Name</th>
+                        <th>User Id</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alice</td>
+                        <td>453</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob</td>
+                        <td>222</td>
+                        <td>Inactive</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sam</td>
+                        <td>643</td>
+                        <td>Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
         </p>
 
         <p>
@@ -715,7 +1045,10 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png" alt="CSS mint thumbnail" />
+            <div class="cm-thumbnail">
+                <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/tech.jpg" />
+                <div class="cm-thumbnail-title">This is the title</div>
+            </div>
         </p>
 
         <p>
@@ -756,8 +1089,26 @@
         </div>
 
         <p>
-            <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png" alt="CSS mint typography"
-            />
+            <div class="cm-text-primary">Primary Text</div>
+            <div class="cm-text-success">Success Text</div>
+            <div class="cm-text-warning">Warning Text</div>
+            <div class="cm-text-error">Error Text</div>
+            <div class="cm-text-left">Left Text</div>
+            <div class="cm-text-center">Center Text</div>
+            <div class="cm-text-right">Right Text</div>
+            <div class="cm-text-justify">
+                Justified text Justified text Justified text Justified text Justified text Justified text Justified text Justified text Justified
+                text Justified text Justified text Justified text Justified text Justified text Justified text Justified
+                text Justified text Justified text Justified text Justified text Justified text Justified text
+            </div>
+            <div class="cm-text-large">Large Text</div>
+            <div class="cm-text-small">Small Text</div>
+            <div class="cm-text-bold">Bold Text</div>
+            <div class="cm-text-medium">Medium Text</div>
+            <div class="cm-text-light">Light Text</div>
+            <div class="cm-text-uppercase">Uppercase Text</div>
+            <div class="cm-text-lowercase">Lowercase Text</div>
+            <div class="cm-text-capitalize">Capitalized Text</div>
         </p>
 
         <p>
