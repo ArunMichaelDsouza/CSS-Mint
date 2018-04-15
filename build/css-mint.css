@@ -435,13 +435,13 @@ input[type="password"]:active,
 input[type="email"]:active,
 input[type="number"]:active,
 input[type="search"]:active,
-input[type="url"]:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, .cm-textarea:active, button:focus,
+input[type="url"]:active, .cm-file-input > input[type="file"]:active, .cm-select-input > select:active, textarea:active, button:focus,
 .cm-btn:focus, input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
-input[type="url"]:focus, .cm-file-input > input[type="file"]:focus, .cm-select-input > select:focus, .cm-textarea:focus {
+input[type="url"]:focus, .cm-file-input > input[type="file"]:focus, .cm-select-input > select:focus, textarea:focus {
   outline: none;
 }
 
@@ -1222,7 +1222,7 @@ input[type="url"]:-ms-input-placeholder {
   border: none;
 }
 
-.cm-textarea {
+textarea {
   box-sizing: border-box;
   padding: 15px;
   border: 1px solid #dadada;
