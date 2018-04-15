@@ -22,13 +22,13 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to ease 
 Key CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/css-mint@2.0.1/build/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@2.0.2/build/css-mint.min.css
 ```
 
 JSdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/css-mint@2.0.1/build/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@2.0.2/build/css-mint.min.css
 ```
 
 #### via bower
