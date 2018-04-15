@@ -1,4 +1,4 @@
-<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/logo_v2.png" width="140" height="auto" alt="CSS mint icon"/>
+<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/logo_v2.png" width="140" height="auto" alt="CSS mint icon"/>
 
 CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint)
 ========
@@ -11,7 +11,7 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to ease 
 
 ## CDN sponsor
 
-<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/keycdn-logo.png" width="220" height="auto" alt="KeyCDN icon"/></a>
+<a href="https://www.keycdn.com/"><img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/keycdn-logo.png" width="220" height="auto" alt="KeyCDN icon"/></a>
 
 <br/>
 
@@ -67,7 +67,7 @@ Example -
 <div class="cm-alert error">Error alert</div>
 ```
 
-![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/alert.png)
+![CSS mint alert](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/alert.png)
 
 <br/>
 
@@ -90,7 +90,7 @@ Example -
 <span class="cm-badge rounded error">50</span>
 ```
 
-![CSS mint badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/badge.png)
+![CSS mint badge](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/badge.png)
 
 <br/>
 
@@ -120,7 +120,7 @@ Example -
 </ul>
 ```
 
-![CSS mint breadcrumb](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/breadcrumb.png)
+![CSS mint breadcrumb](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/breadcrumb.png)
 
 <br/>
 
@@ -143,7 +143,7 @@ Example -
 <button class="cm-btn error line">Error</button>
 ```
 
-![CSS mint button](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/button.png)
+![CSS mint button](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/button.png)
 
 <br/>
 
@@ -190,7 +190,7 @@ Example -
 </div>
 ```
 
-![CSS mint card](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/card.png)
+![CSS mint card](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/card.png)
 
 <br/>
 
@@ -204,7 +204,7 @@ CSS mint comes with a standard ``12`` column responsive grid. A grid container c
 * Grid columns can also have an offset, specifying which, adds a ``margin-left`` to the targeted column. Eg - ``cm-col-xs-offset-3`` applies a ``margin-left`` of ``100 / 4 = 25%`` to the column, as total grid columns of ``12`` can have ``12 / 3 = 4`` columns of the specified class and width of each of these columns can be ``100 / 4 = 25%``, which is the applied margin.
 * The grid system provides media query powered breakpoints for various screen sizes. These breakpoints can be used with the grid columns for creating desired responsive layouts. 
 
-<img alt="CSS mint grid breakpoints" src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/img/grid-breakpoints.png" width="550px"/>
+<img alt="CSS mint grid breakpoints" src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/grid-breakpoints.png" width="550px"/>
 
 Example - 
 
@@ -251,7 +251,7 @@ Example -
 </div>
 ```
 
-![CSS mint grid](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/grid.png)
+![CSS mint grid](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/grid.png)
 
 <br/>
 
@@ -313,7 +313,7 @@ Example -
 </header>
 ```
 
-![CSS mint header](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/header.png)
+![CSS mint header](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/header.png)
 
 <br/>
 
@@ -349,7 +349,7 @@ Example -
 <input type="checkbox" />
 ```
 
-![CSS mint input](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/input.png)
+![CSS mint input](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/input.png)
 
 <br/>
 
@@ -385,13 +385,13 @@ Example -
 </ul>
 ```
 
-![CSS mint pagination](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/pagination.png)
+![CSS mint pagination](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/pagination.png)
 
 <br/>
 
 #### Swatches
 
-![CSS mint swatches](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/swatches.png)
+![CSS mint swatches](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/swatches.png)
 
 <br/>
 
@@ -464,7 +464,7 @@ Example -
 </table>
 ```
 
-![CSS mint table](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/table.png)
+![CSS mint table](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/table.png)
 
 <br/>
 
@@ -481,7 +481,7 @@ Example -
 </div>
 ```
 
-![CSS mint thumbnail](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/thumbnail.png)
+![CSS mint thumbnail](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/thumbnail.png)
 
 <br/>
 
@@ -515,7 +515,7 @@ Example -
 <div class="cm-text-capitalize">Capitalized Text</div>
 ```
 
-![CSS mint typography](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/V2/demo/screenshots/typography.png)
+![CSS mint typography](https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/screenshots/typography.png)
 
 <br/>
 
