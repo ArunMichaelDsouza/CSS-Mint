@@ -25,6 +25,12 @@ Key CDN
 http://cssmint-4be7.kxcdn.com/CSS-Mint/dist/2.0.3/css-mint.min.css
 ```
 
+Cdnjs
+
+```html
+https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.3/css-mint.min.css
+```
+
 JSdelivr CDN
 
 ```html
