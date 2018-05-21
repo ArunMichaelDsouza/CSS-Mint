@@ -1,5 +1,5 @@
 /*
-    CSS-Mint v2.0.3
+    CSS-Mint v2.0.4
     Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
     Licence: MIT
     http://arunmichaeldsouza.github.io/CSS-Mint/
@@ -729,11 +729,11 @@ button:disabled,
 }
 
 .cm-grid .cm-row .cm-col-xs-11 {
-  width: 91.66666;
+  width: 91.66666%;
 }
 
 .cm-grid .cm-row .cm-col-xs-offset-11 {
-  margin-left: 91.66666;
+  margin-left: 91.66666%;
 }
 
 .cm-grid .cm-row .cm-col-xs-12 {
@@ -817,10 +817,10 @@ button:disabled,
   }
   .cm-grid .cm-row .cm-col-xl-11 {
     float: left;
-    width: 91.66666;
+    width: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-xl-offset-11 {
-    margin-left: 91.66666;
+    margin-left: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-xl-12 {
     float: left;
@@ -904,10 +904,10 @@ button:disabled,
   }
   .cm-grid .cm-row .cm-col-lg-11 {
     float: left;
-    width: 91.66666;
+    width: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-lg-offset-11 {
-    margin-left: 91.66666;
+    margin-left: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-lg-12 {
     float: left;
@@ -991,10 +991,10 @@ button:disabled,
   }
   .cm-grid .cm-row .cm-col-md-11 {
     float: left;
-    width: 91.66666;
+    width: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-md-offset-11 {
-    margin-left: 91.66666;
+    margin-left: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-md-12 {
     float: left;
@@ -1078,10 +1078,10 @@ button:disabled,
   }
   .cm-grid .cm-row .cm-col-sm-11 {
     float: left;
-    width: 91.66666;
+    width: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-sm-offset-11 {
-    margin-left: 91.66666;
+    margin-left: 91.66666%;
   }
   .cm-grid .cm-row .cm-col-sm-12 {
     float: left;
