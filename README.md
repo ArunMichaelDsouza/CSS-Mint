@@ -22,19 +22,19 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to ease 
 Key CDN
 
 ```html
-http://cssmint-4be7.kxcdn.com/CSS-Mint/dist/2.0.4/css-mint.min.css
+http://cssmint-4be7.kxcdn.com/CSS-Mint/dist/2.0.5/css-mint.min.css
 ```
 
 Cdnjs
 
 ```html
-https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.4/css-mint.min.css
+https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.5/css-mint.min.css
 ```
 
 JSdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/css-mint@2.0.4/build/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@2.0.5/build/css-mint.min.css
 ```
 
 #### via bower
@@ -540,6 +540,13 @@ Hide any element using the ``cm-hide`` class.
     This is to be hidden
 </div>
 ```
+
+<br/>
+
+## Contributors
+
+| [<img src="https://avatars3.githubusercontent.com/u/4924614" width="100px;"/><br /><sub><b>Arun Michael Dsouza</b></sub>](https://github.com/ArunMichaelDsouza)<br />| [<img src="https://avatars2.githubusercontent.com/u/1542831" width="100px;"/><br /><sub><b>CJ Patoilo</b></sub>](https://github.com/cjpatoilo)<br />| [<img src="https://avatars1.githubusercontent.com/u/17952318" width="100px;"/><br /><sub><b>Boris K</b></sub>](https://github.com/bokub)<br /> | [<img src="https://avatars0.githubusercontent.com/u/15611832" width="100px;"/><br /><sub><b>Lukas Drgon</b></sub>](https://github.com/LukasDrgon)<br /> |
+| :---: | :---: | :---: | :---: |
 
 <br/>
 

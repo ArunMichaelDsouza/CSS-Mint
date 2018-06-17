@@ -1,6 +1,6 @@
 {
   "name": "css-mint",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Lightweight and simple to use UI Kit. Fully responsive, just 3KB gzipped.",
   "main": "build/css-mint.min.css",
   "directories": {
