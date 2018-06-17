@@ -1,4 +1,4 @@
-<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/logo_v2.png" width="140" height="auto" alt="CSS mint icon"/>
+<img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/logo_v2.png" width="200" height="auto" alt="CSS mint icon"/>
 
 CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint)
 ========
@@ -22,19 +22,19 @@ CSS Mint is a lightweight and fully-responsive open source UI kit built to ease 
 Key CDN
 
 ```html
-http://cssmint-4be7.kxcdn.com/CSS-Mint/dist/2.0.5/css-mint.min.css
+http://cssmint-4be7.kxcdn.com/CSS-Mint/dist/2.0.6/css-mint.min.css
 ```
 
 Cdnjs
 
 ```html
-https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.5/css-mint.min.css
+https://cdnjs.cloudflare.com/ajax/libs/CSS-Mint/2.0.6/css-mint.min.css
 ```
 
 JSdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/css-mint@2.0.5/build/css-mint.min.css
+https://cdn.jsdelivr.net/npm/css-mint@2.0.6/build/css-mint.min.css
 ```
 
 #### via bower
