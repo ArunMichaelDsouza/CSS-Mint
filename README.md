@@ -1,6 +1,6 @@
 <img src="https://github.com/ArunMichaelDsouza/CSS-Mint/raw/master/demo/img/logo_v2.png" width="200" height="auto" alt="CSS mint icon"/>
 
-CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint)
+CSS-Mint [![npm version](https://badge.fury.io/js/css-mint.svg)](https://badge.fury.io/js/css-mint) [![NPM Downloads](https://img.shields.io/npm/dm/css-mint.svg?style=flat-square)](https://www.npmjs.com/package/css-mint) [![Latest Stable Version](https://img.shields.io/bower/v/CSS-Mint.svg?style=flat-square)](http://bower.io/search/?q=CSS-Mint) [![](https://data.jsdelivr.com/v1/package/npm/css-mint/badge?style=rounded)](https://www.jsdelivr.com/package/npm/css-mint) <span class="badge-patreon"><a href="https://www.patreon.com/arunmichaeldsouza" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-blue.svg" alt="Patreon donate button" /></a></span>
 ========
 > Add some "Mint" to your web pages
 
@@ -547,6 +547,14 @@ Hide any element using the ``cm-hide`` class.
 
 | [<img src="https://avatars3.githubusercontent.com/u/4924614" width="100px;"/><br /><sub><b>Arun Michael Dsouza</b></sub>](https://github.com/ArunMichaelDsouza)<br />| [<img src="https://avatars2.githubusercontent.com/u/1542831" width="100px;"/><br /><sub><b>CJ Patoilo</b></sub>](https://github.com/cjpatoilo)<br />| [<img src="https://avatars1.githubusercontent.com/u/17952318" width="100px;"/><br /><sub><b>Boris K</b></sub>](https://github.com/bokub)<br /> | [<img src="https://avatars0.githubusercontent.com/u/15611832" width="100px;"/><br /><sub><b>Lukas Drgon</b></sub>](https://github.com/LukasDrgon)<br /> |
 | :---: | :---: | :---: | :---: |
+
+<br/>
+
+## Support
+
+If you'd like to help support the development of the project, please consider backing me on Patreon -
+
+[<img src="https://arunmichaeldsouza.com/img/patreon.png" width="180px;"/>](https://www.patreon.com/bePatron?u=8841116)
 
 <br/>
 
